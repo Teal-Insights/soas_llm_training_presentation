@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link rel="stylesheet" href="teal-theme.css">
@@ -493,6 +558,473 @@ July 15, 2025 • SOAS Faculty Workshop</p>
 </ul>
 </div></div>
 <p><strong>Next</strong>: We’ll put this into practice with hands-on tools and techniques</p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="part-2-practical-applications" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 2: Practical Applications</h1>
+
+</section>
+<section id="building-your-research-toolkit" class="slide level2">
+<h2>Building Your Research Toolkit</h2>
+<p><strong>What we’re building</strong>: Working prompts, custom assistants, and literature enhancement tools</p>
+</section>
+<section id="your-learning-journey" class="slide level2" data-background-color="#e8f4f8">
+<h2>Your Learning Journey</h2>
+<h3 class="text-blue" id="activity-1-professional-context-8-min">🔧 Activity 1: Professional Context <em>(8 min)</em></h3>
+<p>Build foundation for all AI interactions</p>
+<h3 class="text-blue" id="activity-2-enhanced-prompting-10-min">🔧 Activity 2: Enhanced Prompting <em>(10 min)</em></h3>
+<p>Transform vague requests into powerful prompts</p>
+<h3 class="text-blue" id="activity-3-literature-review-assistant-25-min">🔧 Activity 3: Literature Review Assistant <em>(25 min)</em></h3>
+<p>Create reusable research assistant using a Gemini Gem</p>
+<p><strong>📖 Book chapters</strong>: 4-6 provide provide more detail</p>
+</section>
+<section id="the-power-and-the-problem" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Power and the Problem</h2>
+<p><strong>Large Language Models are powerful but not clairvoyant</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Powerful</strong>: Can handle complex tasks that take humans hours or days</li>
+<li class="fragment"><strong>Not clairvoyant</strong>: Can’t read your mind or guess what you really need</li>
+<li class="fragment"><strong>Need sufficient information</strong>: The more context you provide, the better the output</li>
+<li class="fragment"><strong>Key insight</strong>: Quality of output depends heavily on quality of input</li>
+</ul>
+</div>
+</section>
+<section id="from-google-to-collaborative-partner" class="slide level2" data-background-color="#fff3cd">
+<h2>From Google to Collaborative Partner</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>❌ Google Search Approach</strong></p>
+<ul>
+<li class="fragment">Few keywords</li>
+<li class="fragment">Browse results</li>
+<li class="fragment">Find what you need</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>✅ AI Collaboration Approach</strong></p>
+<ul>
+<li class="fragment">Detailed context</li>
+<li class="fragment">Specific instructions</li>
+<li class="fragment">Iterative refinement</li>
+</ul>
+</div></div>
+<p><strong>Think of AI as a knowledgeable colleague who needs clear direction</strong></p>
+</section>
+<section id="anatomy-of-effective-prompts" class="slide level2" data-background-color="#f8f9fa">
+<h2>Anatomy of Effective Prompts</h2>
+<p><strong>Essential components for research-quality outputs:</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Context</strong>: Who you are, what you’re working on</li>
+<li class="fragment"><strong>Task</strong>: What specifically you want the AI to do</li>
+<li class="fragment"><strong>Format</strong>: How you want the output structured</li>
+<li class="fragment"><strong>Constraints</strong>: Limitations, requirements, things to avoid</li>
+<li class="fragment"><strong>Examples</strong>: Sample inputs/outputs when helpful</li>
+</ul>
+</div>
+<p><strong>📖 Detailed templates</strong>: Chapter 4</p>
+</section>
+<section id="activity-1-create-your-professional-context" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 1: Create Your Professional Context</h2>
+<h3 class="text-teal" id="build-your-ai-research-foundation-8-minutes">Build Your AI Research Foundation <em>(8 minutes)</em></h3>
+<p><strong>What you’ll do:</strong> 1. Go to <a href="https://gemini.google.com">gemini.google.com</a> 2. Upload your CV, LinkedIn profile, or faculty bio 3. Use the prompt template (next slide) 4. Create reusable professional context</p>
+<p><strong>Why this matters:</strong> This becomes the foundation for all your AI interactions</p>
+</section>
+<section id="professional-context-prompt-template" class="slide level2" data-background-color="#f8f9fa">
+<h2>Professional Context Prompt Template</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>Please analyze my professional background and help me create a </span>
+<span id="cb1-2"><a></a>professional context for AI interactions. Based on my CV/profile, </span>
+<span id="cb1-3"><a></a>create a summary that includes:</span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a><span class="fu">## Domain Expertise &amp; Background</span></span>
+<span id="cb1-6"><a></a><span class="co">[</span><span class="ot">My main research areas, methodology preferences, key expertise</span><span class="co">]</span></span>
+<span id="cb1-7"><a></a></span>
+<span id="cb1-8"><a></a><span class="fu">## Current Roles &amp; Affiliations  </span></span>
+<span id="cb1-9"><a></a><span class="co">[</span><span class="ot">Current positions, institutional affiliations, responsibilities</span><span class="co">]</span></span>
+<span id="cb1-10"><a></a></span>
+<span id="cb1-11"><a></a><span class="fu">## Research Focus Areas</span></span>
+<span id="cb1-12"><a></a><span class="co">[</span><span class="ot">Main research interests, current projects, regional expertise</span><span class="co">]</span></span>
+<span id="cb1-13"><a></a></span>
+<span id="cb1-14"><a></a><span class="fu">## Communication Style &amp; Audience</span></span>
+<span id="cb1-15"><a></a><span class="co">[</span><span class="ot">Who I typically write for, how I prefer to communicate findings</span><span class="co">]</span></span>
+<span id="cb1-16"><a></a></span>
+<span id="cb1-17"><a></a><span class="fu">## Technical Approach</span></span>
+<span id="cb1-18"><a></a><span class="co">[</span><span class="ot">Specific tools, methods, analytical approaches I use</span><span class="co">]</span></span>
+<span id="cb1-19"><a></a></span>
+<span id="cb1-20"><a></a>Make this professional but concise - about 200-300 words total.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="activity-1-instructions" class="slide level2" data-background-color="#e8f4f8">
+<h2>Activity 1: Instructions</h2>
+<div>
+<ol type="1">
+<li class="fragment"><strong>Upload your document</strong>: CV, LinkedIn, or faculty bio to Gemini</li>
+<li class="fragment"><strong>Paste the template</strong>: Copy the prompt from the previous slide</li>
+<li class="fragment"><strong>Review the output</strong>: Does it capture your expertise accurately?</li>
+<li class="fragment"><strong>Refine if needed</strong>: Ask for adjustments to better reflect your work</li>
+<li class="fragment"><strong>Save the result</strong>: You’ll use this in our next activities</li>
+</ol>
+</div>
+<div class="time-indicator">
+⏱️ 8 minutes
+</div>
+</section>
+<section id="the-difference-context-makes" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Difference Context Makes</h2>
+<p><strong>Without context</strong>: Generic, surface-level responses<br>
+<strong>With context</strong>: Targeted, sophisticated assistance</p>
+</section>
+<section id="two-powerful-prompt-enhancers" class="slide level2" data-background-color="#e8f4f8">
+<h2>Two Powerful Prompt Enhancers</h2>
+<p><strong>Add these to any prompt for better results:</strong></p>
+<div>
+<ol type="1">
+<li class="fragment"><strong>“Please ask me clarifying questions”</strong> - Encourages AI to seek additional information rather than make assumptions</li>
+<li class="fragment"><strong>“Tell me when you’re unsure about something”</strong> - Reduces hallucinations by encouraging admission of uncertainty</li>
+</ol>
+</div>
+<p><strong>These simple additions can save you from misleading responses</strong></p>
+</section>
+<section id="common-prompting-mistakes" class="slide level2" data-background-color="#fff3cd">
+<h2>Common Prompting Mistakes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>❌ What Doesn’t Work</strong></p>
+<ul>
+<li class="fragment">Treating AI like Google</li>
+<li class="fragment">Vague requests: “Help me with X”</li>
+<li class="fragment">No quality control</li>
+<li class="fragment">Overwhelming with too much at once</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>✅ What Works</strong></p>
+<ul>
+<li class="fragment">Provide documents + ask for analysis</li>
+<li class="fragment">Specific tasks + output format</li>
+<li class="fragment">Ask for sources and reasoning</li>
+<li class="fragment">Break complex tasks into steps</li>
+</ul>
+</div></div>
+</section>
+<section id="activity-2-enhanced-prompting-practice" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 2: Enhanced Prompting Practice</h2>
+<h3 class="text-teal" id="from-vague-to-powerful-10-minutes">From Vague to Powerful <em>(10 minutes)</em></h3>
+<p><strong>What you’ll do:</strong></p>
+<ol type="1">
+<li class="fragment">Take your professional context from Activity 1</li>
+<li class="fragment">Choose a current research question you’re working on</li>
+<li class="fragment">Create a structured prompt using the template</li>
+<li class="fragment">Test it and refine</li>
+</ol>
+<p><strong>Goal:</strong> Experience the difference between generic and contextualized AI assistance</p>
+</section>
+<section id="enhanced-prompting-template" class="slide level2" data-background-color="#f8f9fa">
+<h2>Enhanced Prompting Template</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a><span class="co">[</span><span class="ot">Paste your professional context from Activity 1</span><span class="co">]</span></span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a><span class="fu">## Current Research Question</span></span>
+<span id="cb2-4"><a></a><span class="co">[</span><span class="ot">Describe what you're working on - paper, project, grant, etc.</span><span class="co">]</span></span>
+<span id="cb2-5"><a></a></span>
+<span id="cb2-6"><a></a><span class="fu">## Specific Request</span></span>
+<span id="cb2-7"><a></a>I need help with <span class="co">[</span><span class="ot">specific task</span><span class="co">]</span>. Please:</span>
+<span id="cb2-8"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">What you want the AI to do</span><span class="co">]</span></span>
+<span id="cb2-9"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">How you want it formatted</span><span class="co">]</span></span>
+<span id="cb2-10"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">Any constraints or requirements</span><span class="co">]</span></span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a><span class="fu">## Additional Context</span></span>
+<span id="cb2-13"><a></a><span class="co">[</span><span class="ot">Any relevant background, documents, or constraints</span><span class="co">]</span></span>
+<span id="cb2-14"><a></a></span>
+<span id="cb2-15"><a></a>Please ask me clarifying questions if you need more information, </span>
+<span id="cb2-16"><a></a>and tell me when you're unsure about something.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="activity-2-step-by-step" class="slide level2" data-background-color="#e8f4f8">
+<h2>Activity 2: Step-by-Step</h2>
+<div>
+<ol type="1">
+<li class="fragment"><strong>Start with your context</strong>: Use the professional summary from Activity 1</li>
+<li class="fragment"><strong>Choose your research question</strong>: Something you’re currently working on</li>
+<li class="fragment"><strong>Be specific</strong>: What exactly do you want help with?</li>
+<li class="fragment"><strong>Add the enhancers</strong>: Ask for clarifying questions and uncertainty flags</li>
+<li class="fragment"><strong>Test and refine</strong>: Try it, see what happens, adjust as needed</li>
+</ol>
+</div>
+<div class="time-indicator">
+⏱️ 10 minutes
+</div>
+<p><strong>💬 Chat</strong>: <em>Share your biggest “aha” moment from improved prompting</em></p>
+</section>
+<section id="the-art-of-iterative-prompting" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Art of Iterative Prompting</h2>
+<p><strong>AI works best through conversation, not one-shot requests</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Start broad</strong>: Get initial direction and framework</li>
+<li class="fragment"><strong>Drill down</strong>: Ask for specifics on the most interesting parts</li>
+<li class="fragment"><strong>Refine</strong>: Request adjustments to tone, format, or focus</li>
+<li class="fragment"><strong>Verify</strong>: Ask for sources, evidence, or reasoning</li>
+</ul>
+</div>
+<p><strong>Example flow</strong>: Research question → Initial analysis → Specific methodology → Alternative approaches → Validation strategy</p>
+</section>
+<section id="prompt-chaining-for-complex-tasks" class="slide level2" data-background-color="#e8f4f8">
+<h2>Prompt Chaining for Complex Tasks</h2>
+<p><strong>Break complex requests into sequential steps:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>❌ All at once</strong></p>
+<p>“Analyze this email thread, identify key issues, and draft a response”</p>
+</div><div class="column" style="width:50%;">
+<p><strong>✅ Step by step</strong></p>
+<ol type="1">
+<li class="fragment">First: Analyze and clarify</li>
+<li class="fragment">Then: Draft based on analysis</li>
+</ol>
+</div></div>
+<p><strong>Why this works</strong>: Each step can be optimized, you maintain quality control, AI has clearer focus</p>
+</section>
+<section id="building-your-prompt-library" class="slide level2" data-background-color="#f8f9fa">
+<h2>Building Your Prompt Library</h2>
+<p><strong>As you develop effective prompts, save them:</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Literature analysis</strong>: Templates for paper summaries</li>
+<li class="fragment"><strong>Research brainstorming</strong>: Question generation prompts</li>
+<li class="fragment"><strong>Writing enhancement</strong>: Revision and feedback requests</li>
+<li class="fragment"><strong>Email threads</strong>: Complex communication analysis</li>
+<li class="fragment"><strong>Grant applications</strong>: Proposal development assistance</li>
+</ul>
+</div>
+<p><strong>📖 Ready-to-use templates</strong>: Chapter 4 provides tested prompts for common research tasks</p>
+</section>
+<section id="what-youve-built-so-far" class="slide level2" data-background-color="#d4edda">
+<h2>What You’ve Built So Far</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Tool 1: Professional Context</strong></p>
+<ul>
+<li class="fragment">Reusable foundation for all AI interactions</li>
+<li class="fragment">Captures your expertise and communication style</li>
+<li class="fragment">Enables targeted, sophisticated assistance</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Tool 2: Enhanced Prompting</strong></p>
+<ul>
+<li class="fragment">Structured approach to AI requests</li>
+<li class="fragment">Quality control through verification</li>
+<li class="fragment">Iterative refinement process</li>
+</ul>
+</div></div>
+<p><strong>Next</strong>: We’ll enhance your literature review capabilities, then build specialized research assistants</p>
+</section>
+<section id="literature-review-enhancement" class="slide level2" data-background-color="#f8f9fa">
+<h2>Literature Review Enhancement</h2>
+<p><strong>The information deluge problem we all face</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Explosion of research</strong>: Even narrow subfields are impossible to keep up with</li>
+<li class="fragment"><strong>Your reality</strong>: Job, family, life outside research - finite time</li>
+<li class="fragment"><strong>The challenge</strong>: Can’t read everything, can’t afford to miss important work</li>
+</ul>
+</div>
+<p><strong>AI as intelligent filter</strong>: Help identify what deserves your limited attention</p>
+</section>
+<section id="the-scale-advantage" class="slide level2" data-background-color="#e8f4f8">
+<h2>The Scale Advantage</h2>
+<p><strong>Time mathematics for literature processing:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Traditional Reading</strong></p>
+<ul>
+<li class="fragment">Academic paper: 40-80 minutes</li>
+<li class="fragment">100-page report: 3-5 hours</li>
+<li class="fragment">Weekly literature (10 papers): 7-13 hours</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>AI Processing</strong></p>
+<ul>
+<li class="fragment">Paper summary: 30-60 seconds</li>
+<li class="fragment">100-page report analysis: 2-3 minutes</li>
+<li class="fragment">10-paper pattern analysis: 5-10 minutes</li>
+</ul>
+</div></div>
+<p><strong>This isn’t about replacing careful reading—it’s about deciding what merits it</strong></p>
+</section>
+<section id="my-personal-literature-workflow" class="slide level2" data-background-color="#f8f9fa">
+<h2>My Personal Literature Workflow</h2>
+<p><strong>Step 1: Initial Filtering</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a><span class="co">[</span><span class="ot">Add your professional context</span><span class="co">]</span></span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a>Please provide full citation information, then create a detailed </span>
+<span id="cb3-4"><a></a>structured summary including:</span>
+<span id="cb3-5"><a></a><span class="ss">- </span>Main argument or purpose</span>
+<span id="cb3-6"><a></a><span class="ss">- </span>Key findings or conclusions</span>
+<span id="cb3-7"><a></a><span class="ss">- </span>Important data, evidence, or examples</span>
+<span id="cb3-8"><a></a><span class="ss">- </span>Policy implications or practical applications</span>
+<span id="cb3-9"><a></a><span class="ss">- </span>Intended audience</span>
+<span id="cb3-10"><a></a></span>
+<span id="cb3-11"><a></a>Format as structured summary with clear headings.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Result</strong>: 95% of documents - summary gives me what I need. 5% - worth reading in detail</p>
+</section>
+<section id="two-types-of-translation" class="slide level2" data-background-color="#e8f4f8">
+<h2>Two Types of Translation</h2>
+<p><strong>AI excels at bridging barriers:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>1. Language Translation</strong></p>
+<ul>
+<li class="fragment">Access research in other languages</li>
+<li class="fragment">Initial translations for relevance assessment</li>
+<li class="fragment">Professional translation for key sources</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>2. Cross-Disciplinary Translation</strong></p>
+<ul>
+<li class="fragment">Bridge academic jargon differences</li>
+<li class="fragment">Access insights from related fields</li>
+<li class="fragment">Translate complex concepts to plain language</li>
+</ul>
+</div></div>
+<p><strong>Both expand your research scope dramatically</strong></p>
+</section>
+<section id="cross-disciplinary-translation-example" class="slide level2" data-background-color="#f8f9fa">
+<h2>Cross-Disciplinary Translation Example</h2>
+<p><strong>Prompt for bridging disciplines:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a><span class="co">[</span><span class="ot">Your professional context</span><span class="co">]</span></span>
+<span id="cb4-2"><a></a></span>
+<span id="cb4-3"><a></a>This paper is written for <span class="co">[</span><span class="ot">source discipline</span><span class="co">]</span> using terminology </span>
+<span id="cb4-4"><a></a>unfamiliar to <span class="co">[</span><span class="ot">target discipline</span><span class="co">]</span> researchers. Please:</span>
+<span id="cb4-5"><a></a></span>
+<span id="cb4-6"><a></a><span class="ss">1. </span>Identify key concepts and findings</span>
+<span id="cb4-7"><a></a><span class="ss">2. </span>Explain them in plain language  </span>
+<span id="cb4-8"><a></a><span class="ss">3. </span>Suggest how insights might apply to <span class="co">[</span><span class="ot">target discipline</span><span class="co">]</span></span>
+<span id="cb4-9"><a></a><span class="ss">4. </span>Highlight adaptable methodological approaches</span>
+<span id="cb4-10"><a></a></span>
+<span id="cb4-11"><a></a>Focus on practical applications, avoid oversimplification.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Real value</strong>: Access methodologies and insights trapped in other fields</p>
+</section>
+<section id="activity-3-literature-enhancement-practice" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 3: Literature Enhancement Practice</h2>
+<h3 class="text-teal" id="test-your-literature-workflow-15-minutes">Test Your Literature Workflow <em>(15 minutes)</em></h3>
+<p><strong>What you’ll do:</strong></p>
+<ol type="1">
+<li class="fragment">Choose a paper from your field (or upload one)</li>
+<li class="fragment">Use your professional context + literature summary prompt</li>
+<li class="fragment">Test cross-disciplinary translation: Try translating it into plain language understandable to someone outside your field.</li>
+<li class="fragment">Evaluate: Does this save time while maintaining quality?</li>
+</ol>
+<p><strong>Goal</strong>: Experience AI as literature processing amplifier</p>
+</section>
+<section id="activity-3-step-by-step" class="slide level2" data-background-color="#e8f4f8">
+<h2>Activity 3: Step-by-Step</h2>
+<div>
+<ol type="1">
+<li class="fragment"><strong>Upload a paper</strong>: Something recent in your field</li>
+<li class="fragment"><strong>Use structured prompt</strong>: Professional context + literature summary template</li>
+<li class="fragment"><strong>Evaluate output</strong>: Does it capture what you need?</li>
+<li class="fragment"><strong>Test boundaries</strong>: Try with a paper from a related discipline</li>
+<li class="fragment"><strong>Refine approach</strong>: Adjust prompts based on what you learn</li>
+</ol>
+</div>
+<div class="time-indicator">
+⏱️ 15 minutes
+</div>
+<p><strong>💬 Chat</strong>: <em>Share one insight AI helped you discover that you might have missed</em></p>
+</section>
+<section id="critical-validation-strategies" class="slide level2" data-background-color="#fff3cd">
+<h2>Critical Validation Strategies</h2>
+<p><strong>Essential practices for literature AI:</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Always verify key claims</strong>: Especially quantitative findings</li>
+<li class="fragment"><strong>Check citations</strong>: Ensure quotes aren’t taken out of context</li>
+<li class="fragment"><strong>Use for exploration</strong>: Identify promising papers, then read sections carefully</li>
+<li class="fragment"><strong>Cross-reference</strong>: Compare AI summaries with abstracts and conclusions</li>
+<li class="fragment"><strong>Professional translation</strong>: For sources central to your argument</li>
+</ul>
+</div>
+<p><strong>Remember</strong>: AI helps you cast a wider net, human judgment determines what to keep</p>
+</section>
+<section id="what-are-gems" class="slide level2" data-background-color="#f8f9fa">
+<h2>What Are Gems?</h2>
+<p><strong>Now that you understand literature enhancement, let’s save this approach</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Think of Gems as specialized research assistants</strong></p>
+<ul>
+<li class="fragment"><strong>Google Gemini</strong>: Gems</li>
+<li class="fragment"><strong>Claude</strong>: Projects<br>
+</li>
+<li class="fragment"><strong>ChatGPT</strong>: Custom GPTs</li>
+<li class="fragment"><strong>Same concept</strong>: Saved instructions for specific tasks</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Benefits for literature work</strong></p>
+<ul>
+<li class="fragment">Consistent approach across papers</li>
+<li class="fragment">No re-entering context each time</li>
+<li class="fragment">Specialized for your research needs</li>
+<li class="fragment">Can share with colleagues</li>
+</ul>
+</div></div>
+</section>
+<section id="activity-4-create-your-literature-review-gem" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 4: Create Your Literature Review Gem</h2>
+<h3 class="text-teal" id="build-your-specialized-research-assistant-10-minutes">Build Your Specialized Research Assistant <em>(10 minutes)</em></h3>
+<p><strong>What you’ll do:</strong></p>
+<ol type="1">
+<li class="fragment">Create a new Gem in Gemini</li>
+<li class="fragment">Use your professional context from Activity 1</li>
+<li class="fragment">Add your refined literature review approach from Activity 3</li>
+<li class="fragment">Test it with a new paper</li>
+<li class="fragment">Save for future use</li>
+</ol>
+<p><strong>Goal</strong>: Reusable literature processing system</p>
+</section>
+<section id="literature-review-gem-template" class="slide level2" data-background-color="#f8f9fa">
+<h2>Literature Review Gem Template</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a><span class="fu"># Literature Review Specialist - [Your Name]</span></span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="co">[</span><span class="ot">Your professional context from Activity 1</span><span class="co">]</span></span>
+<span id="cb5-4"><a></a></span>
+<span id="cb5-5"><a></a><span class="fu">## Your Role</span></span>
+<span id="cb5-6"><a></a>Help me efficiently analyze academic papers, identify patterns, </span>
+<span id="cb5-7"><a></a>find research gaps, and synthesize findings.</span>
+<span id="cb5-8"><a></a></span>
+<span id="cb5-9"><a></a><span class="fu">## Analysis Approach</span></span>
+<span id="cb5-10"><a></a><span class="co">[</span><span class="ot">Add your refined approach from Activity 3</span><span class="co">]</span></span>
+<span id="cb5-11"><a></a></span>
+<span id="cb5-12"><a></a><span class="fu">## Output Format</span></span>
+<span id="cb5-13"><a></a><span class="ss">- </span>Clear section headers with full citation</span>
+<span id="cb5-14"><a></a><span class="ss">- </span>Page numbers for key findings</span>
+<span id="cb5-15"><a></a><span class="ss">- </span>Methodological details when relevant</span>
+<span id="cb5-16"><a></a><span class="ss">- </span>Cross-disciplinary connections where applicable</span>
+<span id="cb5-17"><a></a></span>
+<span id="cb5-18"><a></a><span class="fu">## Quality Standards</span></span>
+<span id="cb5-19"><a></a><span class="ss">- </span>Maintain academic rigor</span>
+<span id="cb5-20"><a></a><span class="ss">- </span>Distinguish claims from empirical findings</span>
+<span id="cb5-21"><a></a><span class="ss">- </span>Note limitations and methodological concerns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="what-youve-built-now" class="slide level2" data-background-color="#d4edda">
+<h2>What You’ve Built Now</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Tool 3: Literature Enhancement Workflow</strong></p>
+<ul>
+<li class="fragment">Structured approach to paper processing</li>
+<li class="fragment">Cross-disciplinary translation capabilities</li>
+<li class="fragment">Time-saving while maintaining quality</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Tool 4: Literature Review Gem</strong></p>
+<ul>
+<li class="fragment">Reusable specialist assistant</li>
+<li class="fragment">Consistent high-quality analysis</li>
+<li class="fragment">Saves your refined approach</li>
+</ul>
+</div></div>
+<p><strong>Next</strong>: Brief overview of advanced tools and scaling possibilities</p>
 
 
 </section></section>
