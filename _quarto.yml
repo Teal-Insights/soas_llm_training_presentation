@@ -1,5 +1,15 @@
 project:
-  title: "soas_llm_training_presentation"
+  type: website
+  output-dir: docs
 
-
-
+website:
+  title: "AI for the Skeptical Scholar"
+  
+format:
+  revealjs:
+    theme: white
+    incremental: true
+    slide-number: true
+    footer: "SOAS Faculty Workshop • Detailed Guide: teal-insights.github.io/soas_llm_training"
+    css: teal-theme.css
+    logo: images/teal_insights_logo_small.png

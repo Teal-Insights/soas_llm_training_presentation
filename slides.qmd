@@ -17,46 +17,96 @@ format:
 
 ## Practical Strategies for Using LLMs in Research
 
-**Teal Emery**  
+**Teal Emery** | Founder, Teal Insights  
 July 15, 2025 • SOAS Faculty Workshop
 
 ---
 
-## About Your Instructor {background-color="#f8f9fa"}
-
-**Teal Emery** | Founder, Teal Insights
+## How I Got Here {background-color="#f8f9fa"}
 
 ::: {.columns}
-::: {.column width="60%"}
-- Research consultant: sovereign debt & emerging markets
-- Former Morgan Stanley sovereign analyst (7 years)  
-- Current: AidData Research Consultant, Energy for Growth Hub Fellow
-- Adjunct Lecturer: Johns Hopkins SAIS
-- **Recent AI work**: Classified 18,000 Chinese lending projects in 15 hours
-:::
-
 ::: {.column width="40%"}
-![](images/teal_insights_logo.png){width="400px"}
-:::
+![Greener on the Other Side - ODI Global Report](images/odi_cover_page.png){width="300px"}
 :::
 
-**Philosophy**: Build in the open, guided by expertise
+::: {.column width="60%"}
+**April 2025**: Published ["Greener on the other side?"](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/) using AI to classify 18,000 Chinese lending projects
+
+**After publication**: Professor Carlos Oya reached out
+
+**Today**: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I've been thinking about a lot
+:::
+:::
 
 ---
 
-## Who You Are {background-color="#f8f9fa"}
+## China's Green Lending Reality {background-color="#f8f9fa"}
 
-**SOAS Development Studies Faculty & Researchers**
+![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png)
 
-::: {.incremental}
-- **Deep regional expertise**: Africa, Asia, Middle East, Latin America
-- **Mixed-methods researchers**: Qualitative fieldwork + quantitative analysis  
-- **Critical scholars**: Question power structures and dominant paradigms
-- **Multilingual**: Work with messy, incomplete field data
-- **Skeptical but curious**: About technology's promises and limitations
+**What we discovered**: Despite "Green Belt and Road" rhetoric, minimal actual renewable energy financing
+
+**LLM Best Practices**: No established best practices. We are trying to start that conversation
+
+---
+
+## My Take on AI {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="50%"}
+
+**There are real problems with AI** ⚠️
+
+- Bias and training data issues
+- Hallucinations and false confidence
+- Serious social & ethical issues
 :::
 
-**Your expertise is exactly what makes AI useful**
+::: {.column width="50%"}
+**Despite this...** 💡
+
+- I believe AI can be a powerful tool for those of us who want to make the world a better place
+
+**Value I can add**: 
+
+- I've spent a lot of time figuring out what works and what doesn't. I can share my practical experience with you.
+:::
+:::
+
+---
+
+## My Relevant AI Experience {background-color="#f8f9fa"}
+
+::: {.incremental}
+- **ODI research project**: 18,000 project classification in 15 hours vs. 1,500 hours manually for cost of $1.58.
+- **Day job**: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.
+- **Our approach**: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.
+- **Building LLM products**: To facilitate our research process and help countries avoid expensive consulting fees
+:::
+
+## Other Relevant Experience
+
+::: {.nonincremental}
+-   **EM sovereign debt research analyst**, Morgan Stanley Investment Management 
+-   **Adjunct Lecturer**, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)
+-   **Thought leadership** on sovereign debt + sustainability, World Bank
+-   **Chinese debt restructuring & flows** research, AidData
+-   **Big nerd** 🤓
+:::
+
+---
+
+## Who This Workshop Is For {background-color="#f8f9fa"}
+
+**Experienced researchers who want to explore how LLMs might enhance their work**
+
+::: {.incremental}
+- **Deep expertise** in your research domain  
+- **Healthy skepticism** about new technologies and their promises
+- **No prior LLM knowledge** or coding experience required
+- **Interest in practical tools** that could streamline routine research tasks
+- **Your skepticism is justified**—LLMs have real limitations we'll address directly
+:::
 
 ---
 
@@ -70,7 +120,7 @@ July 15, 2025 • SOAS Faculty Workshop
 3. **Validation strategies** to maintain research integrity
 :::
 
-**Not theory. Not hype. Tools you can use tomorrow.**
+**Goal: You can't learn everything about AI in 2 hours. This workshop aims to give you the mental and practical tools to get started**
 
 ---
 
@@ -79,18 +129,20 @@ July 15, 2025 • SOAS Faculty Workshop
 ::: {.columns}
 ::: {.column width="50%"}
 **Live Session**
-- Practice & discussion
-- Hands-on activities
+
+- Concept exploration & discussion
+- Hands-on activities in Part 2
 - Problem-solving together
 - Learning from each other
 :::
 
 ::: {.column width="50%"}
 **Your Reference Book**
+
 - Detailed explanations
-- Troubleshooting guides
 - Extended examples
-- Technical specifications
+- Enables live session to be more interactive
+
 :::
 :::
 
@@ -100,59 +152,50 @@ July 15, 2025 • SOAS Faculty Workshop
 
 ## Our Journey Together {background-color="#f8f9fa"}
 
-### Chapter 1: Why This Matters *(10 min + Activity)*{.text-blue}
-Understanding the research reality & creating your professional context
+### Part 1: Foundations *(20 min)*{.text-blue}
+Understanding the research reality & building your mental model
 
-### Chapter 2: The Mental Model *(20 min + Activity)*{.text-blue}  
-The "jagged frontier" & better prompting techniques
+### Part 2: Practical Applications *(70 min)*{.text-blue}  
+Hands-on tools & techniques with 3 activities
 
-### Chapter 3: Your Research Toolkit *(45 min + Activity)*{.text-blue}
-Building Gems & enhancing literature reviews
-
-### Chapter 4: Real-World Impact *(30 min)*{.text-blue}
-Case study & validation strategies
+### Part 3: Advanced Possibilities *(15 min)*{.text-blue}
+Case study & scaling considerations
 
 ### Wrap-Up: Your Next Steps *(15 min)*{.text-blue}
+Action planning & Q&A
 
 ---
 
-# Chapter 1: Why This Matters {background-color="#1e4a5f"}
+# Part 1: Foundations {background-color="#1e4a5f"}
 
-## The Research Reality & Your Professional Context
+## Understanding the Research Reality
 
-**What we're building**: Your personalized AI research assistant foundation
+**What we're exploring**: Why this matters & how to think about AI strategically
 
 ---
 
 ## The Scale Problem We All Face {background-color="#f8f9fa"}
 
-::: {.columns}
-::: {.column width="60%"}
 **The literature explosion**
-- 2.5 million papers published annually
-- Growing 4% per year
-- Even narrow subfields: overwhelming
+
+- Too much to read, too little time
 
 **Your reality**
+
 - Deep expertise, but finite time
 - Job, family, life outside research
 - Can't read everything that looks relevant
-:::
 
-::: {.column width="40%"}
-![Research Papers](images/literature_explosion.png){fig-alt="Graph showing exponential growth in academic publications"}
-:::
-:::
-
-**Live demo**: *Watch me process 3 papers in 2 minutes*
+**💬 Chat**: *Share one research task you find tedious*
 
 ---
 
-## What We're NOT Doing {background-color="#fff3cd"}
+## Approach to AI {background-color="#fff3cd"}
 
 ::: {.columns}
 ::: {.column width="50%"}
 ### ❌ Avoiding
+
 - Replacing your critical thinking
 - Trusting AI without verification  
 - Ignoring bias and limitations
@@ -161,6 +204,7 @@ Case study & validation strategies
 
 ::: {.column width="50%"}
 ### ✅ Amplifying
+
 - Your domain knowledge
 - Your analytical capabilities  
 - Your research capacity
@@ -172,79 +216,156 @@ Case study & validation strategies
 
 ---
 
-## 🔧 Activity 1: Create Your Professional Context
+## Mental Model: The "Jagged Frontier" {background-color="#f8f9fa"}
 
-### ⏱️ 8 minutes
+![What is AI good at?](images/jagged_frontier.png){fig-alt="Detailed frontier diagram showing task categories"}
 
-::: {.nonincremental}
-**Your task:**
-1. Open Gemini (or your preferred AI tool)
-2. Use the template below to create your research context
-3. Test it: "What are 3 research questions building on my current work?"
-4. **Share in chat**: One interesting suggestion it gave you
+**Inside the frontier**: AI excels  
+**Outside the frontier**: AI struggles  
+**The challenge**: The boundary is invisible, unpredictable, and moving quickly
+
+---
+
+## The Jagged Frontier in Action {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="50%"}
+**Single prompt: "Make a painting of a dumpster fire in the style of Monet"**
+
+![Made by ChatGPT in seconds](images/dumpster_fire.png){width="300px"}
 :::
 
-**📖 Detailed instructions**: Chapter 2.1 in your reference book
+::: {.column width="50%"}
+**One hour of prompting: "Make a better jagged frontier visualization"**
+
+![Non-sensical output after countless attempts](images/bad_jagged_frontier.png){width="400px"}
+:::
+:::
+
+**This is the jagged frontier**: Seemingly similar tasks with wildly different AI performance
 
 ---
 
-## Your Professional Context Template {background-color="#e8f4f8"}
+## Understanding the Frontier {background-color="#f8f9fa"}
 
-```markdown
-I'm [your name], a researcher specializing in [your areas]. 
+::: {.columns}
+::: {.column width="50%"}
+**Inside (AI excels)**
 
-My current focus includes [your projects/interests].
+- Summarizing complex texts
+- Pattern recognition across documents
+- Language translation
+- First-draft generation
+- Code generation
+- Processing large volumes quickly
+:::
 
-I typically write for [your audience] and value 
-[your communication preferences].
+::: {.column width="50%"}
+**Outside (AI struggles)**  
 
-Given my background, [ask your question here]
-```
+- Understanding implicit context
+- Grasping unwritten assumptions
+- Making ethical judgments
+- Recognizing what's missing
+- Cultural and political subtext
+:::
+:::
 
-**Copy this, fill in your details, then test it!**
+**Only YOU can find the "jagged frontier" for tasks that matter to you**
 
 ---
 
-## What You Just Built ✅ {background-color="#d4edda"}
+## The Collaborative Model {background-color="#e8f4f8"}
+
+**Think of LLMs as sophisticated research assistants with unique strengths and blind spots**
+
+::: {.columns}
+::: {.column width="50%"}
+**Your Unique Value**
+
+- Domain expertise & contextual understanding
+- Critical analysis & theoretical frameworks
+- Ethical judgment & interpretation
+- Understanding implicit meanings
+:::
+
+::: {.column width="50%"}
+**AI's Unique Value**
+
+- Processing large volumes quickly
+- Identifying patterns across documents
+- Generating first drafts
+- Handling routine tasks
+- Providing different perspectives
+:::
+:::
+
+**The goal**: AI amplifies your expertise, doesn't replace it
+
+---
+
+## Finding Your Frontier {background-color="#f8f9fa"}
+
+**How to discover what works for your research:**
 
 ::: {.incremental}
-- **Foundation**: Professional context for all future AI interactions
-- **Discovery**: How context transforms AI response quality  
-- **Insight**: Your expertise guides better AI outputs
+- **Start with your own work**: Test AI on papers you know intimately
+- **Begin with low-stakes tasks**: Where errors won't matter much
+- **Test systematically**: Try similar but different tasks to map boundaries
+- **Stay updated**: The frontier is expanding rapidly but unevenly
 :::
 
-**Next**: We'll use this context to understand when AI helps vs. hurts
+**Key principle**: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?
 
-**💬 Chat check**: What surprised you about the difference context made?
+Try them with an LLM. Does it help or hinder?
 
 ---
 
-## Key Takeaways from Chapter 1 {background-color="#f8f9fa"}
+## Democratizing Ambitious Research {background-color="#e8f4f8"}
+
+**The bigger picture**: Tools that enable more researchers to tackle urgent questions at scale
+
+::: {.incremental}
+- **Previously required**: Large research grants, teams of research assistants, months of work
+- **Now possible**: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams
+- **What this enables**: More ambitious, policy-relevant research while maintaining academic rigor
+- **The promise**: Not replacing researchers, but enabling more transparent and impactful research
+:::
+
+We face urgent policy challenges around climate finance, development effectiveness, and global economic transitions
+
+---
+
+## Key Takeaways from Foundations {background-color="#d4edda"}
 
 ::: {.columns}
 ::: {.column width="50%"}
 **The Challenge**
-- Information overload
-- Limited time and attention
-- Need for strategic filtering
+
+- Information overload in academic research
+- Limited time for comprehensive literature review
+- Need for strategic filtering and prioritization
 :::
 
 ::: {.column width="50%"}
-**Your Solution**
-- Professional context as foundation
-- AI amplifies your expertise
-- Strategic collaboration, not replacement
+**Your Strategic Advantage**
+
+- Understanding the jagged frontier
+- Finding your personal frontier through experimentation
+- Collaborative approach: AI handles scale, you provide judgment
 :::
 :::
 
-**📖 Chapter 1.1-1.2**: Deep dive on AI limitations and collaborative approaches
+**Next**: We'll put this into practice with hands-on tools and techniques
+
+**📖 Deep dive**: Chapters 1.1-1.2 for detailed exploration of AI limitations and collaborative approaches
 
 ---
 
-# Chapter 2: The Mental Model {background-color="#1e4a5f"}
+# Part 2: Practical Applications {background-color="#1e4a5f"}
 
-## Understanding the "Jagged Frontier"
+## Building Your Research Toolkit
 
-**What we're building**: Framework for strategic AI use
+**What we're building**: Three hands-on tools you can use immediately
 
-*[Continue with Chapter 2 content...]*
+*[Continue with practical applications...]*

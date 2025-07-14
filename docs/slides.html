@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="slides_files/libs/clipboard/clipboard.min.js"></script>
-<script src="slides_files/libs/quarto-html/tabby.min.js"></script>
-<script src="slides_files/libs/quarto-html/popper.min.js"></script>
-<script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.37">
 
   <meta name="author" content="Teal Emery">
@@ -15,8 +15,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -29,78 +29,13 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link rel="stylesheet" href="teal-theme.css">
-  <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
@@ -214,41 +149,88 @@ Teal Emery
 </section>
 <section id="practical-strategies-for-using-llms-in-research" class="slide level2">
 <h2>Practical Strategies for Using LLMs in Research</h2>
-<p><strong>Teal Emery</strong><br>
+<p><strong>Teal Emery</strong> | Founder, Teal Insights<br>
 July 15, 2025 • SOAS Faculty Workshop</p>
 </section>
-<section id="about-your-instructor" class="slide level2" data-background-color="#f8f9fa">
-<h2>About Your Instructor</h2>
-<p><strong>Teal Emery</strong> | Founder, Teal Insights</p>
+<section id="how-i-got-here" class="slide level2" data-background-color="#f8f9fa">
+<h2>How I Got Here</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
-<ul>
-<li class="fragment">Research consultant: sovereign debt &amp; emerging markets</li>
-<li class="fragment">Former Morgan Stanley sovereign analyst (7 years)<br>
-</li>
-<li class="fragment">Current: AidData Research Consultant, Energy for Growth Hub Fellow</li>
-<li class="fragment">Adjunct Lecturer: Johns Hopkins SAIS</li>
-<li class="fragment"><strong>Recent AI work</strong>: Classified 18,000 Chinese lending projects in 15 hours</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/teal_insights_logo.png" width="400"></p>
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/odi_cover_page.png" width="300"></p>
+<figcaption>Greener on the Other Side - ODI Global Report</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<p><strong>April 2025</strong>: Published <a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">“Greener on the other side?”</a> using AI to classify 18,000 Chinese lending projects</p>
+<p><strong>After publication</strong>: Professor Carlos Oya reached out</p>
+<p><strong>Today</strong>: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I’ve been thinking about a lot</p>
 </div></div>
-<p><strong>Philosophy</strong>: Build in the open, guided by expertise</p>
 </section>
-<section id="who-you-are" class="slide level2" data-background-color="#f8f9fa">
-<h2>Who You Are</h2>
-<p><strong>SOAS Development Studies Faculty &amp; Researchers</strong></p>
+<section id="chinas-green-lending-reality" class="slide level2" data-background-color="#f8f9fa">
+<h2>China’s Green Lending Reality</h2>
+
+<img data-src="images/odi_green_lending_trends.png" class="r-stretch quarto-figure-center"><p class="caption">Trends in Chinese overseas lending by project type</p><p><strong>What we discovered</strong>: Despite “Green Belt and Road” rhetoric, minimal actual renewable energy financing</p>
+<p><strong>LLM Best Practices</strong>: No established best practices. We are trying to start that conversation</p>
+</section>
+<section id="my-take-on-ai" class="slide level2" data-background-color="#f8f9fa">
+<h2>My Take on AI</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>There are real problems with AI</strong> ⚠️</p>
+<ul>
+<li class="fragment">Bias and training data issues</li>
+<li class="fragment">Hallucinations and false confidence</li>
+<li class="fragment">Serious social &amp; ethical issues</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Despite this…</strong> 💡</p>
+<ul>
+<li class="fragment">I believe AI can be a powerful tool for those of us who want to make the world a better place</li>
+</ul>
+<p><strong>Value I can add</strong>:</p>
+<ul>
+<li class="fragment">I’ve spent a lot of time figuring out what works and what doesn’t. I can share my practical experience with you.</li>
+</ul>
+</div></div>
+</section>
+<section id="my-relevant-ai-experience" class="slide level2" data-background-color="#f8f9fa">
+<h2>My Relevant AI Experience</h2>
 <div>
 <ul>
-<li class="fragment"><strong>Deep regional expertise</strong>: Africa, Asia, Middle East, Latin America</li>
-<li class="fragment"><strong>Mixed-methods researchers</strong>: Qualitative fieldwork + quantitative analysis<br>
-</li>
-<li class="fragment"><strong>Critical scholars</strong>: Question power structures and dominant paradigms</li>
-<li class="fragment"><strong>Multilingual</strong>: Work with messy, incomplete field data</li>
-<li class="fragment"><strong>Skeptical but curious</strong>: About technology’s promises and limitations</li>
+<li class="fragment"><strong>ODI research project</strong>: 18,000 project classification in 15 hours vs.&nbsp;1,500 hours manually for cost of $1.58.</li>
+<li class="fragment"><strong>Day job</strong>: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.</li>
+<li class="fragment"><strong>Our approach</strong>: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.</li>
+<li class="fragment"><strong>Building LLM products</strong>: To facilitate our research process and help countries avoid expensive consulting fees</li>
 </ul>
 </div>
-<p><strong>Your expertise is exactly what makes AI useful</strong></p>
+</section>
+<section id="other-relevant-experience" class="slide level2">
+<h2>Other Relevant Experience</h2>
+<div>
+<ul>
+<li><strong>EM sovereign debt research analyst</strong>, Morgan Stanley Investment Management</li>
+<li><strong>Adjunct Lecturer</strong>, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)</li>
+<li><strong>Thought leadership</strong> on sovereign debt + sustainability, World Bank</li>
+<li><strong>Chinese debt restructuring &amp; flows</strong> research, AidData</li>
+<li><strong>Big nerd</strong> 🤓</li>
+</ul>
+</div>
+</section>
+<section id="who-this-workshop-is-for" class="slide level2" data-background-color="#f8f9fa">
+<h2>Who This Workshop Is For</h2>
+<p><strong>Experienced researchers who want to explore how LLMs might enhance their work</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Deep expertise</strong> in your research domain<br>
+</li>
+<li class="fragment"><strong>Healthy skepticism</strong> about new technologies and their promises</li>
+<li class="fragment"><strong>No prior LLM knowledge</strong> or coding experience required</li>
+<li class="fragment"><strong>Interest in practical tools</strong> that could streamline routine research tasks</li>
+<li class="fragment"><strong>Your skepticism is justified</strong>—LLMs have real limitations we’ll address directly</li>
+</ul>
+</div>
 </section>
 <section id="what-youll-leave-with-today" class="slide level2 center" data-background-color="#4a90b8">
 <h2>What You’ll Leave With Today</h2>
@@ -261,60 +243,68 @@ July 15, 2025 • SOAS Faculty Workshop</p>
 <li><strong>Validation strategies</strong> to maintain research integrity</li>
 </ol>
 </div>
-<p><strong>Not theory. Not hype. Tools you can use tomorrow.</strong></p>
+<p><strong>Goal: You can’t learn everything about AI in 2 hours. This workshop aims to give you the mental and practical tools to get started</strong></p>
 </section>
 <section id="our-flipped-approach" class="slide level2" data-background-color="#e8f4f8">
 <h2>Our “Flipped” Approach</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Live Session</strong> - Practice &amp; discussion - Hands-on activities - Problem-solving together - Learning from each other</p>
+<p><strong>Live Session</strong></p>
+<ul>
+<li class="fragment">Concept exploration &amp; discussion</li>
+<li class="fragment">Hands-on activities in Part 2</li>
+<li class="fragment">Problem-solving together</li>
+<li class="fragment">Learning from each other</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Your Reference Book</strong> - Detailed explanations - Troubleshooting guides - Extended examples - Technical specifications</p>
+<p><strong>Your Reference Book</strong></p>
+<ul>
+<li class="fragment">Detailed explanations</li>
+<li class="fragment">Extended examples</li>
+<li class="fragment">Enables live session to be more interactive</li>
+</ul>
 </div></div>
 <p><strong>All details at</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
 </section>
 <section id="our-journey-together" class="slide level2" data-background-color="#f8f9fa">
 <h2>Our Journey Together</h2>
-<h3 class="text-blue" id="chapter-1-why-this-matters-10-min-activity">Chapter 1: Why This Matters <em>(10 min + Activity)</em></h3>
-<p>Understanding the research reality &amp; creating your professional context</p>
-<h3 class="text-blue" id="chapter-2-the-mental-model-20-min-activity">Chapter 2: The Mental Model <em>(20 min + Activity)</em></h3>
-<p>The “jagged frontier” &amp; better prompting techniques</p>
-<h3 class="text-blue" id="chapter-3-your-research-toolkit-45-min-activity">Chapter 3: Your Research Toolkit <em>(45 min + Activity)</em></h3>
-<p>Building Gems &amp; enhancing literature reviews</p>
-<h3 class="text-blue" id="chapter-4-real-world-impact-30-min">Chapter 4: Real-World Impact <em>(30 min)</em></h3>
-<p>Case study &amp; validation strategies</p>
+<h3 class="text-blue" id="part-1-foundations-20-min">Part 1: Foundations <em>(20 min)</em></h3>
+<p>Understanding the research reality &amp; building your mental model</p>
+<h3 class="text-blue" id="part-2-practical-applications-70-min">Part 2: Practical Applications <em>(70 min)</em></h3>
+<p>Hands-on tools &amp; techniques with 3 activities</p>
+<h3 class="text-blue" id="part-3-advanced-possibilities-15-min">Part 3: Advanced Possibilities <em>(15 min)</em></h3>
+<p>Case study &amp; scaling considerations</p>
 <h3 class="text-blue" id="wrap-up-your-next-steps-15-min">Wrap-Up: Your Next Steps <em>(15 min)</em></h3>
+<p>Action planning &amp; Q&amp;A</p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="chapter-1-why-this-matters" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Chapter 1: Why This Matters</h1>
+<section id="part-1-foundations" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 1: Foundations</h1>
 
 </section>
-<section id="the-research-reality-your-professional-context" class="slide level2">
-<h2>The Research Reality &amp; Your Professional Context</h2>
-<p><strong>What we’re building</strong>: Your personalized AI research assistant foundation</p>
+<section id="understanding-the-research-reality" class="slide level2">
+<h2>Understanding the Research Reality</h2>
+<p><strong>What we’re exploring</strong>: Why this matters &amp; how to think about AI strategically</p>
 </section>
 <section id="the-scale-problem-we-all-face" class="slide level2" data-background-color="#f8f9fa">
 <h2>The Scale Problem We All Face</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><strong>The literature explosion</strong> - 2.5 million papers published annually - Growing 4% per year - Even narrow subfields: overwhelming</p>
-<p><strong>Your reality</strong> - Deep expertise, but finite time - Job, family, life outside research - Can’t read everything that looks relevant</p>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/literature_explosion.png" alt="Graph showing exponential growth in academic publications"></p>
-<figcaption>Research Papers</figcaption>
-</figure>
-</div>
-</div></div>
-<p><strong>Live demo</strong>: <em>Watch me process 3 papers in 2 minutes</em></p>
+<p><strong>The literature explosion</strong></p>
+<ul>
+<li class="fragment">Too much to read, too little time</li>
+</ul>
+<p><strong>Your reality</strong></p>
+<ul>
+<li class="fragment">Deep expertise, but finite time</li>
+<li class="fragment">Job, family, life outside research</li>
+<li class="fragment">Can’t read everything that looks relevant</li>
+</ul>
+<p><strong>💬 Chat</strong>: <em>Share one research task you find tedious</em></p>
 </section>
-<section id="what-were-not-doing" class="slide level2" data-background-color="#fff3cd">
-<h2>What We’re NOT Doing</h2>
+<section id="approach-to-ai" class="slide level2" data-background-color="#fff3cd">
+<h2>Approach to AI</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="avoiding">❌ Avoiding</h3>
@@ -337,85 +327,169 @@ July 15, 2025 • SOAS Faculty Workshop</p>
 </div></div>
 <p><strong>Key insight</strong>: AI handles routine so you focus on remarkable</p>
 </section>
-<section id="activity-1-create-your-professional-context" class="slide level2">
-<h2>🔧 Activity 1: Create Your Professional Context</h2>
-<h3 id="minutes">⏱️ 8 minutes</h3>
-<div>
-<p><strong>Your task:</strong> 1. Open Gemini (or your preferred AI tool) 2. Use the template below to create your research context 3. Test it: “What are 3 research questions building on my current work?” 4. <strong>Share in chat</strong>: One interesting suggestion it gave you</p>
-</div>
-<p><strong>📖 Detailed instructions</strong>: Chapter 2.1 in your reference book</p>
+<section id="mental-model-the-jagged-frontier" class="slide level2" data-background-color="#f8f9fa">
+<h2>Mental Model: The “Jagged Frontier”</h2>
+
+<img data-src="images/jagged_frontier.png" alt="Detailed frontier diagram showing task categories" class="r-stretch quarto-figure-center"><p class="caption">What is AI good at?</p><p><strong>Inside the frontier</strong>: AI excels<br>
+<strong>Outside the frontier</strong>: AI struggles<br>
+<strong>The challenge</strong>: The boundary is invisible, unpredictable, and moving quickly</p>
 </section>
-<section id="your-professional-context-template" class="slide level2" data-background-color="#e8f4f8">
-<h2>Your Professional Context Template</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href=""></a>I'm <span class="co">[</span><span class="ot">your name</span><span class="co">]</span>, a researcher specializing in <span class="co">[</span><span class="ot">your areas</span><span class="co">]</span>. </span>
-<span id="cb1-2"><a href=""></a></span>
-<span id="cb1-3"><a href=""></a>My current focus includes <span class="co">[</span><span class="ot">your projects/interests</span><span class="co">]</span>.</span>
-<span id="cb1-4"><a href=""></a></span>
-<span id="cb1-5"><a href=""></a>I typically write for <span class="co">[</span><span class="ot">your audience</span><span class="co">]</span> and value </span>
-<span id="cb1-6"><a href=""></a><span class="co">[</span><span class="ot">your communication preferences</span><span class="co">]</span>.</span>
-<span id="cb1-7"><a href=""></a></span>
-<span id="cb1-8"><a href=""></a>Given my background, <span class="co">[</span><span class="ot">ask your question here</span><span class="co">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Copy this, fill in your details, then test it!</strong></p>
-</section>
-<section id="what-you-just-built" class="slide level2" data-background-color="#d4edda">
-<h2>What You Just Built ✅</h2>
-<div>
-<ul>
-<li class="fragment"><strong>Foundation</strong>: Professional context for all future AI interactions</li>
-<li class="fragment"><strong>Discovery</strong>: How context transforms AI response quality<br>
-</li>
-<li class="fragment"><strong>Insight</strong>: Your expertise guides better AI outputs</li>
-</ul>
-</div>
-<p><strong>Next</strong>: We’ll use this context to understand when AI helps vs.&nbsp;hurts</p>
-<p><strong>💬 Chat check</strong>: What surprised you about the difference context made?</p>
-</section>
-<section id="key-takeaways-from-chapter-1" class="slide level2" data-background-color="#f8f9fa">
-<h2>Key Takeaways from Chapter 1</h2>
+<section id="the-jagged-frontier-in-action" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Jagged Frontier in Action</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>The Challenge</strong> - Information overload - Limited time and attention - Need for strategic filtering</p>
+<p><strong>Single prompt: “Make a painting of a dumpster fire in the style of Monet”</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dumpster_fire.png" width="300"></p>
+<figcaption>Made by ChatGPT in seconds</figcaption>
+</figure>
+</div>
 </div><div class="column" style="width:50%;">
-<p><strong>Your Solution</strong> - Professional context as foundation - AI amplifies your expertise - Strategic collaboration, not replacement</p>
+<p><strong>One hour of prompting: “Make a better jagged frontier visualization”</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/bad_jagged_frontier.png" width="400"></p>
+<figcaption>Non-sensical output after countless attempts</figcaption>
+</figure>
+</div>
 </div></div>
-<p><strong>📖 Chapter 1.1-1.2</strong>: Deep dive on AI limitations and collaborative approaches</p>
+<p><strong>This is the jagged frontier</strong>: Seemingly similar tasks with wildly different AI performance</p>
+</section>
+<section id="understanding-the-frontier" class="slide level2" data-background-color="#f8f9fa">
+<h2>Understanding the Frontier</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Inside (AI excels)</strong></p>
+<ul>
+<li class="fragment">Summarizing complex texts</li>
+<li class="fragment">Pattern recognition across documents</li>
+<li class="fragment">Language translation</li>
+<li class="fragment">First-draft generation</li>
+<li class="fragment">Code generation</li>
+<li class="fragment">Processing large volumes quickly</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Outside (AI struggles)</strong></p>
+<ul>
+<li class="fragment">Understanding implicit context</li>
+<li class="fragment">Grasping unwritten assumptions</li>
+<li class="fragment">Making ethical judgments</li>
+<li class="fragment">Recognizing what’s missing</li>
+<li class="fragment">Cultural and political subtext</li>
+</ul>
+</div></div>
+<p><strong>Only YOU can find the “jagged frontier” for tasks that matter to you</strong></p>
+</section>
+<section id="the-collaborative-model" class="slide level2" data-background-color="#e8f4f8">
+<h2>The Collaborative Model</h2>
+<p><strong>Think of LLMs as sophisticated research assistants with unique strengths and blind spots</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Your Unique Value</strong></p>
+<ul>
+<li class="fragment">Domain expertise &amp; contextual understanding</li>
+<li class="fragment">Critical analysis &amp; theoretical frameworks</li>
+<li class="fragment">Ethical judgment &amp; interpretation</li>
+<li class="fragment">Understanding implicit meanings</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>AI’s Unique Value</strong></p>
+<ul>
+<li class="fragment">Processing large volumes quickly</li>
+<li class="fragment">Identifying patterns across documents</li>
+<li class="fragment">Generating first drafts</li>
+<li class="fragment">Handling routine tasks</li>
+<li class="fragment">Providing different perspectives</li>
+</ul>
+</div></div>
+<p><strong>The goal</strong>: AI amplifies your expertise, doesn’t replace it</p>
+</section>
+<section id="finding-your-frontier" class="slide level2" data-background-color="#f8f9fa">
+<h2>Finding Your Frontier</h2>
+<p><strong>How to discover what works for your research:</strong></p>
+<div>
+<ul>
+<li class="fragment"><strong>Start with your own work</strong>: Test AI on papers you know intimately</li>
+<li class="fragment"><strong>Begin with low-stakes tasks</strong>: Where errors won’t matter much</li>
+<li class="fragment"><strong>Test systematically</strong>: Try similar but different tasks to map boundaries</li>
+<li class="fragment"><strong>Stay updated</strong>: The frontier is expanding rapidly but unevenly</li>
+</ul>
+</div>
+<p><strong>Key principle</strong>: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?</p>
+<p>Try them with an LLM. Does it help or hinder?</p>
+</section>
+<section id="democratizing-ambitious-research" class="slide level2" data-background-color="#e8f4f8">
+<h2>Democratizing Ambitious Research</h2>
+<p><strong>The bigger picture</strong>: Tools that enable more researchers to tackle urgent questions at scale</p>
+<div>
+<ul>
+<li class="fragment"><strong>Previously required</strong>: Large research grants, teams of research assistants, months of work</li>
+<li class="fragment"><strong>Now possible</strong>: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams</li>
+<li class="fragment"><strong>What this enables</strong>: More ambitious, policy-relevant research while maintaining academic rigor</li>
+<li class="fragment"><strong>The promise</strong>: Not replacing researchers, but enabling more transparent and impactful research</li>
+</ul>
+</div>
+<p>We face urgent policy challenges around climate finance, development effectiveness, and global economic transitions</p>
+</section>
+<section id="key-takeaways-from-foundations" class="slide level2" data-background-color="#d4edda">
+<h2>Key Takeaways from Foundations</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>The Challenge</strong></p>
+<ul>
+<li class="fragment">Information overload in academic research</li>
+<li class="fragment">Limited time for comprehensive literature review</li>
+<li class="fragment">Need for strategic filtering and prioritization</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Your Strategic Advantage</strong></p>
+<ul>
+<li class="fragment">Understanding the jagged frontier</li>
+<li class="fragment">Finding your personal frontier through experimentation</li>
+<li class="fragment">Collaborative approach: AI handles scale, you provide judgment</li>
+</ul>
+</div></div>
+<p><strong>Next</strong>: We’ll put this into practice with hands-on tools and techniques</p>
+<p><strong>📖 Deep dive</strong>: Chapters 1.1-1.2 for detailed exploration of AI limitations and collaborative approaches</p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="chapter-2-the-mental-model" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Chapter 2: The Mental Model</h1>
+<section id="part-2-practical-applications" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 2: Practical Applications</h1>
 
 </section>
-<section id="understanding-the-jagged-frontier" class="slide level2">
-<h2>Understanding the “Jagged Frontier”</h2>
-<p><strong>What we’re building</strong>: Framework for strategic AI use</p>
-<p><em>[Continue with Chapter 2 content…]</em></p>
+<section id="building-your-research-toolkit" class="slide level2">
+<h2>Building Your Research Toolkit</h2>
+<p><strong>What we’re building</strong>: Three hands-on tools you can use immediately</p>
+<p><em>[Continue with practical applications…]</em></p>
+
 
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/teal_insights_logo.png" class="slide-logo"></p>
+<p><img src="images/teal_insights_logo_small.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>SOAS Faculty Workshop • Detailed Guide: teal-insights.github.io/soas_llm_training</p>
 </div>
 </div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="slides_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="slides_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>

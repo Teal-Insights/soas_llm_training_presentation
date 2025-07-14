@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "slides.html#practical-strategies-for-using-llms-in-research",
+    "href": "slides.html#practical-strategies-for-using-llms-in-research",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Practical Strategies for Using LLMs in Research",
+    "text": "Practical Strategies for Using LLMs in Research\nTeal Emery | Founder, Teal Insights\nJuly 15, 2025 • SOAS Faculty Workshop"
+  },
+  {
+    "objectID": "slides.html#how-i-got-here",
+    "href": "slides.html#how-i-got-here",
+    "title": "AI for the Skeptical Scholar",
+    "section": "How I Got Here",
+    "text": "How I Got Here\n\n\n\n\n\nGreener on the Other Side - ODI Global Report\n\n\n\nApril 2025: Published “Greener on the other side?” using AI to classify 18,000 Chinese lending projects\nAfter publication: Professor Carlos Oya reached out\nToday: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I’ve been thinking about a lot"
+  },
+  {
+    "objectID": "slides.html#chinas-green-lending-reality",
+    "href": "slides.html#chinas-green-lending-reality",
+    "title": "AI for the Skeptical Scholar",
+    "section": "China’s Green Lending Reality",
+    "text": "China’s Green Lending Reality\n\nTrends in Chinese overseas lending by project typeWhat we discovered: Despite “Green Belt and Road” rhetoric, minimal actual renewable energy financing\nLLM Best Practices: No established best practices. We are trying to start that conversation"
+  },
+  {
+    "objectID": "slides.html#my-take-on-ai",
+    "href": "slides.html#my-take-on-ai",
+    "title": "AI for the Skeptical Scholar",
+    "section": "My Take on AI",
+    "text": "My Take on AI\n\n\nThere are real problems with AI ⚠️\n\nBias and training data issues\nHallucinations and false confidence\nSerious social & ethical issues\n\n\nDespite this… 💡\n\nI believe AI can be a powerful tool for those of us who want to make the world a better place\n\nValue I can add:\n\nI’ve spent a lot of time figuring out what works and what doesn’t. I can share my practical experience with you."
+  },
+  {
+    "objectID": "slides.html#my-relevant-ai-experience",
+    "href": "slides.html#my-relevant-ai-experience",
+    "title": "AI for the Skeptical Scholar",
+    "section": "My Relevant AI Experience",
+    "text": "My Relevant AI Experience\n\n\nODI research project: 18,000 project classification in 15 hours vs. 1,500 hours manually for cost of $1.58.\nDay job: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.\nOur approach: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.\nBuilding LLM products: To facilitate our research process and help countries avoid expensive consulting fees"
+  },
+  {
+    "objectID": "slides.html#other-relevant-experience",
+    "href": "slides.html#other-relevant-experience",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Other Relevant Experience",
+    "text": "Other Relevant Experience\n\n\nEM sovereign debt research analyst, Morgan Stanley Investment Management\nAdjunct Lecturer, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)\nThought leadership on sovereign debt + sustainability, World Bank\nChinese debt restructuring & flows research, AidData\nBig nerd 🤓"
+  },
+  {
+    "objectID": "slides.html#who-this-workshop-is-for",
+    "href": "slides.html#who-this-workshop-is-for",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Who This Workshop Is For",
+    "text": "Who This Workshop Is For\nExperienced researchers who want to explore how LLMs might enhance their work\n\n\nDeep expertise in your research domain\n\nHealthy skepticism about new technologies and their promises\nNo prior LLM knowledge or coding experience required\nInterest in practical tools that could streamline routine research tasks\nYour skepticism is justified—LLMs have real limitations we’ll address directly"
+  },
+  {
+    "objectID": "slides.html#what-youll-leave-with-today",
+    "href": "slides.html#what-youll-leave-with-today",
+    "title": "AI for the Skeptical Scholar",
+    "section": "What You’ll Leave With Today",
+    "text": "What You’ll Leave With Today\nThree Practical Tools\n\n\nA mental model for when AI helps vs. hurts your research\nWorking prompts and systems you can use immediately\n\nValidation strategies to maintain research integrity\n\n\nGoal: You can’t learn everything about AI in 2 hours. This workshop aims to give you the mental and practical tools to get started"
+  },
+  {
+    "objectID": "slides.html#our-flipped-approach",
+    "href": "slides.html#our-flipped-approach",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Our “Flipped” Approach",
+    "text": "Our “Flipped” Approach\n\n\nLive Session\n\nConcept exploration & discussion\nHands-on activities in Part 2\nProblem-solving together\nLearning from each other\n\n\nYour Reference Book\n\nDetailed explanations\nExtended examples\nEnables live session to be more interactive\n\n\nAll details at: teal-insights.github.io/soas_llm_training"
+  },
+  {
+    "objectID": "slides.html#our-journey-together",
+    "href": "slides.html#our-journey-together",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Our Journey Together",
+    "text": "Our Journey Together\nPart 1: Foundations (20 min)\nUnderstanding the research reality & building your mental model\nPart 2: Practical Applications (70 min)\nHands-on tools & techniques with 3 activities\nPart 3: Advanced Possibilities (15 min)\nCase study & scaling considerations\nWrap-Up: Your Next Steps (15 min)\nAction planning & Q&A"
+  },
+  {
+    "objectID": "slides.html#understanding-the-research-reality",
+    "href": "slides.html#understanding-the-research-reality",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Understanding the Research Reality",
+    "text": "Understanding the Research Reality\nWhat we’re exploring: Why this matters & how to think about AI strategically"
+  },
+  {
+    "objectID": "slides.html#the-scale-problem-we-all-face",
+    "href": "slides.html#the-scale-problem-we-all-face",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The Scale Problem We All Face",
+    "text": "The Scale Problem We All Face\nThe literature explosion\n\nToo much to read, too little time\n\nYour reality\n\nDeep expertise, but finite time\nJob, family, life outside research\nCan’t read everything that looks relevant\n\n💬 Chat: Share one research task you find tedious"
+  },
+  {
+    "objectID": "slides.html#approach-to-ai",
+    "href": "slides.html#approach-to-ai",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Approach to AI",
+    "text": "Approach to AI\n\n\n❌ Avoiding\n\nReplacing your critical thinking\nTrusting AI without verification\n\nIgnoring bias and limitations\nDisplacing human expertise\n\n\n✅ Amplifying\n\nYour domain knowledge\nYour analytical capabilities\n\nYour research capacity\nYour time for deep thinking\n\n\nKey insight: AI handles routine so you focus on remarkable"
+  },
+  {
+    "objectID": "slides.html#mental-model-the-jagged-frontier",
+    "href": "slides.html#mental-model-the-jagged-frontier",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Mental Model: The “Jagged Frontier”",
+    "text": "Mental Model: The “Jagged Frontier”\n\nWhat is AI good at?Inside the frontier: AI excels\nOutside the frontier: AI struggles\nThe challenge: The boundary is invisible, unpredictable, and moving quickly"
+  },
+  {
+    "objectID": "slides.html#the-jagged-frontier-in-action",
+    "href": "slides.html#the-jagged-frontier-in-action",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The Jagged Frontier in Action",
+    "text": "The Jagged Frontier in Action\n\n\nSingle prompt: “Make a painting of a dumpster fire in the style of Monet”\n\n\n\nMade by ChatGPT in seconds\n\n\n\nOne hour of prompting: “Make a better jagged frontier visualization”\n\n\n\nNon-sensical output after countless attempts\n\n\n\nThis is the jagged frontier: Seemingly similar tasks with wildly different AI performance"
+  },
+  {
+    "objectID": "slides.html#understanding-the-frontier",
+    "href": "slides.html#understanding-the-frontier",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Understanding the Frontier",
+    "text": "Understanding the Frontier\n\n\nInside (AI excels)\n\nSummarizing complex texts\nPattern recognition across documents\nLanguage translation\nFirst-draft generation\nCode generation\nProcessing large volumes quickly\n\n\nOutside (AI struggles)\n\nUnderstanding implicit context\nGrasping unwritten assumptions\nMaking ethical judgments\nRecognizing what’s missing\nCultural and political subtext\n\n\nOnly YOU can find the “jagged frontier” for tasks that matter to you"
+  },
+  {
+    "objectID": "slides.html#the-collaborative-model",
+    "href": "slides.html#the-collaborative-model",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The Collaborative Model",
+    "text": "The Collaborative Model\nThink of LLMs as sophisticated research assistants with unique strengths and blind spots\n\n\nYour Unique Value\n\nDomain expertise & contextual understanding\nCritical analysis & theoretical frameworks\nEthical judgment & interpretation\nUnderstanding implicit meanings\n\n\nAI’s Unique Value\n\nProcessing large volumes quickly\nIdentifying patterns across documents\nGenerating first drafts\nHandling routine tasks\nProviding different perspectives\n\n\nThe goal: AI amplifies your expertise, doesn’t replace it"
+  },
+  {
+    "objectID": "slides.html#finding-your-frontier",
+    "href": "slides.html#finding-your-frontier",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Finding Your Frontier",
+    "text": "Finding Your Frontier\nHow to discover what works for your research:\n\n\nStart with your own work: Test AI on papers you know intimately\nBegin with low-stakes tasks: Where errors won’t matter much\nTest systematically: Try similar but different tasks to map boundaries\nStay updated: The frontier is expanding rapidly but unevenly\n\n\nKey principle: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?\nTry them with an LLM. Does it help or hinder?"
+  },
+  {
+    "objectID": "slides.html#democratizing-ambitious-research",
+    "href": "slides.html#democratizing-ambitious-research",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Democratizing Ambitious Research",
+    "text": "Democratizing Ambitious Research\nThe bigger picture: Tools that enable more researchers to tackle urgent questions at scale\n\n\nPreviously required: Large research grants, teams of research assistants, months of work\nNow possible: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams\nWhat this enables: More ambitious, policy-relevant research while maintaining academic rigor\nThe promise: Not replacing researchers, but enabling more transparent and impactful research\n\n\nWe face urgent policy challenges around climate finance, development effectiveness, and global economic transitions"
+  },
+  {
+    "objectID": "slides.html#key-takeaways-from-foundations",
+    "href": "slides.html#key-takeaways-from-foundations",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Key Takeaways from Foundations",
+    "text": "Key Takeaways from Foundations\n\n\nThe Challenge\n\nInformation overload in academic research\nLimited time for comprehensive literature review\nNeed for strategic filtering and prioritization\n\n\nYour Strategic Advantage\n\nUnderstanding the jagged frontier\nFinding your personal frontier through experimentation\nCollaborative approach: AI handles scale, you provide judgment\n\n\nNext: We’ll put this into practice with hands-on tools and techniques\n📖 Deep dive: Chapters 1.1-1.2 for detailed exploration of AI limitations and collaborative approaches"
+  },
+  {
+    "objectID": "slides.html#building-your-research-toolkit",
+    "href": "slides.html#building-your-research-toolkit",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Building Your Research Toolkit",
+    "text": "Building Your Research Toolkit\nWhat we’re building: Three hands-on tools you can use immediately\n[Continue with practical applications…]"
+  }
+]
