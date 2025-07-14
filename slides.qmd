@@ -1,0 +1,250 @@
+---
+title: "AI for the Skeptical Scholar"
+subtitle: "Practical Strategies for Using LLMs in Research"
+author: "Teal Emery"
+date: "July 15, 2025"
+format:
+  revealjs:
+    theme: white
+    incremental: true
+    slide-number: true
+    footer: "SOAS Faculty Workshop • Detailed Guide: teal-insights.github.io/soas_llm_training"
+    css: teal-theme.css
+    logo: images/teal_insights_logo_small.png
+---
+
+# AI for the Skeptical Scholar {background-color="#1e4a5f"}
+
+## Practical Strategies for Using LLMs in Research
+
+**Teal Emery**  
+July 15, 2025 • SOAS Faculty Workshop
+
+---
+
+## About Your Instructor {background-color="#f8f9fa"}
+
+**Teal Emery** | Founder, Teal Insights
+
+::: {.columns}
+::: {.column width="60%"}
+- Research consultant: sovereign debt & emerging markets
+- Former Morgan Stanley sovereign analyst (7 years)  
+- Current: AidData Research Consultant, Energy for Growth Hub Fellow
+- Adjunct Lecturer: Johns Hopkins SAIS
+- **Recent AI work**: Classified 18,000 Chinese lending projects in 15 hours
+:::
+
+::: {.column width="40%"}
+![](images/teal_insights_logo.png){width="400px"}
+:::
+:::
+
+**Philosophy**: Build in the open, guided by expertise
+
+---
+
+## Who You Are {background-color="#f8f9fa"}
+
+**SOAS Development Studies Faculty & Researchers**
+
+::: {.incremental}
+- **Deep regional expertise**: Africa, Asia, Middle East, Latin America
+- **Mixed-methods researchers**: Qualitative fieldwork + quantitative analysis  
+- **Critical scholars**: Question power structures and dominant paradigms
+- **Multilingual**: Work with messy, incomplete field data
+- **Skeptical but curious**: About technology's promises and limitations
+:::
+
+**Your expertise is exactly what makes AI useful**
+
+---
+
+## What You'll Leave With Today {.center background-color="#4a90b8"}
+
+### Three Practical Tools
+
+::: {.nonincremental}
+1. **A mental model** for when AI helps vs. hurts your research
+2. **Working prompts and systems** you can use immediately  
+3. **Validation strategies** to maintain research integrity
+:::
+
+**Not theory. Not hype. Tools you can use tomorrow.**
+
+---
+
+## Our "Flipped" Approach {background-color="#e8f4f8"}
+
+::: {.columns}
+::: {.column width="50%"}
+**Live Session**
+- Practice & discussion
+- Hands-on activities
+- Problem-solving together
+- Learning from each other
+:::
+
+::: {.column width="50%"}
+**Your Reference Book**
+- Detailed explanations
+- Troubleshooting guides
+- Extended examples
+- Technical specifications
+:::
+:::
+
+**All details at**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
+
+---
+
+## Our Journey Together {background-color="#f8f9fa"}
+
+### Chapter 1: Why This Matters *(10 min + Activity)*{.text-blue}
+Understanding the research reality & creating your professional context
+
+### Chapter 2: The Mental Model *(20 min + Activity)*{.text-blue}  
+The "jagged frontier" & better prompting techniques
+
+### Chapter 3: Your Research Toolkit *(45 min + Activity)*{.text-blue}
+Building Gems & enhancing literature reviews
+
+### Chapter 4: Real-World Impact *(30 min)*{.text-blue}
+Case study & validation strategies
+
+### Wrap-Up: Your Next Steps *(15 min)*{.text-blue}
+
+---
+
+# Chapter 1: Why This Matters {background-color="#1e4a5f"}
+
+## The Research Reality & Your Professional Context
+
+**What we're building**: Your personalized AI research assistant foundation
+
+---
+
+## The Scale Problem We All Face {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="60%"}
+**The literature explosion**
+- 2.5 million papers published annually
+- Growing 4% per year
+- Even narrow subfields: overwhelming
+
+**Your reality**
+- Deep expertise, but finite time
+- Job, family, life outside research
+- Can't read everything that looks relevant
+:::
+
+::: {.column width="40%"}
+![Research Papers](images/literature_explosion.png){fig-alt="Graph showing exponential growth in academic publications"}
+:::
+:::
+
+**Live demo**: *Watch me process 3 papers in 2 minutes*
+
+---
+
+## What We're NOT Doing {background-color="#fff3cd"}
+
+::: {.columns}
+::: {.column width="50%"}
+### ❌ Avoiding
+- Replacing your critical thinking
+- Trusting AI without verification  
+- Ignoring bias and limitations
+- Displacing human expertise
+:::
+
+::: {.column width="50%"}
+### ✅ Amplifying
+- Your domain knowledge
+- Your analytical capabilities  
+- Your research capacity
+- Your time for deep thinking
+:::
+:::
+
+**Key insight**: AI handles routine so you focus on remarkable
+
+---
+
+## 🔧 Activity 1: Create Your Professional Context
+
+### ⏱️ 8 minutes
+
+::: {.nonincremental}
+**Your task:**
+1. Open Gemini (or your preferred AI tool)
+2. Use the template below to create your research context
+3. Test it: "What are 3 research questions building on my current work?"
+4. **Share in chat**: One interesting suggestion it gave you
+:::
+
+**📖 Detailed instructions**: Chapter 2.1 in your reference book
+
+---
+
+## Your Professional Context Template {background-color="#e8f4f8"}
+
+```markdown
+I'm [your name], a researcher specializing in [your areas]. 
+
+My current focus includes [your projects/interests].
+
+I typically write for [your audience] and value 
+[your communication preferences].
+
+Given my background, [ask your question here]
+```
+
+**Copy this, fill in your details, then test it!**
+
+---
+
+## What You Just Built ✅ {background-color="#d4edda"}
+
+::: {.incremental}
+- **Foundation**: Professional context for all future AI interactions
+- **Discovery**: How context transforms AI response quality  
+- **Insight**: Your expertise guides better AI outputs
+:::
+
+**Next**: We'll use this context to understand when AI helps vs. hurts
+
+**💬 Chat check**: What surprised you about the difference context made?
+
+---
+
+## Key Takeaways from Chapter 1 {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="50%"}
+**The Challenge**
+- Information overload
+- Limited time and attention
+- Need for strategic filtering
+:::
+
+::: {.column width="50%"}
+**Your Solution**
+- Professional context as foundation
+- AI amplifies your expertise
+- Strategic collaboration, not replacement
+:::
+:::
+
+**📖 Chapter 1.1-1.2**: Deep dive on AI limitations and collaborative approaches
+
+---
+
+# Chapter 2: The Mental Model {background-color="#1e4a5f"}
+
+## Understanding the "Jagged Frontier"
+
+**What we're building**: Framework for strategic AI use
+
+*[Continue with Chapter 2 content...]*
