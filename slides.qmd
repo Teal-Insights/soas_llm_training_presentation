@@ -252,19 +252,16 @@ Action planning & Q&A
 ::: {.column width="50%"}
 **Inside (AI excels)**
 
-- Summarizing complex texts
+- Summarizing complex texts quickly
 - Pattern recognition across documents
-- Language translation
 - First-draft generation
 - Code generation
-- Processing large volumes quickly
 :::
 
 ::: {.column width="50%"}
 **Outside (AI struggles)**  
 
 - Understanding implicit context
-- Grasping unwritten assumptions
 - Making ethical judgments
 - Recognizing what's missing
 - Cultural and political subtext
@@ -286,14 +283,12 @@ Action planning & Q&A
 - Domain expertise & contextual understanding
 - Critical analysis & theoretical frameworks
 - Ethical judgment & interpretation
-- Understanding implicit meanings
 :::
 
 ::: {.column width="50%"}
 **AI's Unique Value**
 
 - Processing large volumes quickly
-- Identifying patterns across documents
 - Generating first drafts
 - Handling routine tasks
 - Providing different perspectives
