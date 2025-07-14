@@ -368,6 +368,83 @@
     "href": "slides.html#what-youve-built-now",
     "title": "AI for the Skeptical Scholar",
     "section": "What You’ve Built Now",
-    "text": "What You’ve Built Now\n\n\nTool 3: Literature Enhancement Workflow\n\nStructured approach to paper processing\nCross-disciplinary translation capabilities\nTime-saving while maintaining quality\n\n\nTool 4: Literature Review Gem\n\nReusable specialist assistant\nConsistent high-quality analysis\nSaves your refined approach\n\n\nNext: Brief overview of advanced tools and scaling possibilities"
+    "text": "What You’ve Built Now\n\n\nTool 3: Literature Enhancement Workflow\n\nStructured approach to paper processing\nCross-disciplinary translation capabilities\nTime-saving while maintaining quality\n\n\nTool 4: Literature Review Gem\n\nReusable specialist assistant\nConsistent high-quality analysis\nSaves your refined approach\n\n\nNext: Advanced tools and coding assistance"
+  },
+  {
+    "objectID": "slides.html#advanced-tools-beyond-basic-chat",
+    "href": "slides.html#advanced-tools-beyond-basic-chat",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Advanced Tools: Beyond Basic Chat",
+    "text": "Advanced Tools: Beyond Basic Chat\nFor when you need to analyze large document collections:\n\n\nNotebookLM\n\nUpload up to 300 documents\nAsk questions across entire corpus\nExact citations to source material\nPerfect for exploratory analysis\n\n\nDeep Research Tools\n\nAI conducts 15-20 minute research projects\nProduces detailed 15-30 page reports\nAvailable in ChatGPT, Claude, Perplexity\nGood for initial topic exploration\n\n\n📖 Detailed guide: Chapter 7 for advanced tools"
+  },
+  {
+    "objectID": "slides.html#notebooklm-in-action",
+    "href": "slides.html#notebooklm-in-action",
+    "title": "AI for the Skeptical Scholar",
+    "section": "NotebookLM in Action",
+    "text": "NotebookLM in Action\n\n\n\n\n\nNotebookLM analyzing Chinese policy bank annual reports\n\n\n\nReal example:\n\nFinancial analysis revealed China ExIM losses in 2017\nAsked: “What caused the losses?”\nFound exchange rate explanation with exact citations\n\n\nKey insight: Use for exploration, verify with original sources"
+  },
+  {
+    "objectID": "slides.html#deep-research-reality-check",
+    "href": "slides.html#deep-research-reality-check",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Deep Research Reality Check",
+    "text": "Deep Research Reality Check\nWhat they do well:\n\nComprehensive coverage of complex topics\nSynthesis across multiple sources\nQuality equivalent to skilled research assistant after a week\n\nImportant limitations:\n\nCan be confidently wrong about specific facts\nLimited access to academic databases\nMay miss recent developments\nAlways verify important claims\n\nBest approach: Use for initial exploration, follow up with domain expertise"
+  },
+  {
+    "objectID": "slides.html#coding-assistance-the-bigger-opportunity",
+    "href": "slides.html#coding-assistance-the-bigger-opportunity",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Coding Assistance: The Bigger Opportunity",
+    "text": "Coding Assistance: The Bigger Opportunity\nMany researchers work with data analysis code:\n\n\nR, Python, Stata, SPSS, MATLAB\nWhether you code yourself or supervise others\nWish you could move from Excel to more reproducible workflows\nFace time-consuming debugging and learning curves\n\n\nAI coding assistance can dramatically reduce time on routine tasks"
+  },
+  {
+    "objectID": "slides.html#the-coding-jagged-frontier",
+    "href": "slides.html#the-coding-jagged-frontier",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The Coding Jagged Frontier",
+    "text": "The Coding Jagged Frontier\n\n\nInside (AI excels)\n\nStandard data manipulation\nStatistical analysis code\nExplaining existing code\nGenerating documentation\nDebugging common errors\nTranslating between languages\n\n\nOutside (AI struggles)\n\nYour specific research context\nDomain-specific packages\nComplex multi-step analyses\nPerformance optimization\nStatistical method selection\n\n\nThe key: AI handles syntax, you provide the research logic"
+  },
+  {
+    "objectID": "slides.html#the-vibe-coding-problem",
+    "href": "slides.html#the-vibe-coding-problem",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The “Vibe Coding” Problem",
+    "text": "The “Vibe Coding” Problem\nWhat is “vibe coding”?\nAI generates code that looks professional and runs without errors, but:\n\n\nProduces incorrect results\nUses functions that don’t exist\nMixes syntax from different languages\nWorks for simple cases but fails with real data\n\n\nThe 0-to-90% problem: AI quickly gets you 90% there, then you spend hours debugging the remaining 10%"
+  },
+  {
+    "objectID": "slides.html#best-practices-for-research-coding",
+    "href": "slides.html#best-practices-for-research-coding",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Best Practices for Research Coding",
+    "text": "Best Practices for Research Coding\nStrategic approach:\n\n\nUse most advanced models - Pay for premium access ($20/month is worth it)\nStart with your own expertise - Test AI on code you know well\nProvide complete context - Include data structure, expected outputs, error messages\nBreak complex tasks into steps - Don’t ask for entire analysis at once\nAlways validate outputs - Check results against known answers\n\n\n📖 Comprehensive guide: Chapter 8 for coding best practices"
+  },
+  {
+    "objectID": "slides.html#r-tidyverse-example",
+    "href": "slides.html#r-tidyverse-example",
+    "title": "AI for the Skeptical Scholar",
+    "section": "R Tidyverse Example",
+    "text": "R Tidyverse Example\nPrompt for data analysis:\nI'm analyzing survey data on household income and education. \nI have columns: household_id, income, education, region, year.\n\nUsing R tidyverse style with the base R pipe |&gt;, help me:\n1. Calculate median income by region and education level\n2. Create a summary table showing trends over time\n3. Generate a clean visualization for publication\n\nPlease include comments and use the tidyverse style guide.\nResult: AI generates clean, documented code following your preferences"
+  },
+  {
+    "objectID": "slides.html#when-ai-coding-shines",
+    "href": "slides.html#when-ai-coding-shines",
+    "title": "AI for the Skeptical Scholar",
+    "section": "When AI Coding Shines",
+    "text": "When AI Coding Shines\nDramatic speed improvements for:\n\n\nRoutine Tasks\n\nData cleaning and transformation\nStandard statistical analyses\nCreating visualizations\nWriting documentation\n\n\nLearning Acceleration\n\nExplaining unfamiliar code\nBridging between languages\nDiscovering best practices\nUnderstanding error messages\n\n\nReal value: Frees you from syntax struggles to focus on research questions"
+  },
+  {
+    "objectID": "slides.html#moving-beyond-web-interfaces",
+    "href": "slides.html#moving-beyond-web-interfaces",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Moving Beyond Web Interfaces",
+    "text": "Moving Beyond Web Interfaces\nAdvanced coding environments:\n\n\nCursor IDE\n\nAI-native code editor\nUnderstands entire project context\nEdits code in place\nRuns and iterates based on results\n\n\nGitHub Copilot\n\nAutocomplete suggestions\nWorks in existing IDEs\nLearns from your coding patterns\nIntegrates with development workflow\n\n\nWhen you’re ready: These tools enable more sophisticated AI-assisted development"
+  },
+  {
+    "objectID": "slides.html#validation-strategies-for-ai-code",
+    "href": "slides.html#validation-strategies-for-ai-code",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Validation Strategies for AI Code",
+    "text": "Validation Strategies for AI Code\nEssential practices:\n\n\nTest with known data - Use datasets where you know expected results\nStart small - Test functions with simple examples first\nManual verification - Check AI calculations against hand calculations\nCross-platform validation - Compare results across different tools\nPeer review - Have colleagues examine AI-generated code\n\n\nRemember: AI is a coding co-pilot, not an autopilot"
   }
 ]

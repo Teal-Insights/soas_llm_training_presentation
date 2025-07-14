@@ -964,4 +964,239 @@ find research gaps, and synthesize findings.
 :::
 :::
 
-**Next**: Brief overview of advanced tools and scaling possibilities
+**Next**: Advanced tools and coding assistance
+
+---
+
+## Advanced Tools: Beyond Basic Chat {background-color="#f8f9fa"}
+
+**For when you need to analyze large document collections:**
+
+::: {.columns}
+::: {.column width="50%"}
+**NotebookLM**
+
+- Upload up to 300 documents
+- Ask questions across entire corpus
+- Exact citations to source material
+- Perfect for exploratory analysis
+:::
+
+::: {.column width="50%"}
+**Deep Research Tools**
+
+- AI conducts 15-20 minute research projects
+- Produces detailed 15-30 page reports
+- Available in ChatGPT, Claude, Perplexity
+- Good for initial topic exploration
+:::
+:::
+
+**📖 Detailed guide**: Chapter 7 for advanced tools
+
+---
+
+## NotebookLM in Action {background-color="#e8f4f8"}
+
+::: {.columns}
+::: {.column width="60%"}
+![NotebookLM analyzing Chinese policy bank annual reports](images/notebooklm.png){width="100%"}
+:::
+
+::: {.column width="40%"}
+**Real example:**
+
+- Financial analysis revealed China ExIM losses in 2017
+- Asked: "What caused the losses?"
+- Found exchange rate explanation with exact citations
+:::
+:::
+
+**Key insight**: Use for exploration, verify with original sources
+---
+
+## Deep Research Reality Check {background-color="#fff3cd"}
+
+**What they do well:**
+
+- Comprehensive coverage of complex topics
+- Synthesis across multiple sources
+- Quality equivalent to skilled research assistant after a week
+
+**Important limitations:**
+
+- Can be confidently wrong about specific facts
+- Limited access to academic databases
+- May miss recent developments
+- Always verify important claims
+
+**Best approach**: Use for initial exploration, follow up with domain expertise
+
+---
+
+## Coding Assistance: The Bigger Opportunity {background-color="#f8f9fa"}
+
+**Many researchers work with data analysis code:**
+
+::: {.incremental}
+- R, Python, Stata, SPSS, MATLAB
+- Whether you code yourself or supervise others
+- Wish you could move from Excel to more reproducible workflows
+- Face time-consuming debugging and learning curves
+:::
+
+**AI coding assistance can dramatically reduce time on routine tasks**
+
+---
+
+## The Coding Jagged Frontier {background-color="#e8f4f8"}
+
+::: {.columns}
+::: {.column width="50%"}
+**Inside (AI excels)**
+
+- Standard data manipulation
+- Statistical analysis code
+- Explaining existing code
+- Generating documentation
+- Debugging common errors
+- Translating between languages
+:::
+
+::: {.column width="50%"}
+**Outside (AI struggles)**
+
+- Your specific research context
+- Domain-specific packages
+- Complex multi-step analyses
+- Performance optimization
+- Statistical method selection
+:::
+:::
+
+**The key**: AI handles syntax, you provide the research logic
+
+---
+
+## The "Vibe Coding" Problem {background-color="#fff3cd"}
+
+**What is "vibe coding"?**
+
+AI generates code that *looks* professional and runs without errors, but:
+
+::: {.incremental}
+- Produces incorrect results
+- Uses functions that don't exist
+- Mixes syntax from different languages
+- Works for simple cases but fails with real data
+:::
+
+**The 0-to-90% problem**: AI quickly gets you 90% there, then you spend hours debugging the remaining 10%
+
+---
+
+## Best Practices for Research Coding {background-color="#f8f9fa"}
+
+**Strategic approach:**
+
+::: {.incremental}
+1. **Use most advanced models** - Pay for premium access ($20/month is worth it)
+2. **Start with your own expertise** - Test AI on code you know well
+3. **Provide complete context** - Include data structure, expected outputs, error messages
+4. **Break complex tasks into steps** - Don't ask for entire analysis at once
+5. **Always validate outputs** - Check results against known answers
+:::
+
+**📖 Comprehensive guide**: Chapter 8 for coding best practices
+
+---
+
+## R Tidyverse Example {background-color="#e8f4f8"}
+
+**Prompt for data analysis:**
+
+```markdown
+I'm analyzing survey data on household income and education. 
+I have columns: household_id, income, education, region, year.
+
+Using R tidyverse style with the base R pipe |>, help me:
+1. Calculate median income by region and education level
+2. Create a summary table showing trends over time
+3. Generate a clean visualization for publication
+
+Please include comments and use the tidyverse style guide.
+```
+
+**Result**: AI generates clean, documented code following your preferences
+
+---
+
+## When AI Coding Shines {background-color="#f8f9fa"}
+
+**Dramatic speed improvements for:**
+
+::: {.columns}
+::: {.column width="50%"}
+**Routine Tasks**
+
+- Data cleaning and transformation
+- Standard statistical analyses
+- Creating visualizations
+- Writing documentation
+:::
+
+::: {.column width="50%"}
+**Learning Acceleration**
+
+- Explaining unfamiliar code
+- Bridging between languages
+- Discovering best practices
+- Understanding error messages
+:::
+:::
+
+**Real value**: Frees you from syntax struggles to focus on research questions
+
+---
+
+## Moving Beyond Web Interfaces {background-color="#e8f4f8"}
+
+**Advanced coding environments:**
+
+::: {.columns}
+::: {.column width="50%"}
+**Cursor IDE**
+
+- AI-native code editor
+- Understands entire project context
+- Edits code in place
+- Runs and iterates based on results
+:::
+
+::: {.column width="50%"}
+**GitHub Copilot**
+
+- Autocomplete suggestions
+- Works in existing IDEs
+- Learns from your coding patterns
+- Integrates with development workflow
+:::
+:::
+
+**When you're ready**: These tools enable more sophisticated AI-assisted development
+
+---
+
+## Validation Strategies for AI Code {background-color="#fff3cd"}
+
+**Essential practices:**
+
+::: {.incremental}
+1. **Test with known data** - Use datasets where you know expected results
+2. **Start small** - Test functions with simple examples first
+3. **Manual verification** - Check AI calculations against hand calculations
+4. **Cross-platform validation** - Compare results across different tools
+5. **Peer review** - Have colleagues examine AI-generated code
+:::
+
+**Remember**: AI is a coding co-pilot, not an autopilot
