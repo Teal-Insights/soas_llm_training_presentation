@@ -95,7 +95,7 @@
     "href": "slides.html#mental-model-the-jagged-frontier",
     "title": "AI for the Skeptical Scholar",
     "section": "Mental Model: The “Jagged Frontier”",
-    "text": "Mental Model: The “Jagged Frontier”\n\nWhat is AI good at?Inside the frontier: AI excels\nOutside the frontier: AI struggles\nThe challenge: The boundary is invisible, unpredictable, and moving quickly"
+    "text": "Mental Model: The “Jagged Frontier”\n\nWhat is AI good at?From Dell’Acqua et al 2023\nInside the frontier: AI excels\nOutside the frontier: AI struggles\nThe challenge: The boundary is invisible, unpredictable, and moving quickly"
   },
   {
     "objectID": "slides.html#the-jagged-frontier-in-action",
@@ -126,24 +126,38 @@
     "text": "Finding Your Frontier\nHow to discover what works for your research:\n\n\nStart with your own work: Test AI on papers you know intimately\nBegin with low-stakes tasks: Where errors won’t matter much\nTest systematically: Try similar but different tasks to map boundaries\nStay updated: The frontier is expanding rapidly but unevenly\n\n\nKey principle: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?\nTry them with an LLM. Does it help or hinder?"
   },
   {
-    "objectID": "slides.html#democratizing-ambitious-research",
-    "href": "slides.html#democratizing-ambitious-research",
+    "objectID": "slides.html#why-this-matters-democratizing-ambitious-research",
+    "href": "slides.html#why-this-matters-democratizing-ambitious-research",
     "title": "AI for the Skeptical Scholar",
-    "section": "Democratizing Ambitious Research",
-    "text": "Democratizing Ambitious Research\nThe bigger picture: Tools that enable more researchers to tackle urgent questions at scale\n\n\nPreviously required: Large research grants, teams of research assistants, months of work\nNow possible: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams\nWhat this enables: More ambitious, policy-relevant research while maintaining academic rigor\nThe promise: Not replacing researchers, but enabling more transparent and impactful research\n\n\nWe face urgent policy challenges around climate finance, development effectiveness, and global economic transitions"
+    "section": "Why This Matters: Democratizing Ambitious Research",
+    "text": "Why This Matters: Democratizing Ambitious Research\nThe bigger picture: Tools that enable more researchers to tackle urgent questions at scale\n\n\nPreviously required: Large research grants, teams of research assistants, months of work\nNow possible: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams\nWhat this enables: More ambitious, policy-relevant research while maintaining academic rigor\nThe promise: Not replacing researchers, but enabling more transparent and impactful research\n\n\nWe face urgent policy challenges around climate finance, development effectiveness, and global economic transitions"
+  },
+  {
+    "objectID": "slides.html#two-ways-to-use-ai",
+    "href": "slides.html#two-ways-to-use-ai",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Two Ways to Use AI",
+    "text": "Two Ways to Use AI\n\n\nWeb Interfaces (Our Focus)\n\nType questions, get answers\nNo coding required\nBest for: Individual papers, exploration\n\n\nAPIs (Advanced)\n\nRequires coding skills\nProcess thousands automatically\nBest for: Large-scale projects\n\n\nFor most researchers starting with LLMs: Web interfaces are the better choice"
+  },
+  {
+    "objectID": "slides.html#the-big-three-ai-providers",
+    "href": "slides.html#the-big-three-ai-providers",
+    "title": "AI for the Skeptical Scholar",
+    "section": "The Big Three AI Providers",
+    "text": "The Big Three AI Providers\n\n\nOpenAI (ChatGPT): Deep Research tool, strong reasoning\nAnthropic (Claude): Excellent for coding, high-quality writing\n\nGoogle (Gemini): Massive context window, built-in citations\nReality check: I pay for all three (~$20/month each). Each has unique strengths.\nThis landscape changes rapidly - what’s best today may not be tomorrow"
+  },
+  {
+    "objectID": "slides.html#why-gemini-for-today",
+    "href": "slides.html#why-gemini-for-today",
+    "title": "AI for the Skeptical Scholar",
+    "section": "Why Gemini for Today",
+    "text": "Why Gemini for Today\nContext Window: How much text AI can process at once\n\n\nGemini: ~750,000 words (10-15 academic papers)\nOthers: ~150,000 words (2-3 papers)\nBuilt-in citations: Automatic source references\nPerfect for: Academic workflows with large documents\n\n\nWe’ll explore other tools briefly, but Gemini is our main focus"
   },
   {
     "objectID": "slides.html#key-takeaways-from-foundations",
     "href": "slides.html#key-takeaways-from-foundations",
     "title": "AI for the Skeptical Scholar",
     "section": "Key Takeaways from Foundations",
-    "text": "Key Takeaways from Foundations\n\n\nThe Challenge\n\nInformation overload in academic research\nLimited time for comprehensive literature review\nNeed for strategic filtering and prioritization\n\n\nYour Strategic Advantage\n\nUnderstanding the jagged frontier\nFinding your personal frontier through experimentation\nCollaborative approach: AI handles scale, you provide judgment\n\n\nNext: We’ll put this into practice with hands-on tools and techniques\n📖 Deep dive: Chapters 1.1-1.2 for detailed exploration of AI limitations and collaborative approaches"
-  },
-  {
-    "objectID": "slides.html#building-your-research-toolkit",
-    "href": "slides.html#building-your-research-toolkit",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Building Your Research Toolkit",
-    "text": "Building Your Research Toolkit\nWhat we’re building: Three hands-on tools you can use immediately\n[Continue with practical applications…]"
+    "text": "Key Takeaways from Foundations\n\n\nThe Challenge\n\nInformation overload in academic research\nLimited time for comprehensive literature review\nNeed for strategic filtering and prioritization\n\n\nYour Strategic Advantage\n\nUnderstanding the jagged frontier\nCollaborative approach: AI handles scale, you provide judgment\nTool selection based on your specific needs\n\n\nNext: We’ll put this into practice with hands-on tools and techniques"
   }
 ]

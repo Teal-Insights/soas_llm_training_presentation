@@ -220,9 +220,13 @@ Action planning & Q&A
 
 ![What is AI good at?](images/jagged_frontier.png){fig-alt="Detailed frontier diagram showing task categories"}
 
+From [Dell'Acqua et al 2023](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321)
+
 **Inside the frontier**: AI excels  
 **Outside the frontier**: AI struggles  
 **The challenge**: The boundary is invisible, unpredictable, and moving quickly
+
+
 
 ---
 
@@ -316,7 +320,7 @@ Try them with an LLM. Does it help or hinder?
 
 ---
 
-## Democratizing Ambitious Research {background-color="#e8f4f8"}
+## Why This Matters: Democratizing Ambitious Research {background-color="#e8f4f8"}
 
 **The bigger picture**: Tools that enable more researchers to tackle urgent questions at scale
 
@@ -328,6 +332,56 @@ Try them with an LLM. Does it help or hinder?
 :::
 
 We face urgent policy challenges around climate finance, development effectiveness, and global economic transitions
+
+---
+
+## Two Ways to Use AI {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="50%"}
+**Web Interfaces** *(Our Focus)*
+
+- Type questions, get answers
+- No coding required
+- **Best for**: Individual papers, exploration
+:::
+
+::: {.column width="50%"}
+**APIs** *(Advanced)*
+
+- Requires coding skills
+- Process thousands automatically
+- **Best for**: Large-scale projects
+:::
+:::
+
+**For most researchers starting with LLMs**: Web interfaces are the better choice
+
+---
+
+## The Big Three AI Providers {background-color="#f8f9fa"}
+
+::: {.incremental}
+- **OpenAI (ChatGPT)**: Deep Research tool, strong reasoning
+- **Anthropic (Claude)**: Excellent for coding, high-quality writing  
+- **Google (Gemini)**: Massive context window, built-in citations
+- **Reality check**: I pay for all three (~$20/month each). Each has unique strengths.
+- **This landscape changes rapidly** - what's best today may not be tomorrow
+:::
+---
+
+## Why Gemini for Today {background-color="#e8f4f8"}
+
+**Context Window**: How much text AI can process at once
+
+::: {.incremental}
+- **Gemini**: ~750,000 words (10-15 academic papers)
+- **Others**: ~150,000 words (2-3 papers)
+- **Built-in citations**: Automatic source references
+- **Perfect for**: Academic workflows with large documents
+:::
+
+**We'll explore other tools briefly, but Gemini is our main focus**
 
 ---
 
@@ -346,21 +400,9 @@ We face urgent policy challenges around climate finance, development effectivene
 **Your Strategic Advantage**
 
 - Understanding the jagged frontier
-- Finding your personal frontier through experimentation
 - Collaborative approach: AI handles scale, you provide judgment
+- Tool selection based on your specific needs
 :::
 :::
 
 **Next**: We'll put this into practice with hands-on tools and techniques
-
-**📖 Deep dive**: Chapters 1.1-1.2 for detailed exploration of AI limitations and collaborative approaches
-
----
-
-# Part 2: Practical Applications {background-color="#1e4a5f"}
-
-## Building Your Research Toolkit
-
-**What we're building**: Three hands-on tools you can use immediately
-
-*[Continue with practical applications...]*
