@@ -1200,3 +1200,153 @@ Please include comments and use the tidyverse style guide.
 :::
 
 **Remember**: AI is a coding co-pilot, not an autopilot
+
+# Part 3: Advanced Possibilities {background-color="#1e4a5f"}
+
+## Scaling Up with a Real‑World Case Study
+
+---
+
+## Where We Are & What’s Next {background-color="#f8f9fa"}
+
+::: {.columns}
+::: {.column width="50%"}
+### Foundations ✔️  
+- Mental model → *the jagged frontier*  
+- How to choose & pay for LLM tools  
+- Validation mind‑set  
+:::
+
+::: {.column width="50%"}
+### Practical Tools ✔️  
+1. Prompt engineering & context  
+2. **Gems / custom assistants**  
+3. Two “low‑hanging fruit” inside the frontier  
+   - Text summarisation  
+   - Coding assistance  
+:::
+:::
+
+<div class="key-insight">Now: what happens when we aim <em>beyond</em> low‑hanging fruit?</div>
+
+---
+
+## Why a Case Study? {background-color="#e8f4f8"}
+
+- Shows the **full pipeline** from idea → validation → policy insight  
+- Demonstrates how two researchers **beat a 1,500‑hour task in 15 hours**  
+- Highlights **pitfalls you’ll face** (content moderation, hallucinations, drift)  
+- Offers a **template you can reuse** even if you can’t code (yet)
+
+---
+
+## The Policy Challenge {background-color="#f8f9fa"}
+
+**Question:** *Is China really financing a green energy transition overseas, or is the rhetoric ahead of reality?*  
+
+- 18 000 overseas projects (AidData GCDF 3.0)  
+- Needed four categories: 🟢 Green&nbsp;&nbsp;🟫 Brown&nbsp;&nbsp;🔘 Grey&nbsp;&nbsp;⚪ Neutral  
+- Traditional manual coding: **~1 500 hours & \$22 500**  
+- LLM approach: **15 hours & \$1.58**
+
+---
+
+## Context Beats Keywords {background-color="#f8f9fa"}
+
+> “Development of a 500 MW solar plant with back‑up diesel generator”
+
+- Keyword search → “diesel” ⇒ *Brown* (**wrong**)  
+- LLM reads full description → understands primary purpose ⇒ *Green* (**right**)  
+
+<div class="callout-box">LLMs provide the <strong>contextual reasoning</strong> keyword filters lack.</div>
+
+---
+
+## Our Five‑Phase Build‑Measure‑Learn Cycle {background-color="#e8f4f8"}
+
+1. **Prototype (10 examples)** – sanity‑check categories  
+2. **Edge‑case refinement (≈30)** – mixed projects, transmission lines  
+3. **Infrastructure test (100)** – API calls, JSON schema, retries  
+4. **Validation design (300)** – humans vs. three frontier models  
+5. **Full run (18 000)** – DeepSeek v3 @ 91.8 % agreement
+
+*Catch problems small; scale only when confident.*
+
+---
+
+## Validation Snapshot {background-color="#f8f9fa"}
+
+![Pair‑wise agreement between LLMs](images/llm_agreement_analysis.png){width="550px"}
+
+- Highest concordance on **Green** & **Neutral**  
+- **Multiple models + human spot‑checks** ≥ single “gold standard”  
+- Confidence scores from the model were **predictive of disagreement**
+
+---
+
+## Debugging the *“Content Exists Risk”* Error {background-color="#fff3cd"}
+
+56 stubborn failures → turned out to reference **politically sensitive names**  
+(Bo Xilai, Peng Liyuan, Zhang Gaoli).  
+
+**Fix:** simple find‑replace → “a Chinese official” → pipeline resumed.  
+
+👉 Lesson: add **robust error handling** & expect non‑technical failures.
+
+---
+
+## Key Findings (2010‑2021) {background-color="#f8f9fa"}
+
+![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png){width="550px"}
+
+- Only **5.8 %** of lending was 🟢 green; dominated by large hydro & nuclear  
+- No evidence of a **“green surge”** despite BRI rhetoric  
+- Co‑financing networks for green vs. brown projects are **bifurcated**  
+
+Policy takeaway: **structural, not rhetorical, barriers** block large‑scale green finance.
+
+---
+
+## Big Ideas to Steal {background-color="#e8f4f8"}
+
+1. **Iterate small → scale big** – catch costly mistakes early.  
+2. **Structured outputs** (JSON) = machine‑readable & verifiable.  
+3. **Self‑reported confidence** is a free triage tool.  
+4. **Two‑layer validation** (model‑vs‑model *and* model‑vs‑human).  
+5. **Transparency wins** – repo + appendix enable peer scrutiny & reuse.
+
+---
+
+## Democratising Ambitious Research {background-color="#f8f9fa"}
+
+LLMs move projects from “requires a grant + 5 RAs” → “two researchers & a weekend.”  
+- **Consistency at scale** > spot‑on accuracy in a small sample  
+- Frees humans for theory, context & ethics  
+- Still demands *your* critical judgment, documentation & validation
+
+---
+
+## Conclusion & Next Steps {background-color="#d4edda"}
+
+**Key Takeaways**
+
+- **Mental model** of the jagged frontier guides tool choice  
+- **Prompt + Gem + Validation** = core skill‑set for any researcher  
+- **LLMs amplify, not replace** your expertise  
+
+**Your Homework**
+
+1. Identify **one repetitive classification task** in your work.  
+2. Prototype with **10 examples** & a structured prompt.  
+3. Design a **light‑weight validation** (model‑vs‑you).  
+4. Share results with the group – we’re building best practices together.
+
+---
+
+## Thank You! {background-color="#1e4a5f" .center}
+
+**Questions?**  
+*Slides & detailed guide:*  
+<https://teal‑insights.github.io/soas_llm_training>
+
+---

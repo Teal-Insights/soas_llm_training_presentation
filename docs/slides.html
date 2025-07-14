@@ -1225,6 +1225,182 @@ July 15, 2025 • SOAS Faculty Workshop</p>
 </ol>
 </div>
 <p><strong>Remember</strong>: AI is a coding co-pilot, not an autopilot</p>
+</section></section>
+<section>
+<section id="part-3-advanced-possibilities" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 3: Advanced Possibilities</h1>
+
+</section>
+<section id="scaling-up-with-a-realworld-case-study" class="slide level2">
+<h2>Scaling Up with a Real‑World Case Study</h2>
+</section>
+<section id="where-we-are-whats-next" class="slide level2" data-background-color="#f8f9fa">
+<h2>Where We Are &amp; What’s Next</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="foundations">Foundations ✔️</h3>
+<ul>
+<li class="fragment">Mental model → <em>the jagged frontier</em><br>
+</li>
+<li class="fragment">How to choose &amp; pay for LLM tools<br>
+</li>
+<li class="fragment">Validation mind‑set<br>
+</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="practical-tools">Practical Tools ✔️</h3>
+<ol type="1">
+<li class="fragment">Prompt engineering &amp; context<br>
+</li>
+<li class="fragment"><strong>Gems / custom assistants</strong><br>
+</li>
+<li class="fragment">Two “low‑hanging fruit” inside the frontier
+<ul>
+<li class="fragment">Text summarisation<br>
+</li>
+<li class="fragment">Coding assistance<br>
+</li>
+</ul></li>
+</ol>
+</div></div>
+<div class="key-insight">
+Now: what happens when we aim <em>beyond</em> low‑hanging fruit?
+</div>
+</section>
+<section id="why-a-case-study" class="slide level2" data-background-color="#e8f4f8">
+<h2>Why a Case Study?</h2>
+<ul>
+<li class="fragment">Shows the <strong>full pipeline</strong> from idea → validation → policy insight<br>
+</li>
+<li class="fragment">Demonstrates how two researchers <strong>beat a 1,500‑hour task in 15 hours</strong><br>
+</li>
+<li class="fragment">Highlights <strong>pitfalls you’ll face</strong> (content moderation, hallucinations, drift)<br>
+</li>
+<li class="fragment">Offers a <strong>template you can reuse</strong> even if you can’t code (yet)</li>
+</ul>
+</section>
+<section id="the-policy-challenge" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Policy Challenge</h2>
+<p><strong>Question:</strong> <em>Is China really financing a green energy transition overseas, or is the rhetoric ahead of reality?</em></p>
+<ul>
+<li class="fragment">18 000 overseas projects (AidData GCDF 3.0)<br>
+</li>
+<li class="fragment">Needed four categories: 🟢 Green&nbsp;&nbsp;🟫 Brown&nbsp;&nbsp;🔘 Grey&nbsp;&nbsp;⚪ Neutral<br>
+</li>
+<li class="fragment">Traditional manual coding: <strong>~1 500 hours &amp; $22 500</strong><br>
+</li>
+<li class="fragment">LLM approach: <strong>15 hours &amp; $1.58</strong></li>
+</ul>
+</section>
+<section id="context-beats-keywords" class="slide level2" data-background-color="#f8f9fa">
+<h2>Context Beats Keywords</h2>
+<blockquote>
+<p>“Development of a 500 MW solar plant with back‑up diesel generator”</p>
+</blockquote>
+<ul>
+<li class="fragment">Keyword search → “diesel” ⇒ <em>Brown</em> (<strong>wrong</strong>)<br>
+</li>
+<li class="fragment">LLM reads full description → understands primary purpose ⇒ <em>Green</em> (<strong>right</strong>)</li>
+</ul>
+<div class="callout-box">
+LLMs provide the <strong>contextual reasoning</strong> keyword filters lack.
+</div>
+</section>
+<section id="our-fivephase-buildmeasurelearn-cycle" class="slide level2" data-background-color="#e8f4f8">
+<h2>Our Five‑Phase Build‑Measure‑Learn Cycle</h2>
+<ol type="1">
+<li class="fragment"><strong>Prototype (10 examples)</strong>&nbsp;– sanity‑check categories<br>
+</li>
+<li class="fragment"><strong>Edge‑case refinement (≈30)</strong>&nbsp;– mixed projects, transmission lines<br>
+</li>
+<li class="fragment"><strong>Infrastructure test (100)</strong>&nbsp;– API calls, JSON schema, retries<br>
+</li>
+<li class="fragment"><strong>Validation design (300)</strong>&nbsp;– humans vs.&nbsp;three frontier models<br>
+</li>
+<li class="fragment"><strong>Full run (18 000)</strong>&nbsp;– DeepSeek v3 @ 91.8 % agreement</li>
+</ol>
+<p><em>Catch problems small; scale only when confident.</em></p>
+</section>
+<section id="validation-snapshot" class="slide level2" data-background-color="#f8f9fa">
+<h2>Validation Snapshot</h2>
+
+<img data-src="images/llm_agreement_analysis.png" width="550" class="r-stretch quarto-figure-center"><p class="caption">Pair‑wise agreement between LLMs</p><ul>
+<li class="fragment">Highest concordance on <strong>Green</strong> &amp; <strong>Neutral</strong><br>
+</li>
+<li class="fragment"><strong>Multiple models + human spot‑checks</strong> ≥ single “gold standard”<br>
+</li>
+<li class="fragment">Confidence scores from the model were <strong>predictive of disagreement</strong></li>
+</ul>
+</section>
+<section id="debugging-the-content-exists-risk-error" class="slide level2" data-background-color="#fff3cd">
+<h2>Debugging the <em>“Content Exists Risk”</em> Error</h2>
+<p>56 stubborn failures → turned out to reference <strong>politically sensitive names</strong><br>
+(Bo Xilai, Peng Liyuan, Zhang Gaoli).</p>
+<p><strong>Fix:</strong> simple find‑replace → “a Chinese official” → pipeline resumed.</p>
+<p>👉 Lesson: add <strong>robust error handling</strong> &amp; expect non‑technical failures.</p>
+</section>
+<section id="key-findings-20102021" class="slide level2" data-background-color="#f8f9fa">
+<h2>Key Findings (2010‑2021)</h2>
+
+<img data-src="images/odi_green_lending_trends.png" width="550" class="r-stretch quarto-figure-center"><p class="caption">Trends in Chinese overseas lending by project type</p><ul>
+<li class="fragment">Only <strong>5.8 %</strong> of lending was 🟢 green; dominated by large hydro &amp; nuclear<br>
+</li>
+<li class="fragment">No evidence of a <strong>“green surge”</strong> despite BRI rhetoric<br>
+</li>
+<li class="fragment">Co‑financing networks for green vs.&nbsp;brown projects are <strong>bifurcated</strong></li>
+</ul>
+<p>Policy takeaway: <strong>structural, not rhetorical, barriers</strong> block large‑scale green finance.</p>
+</section>
+<section id="big-ideas-to-steal" class="slide level2" data-background-color="#e8f4f8">
+<h2>Big Ideas to Steal</h2>
+<ol type="1">
+<li class="fragment"><strong>Iterate small → scale big</strong>&nbsp;– catch costly mistakes early.<br>
+</li>
+<li class="fragment"><strong>Structured outputs</strong> (JSON) = machine‑readable &amp; verifiable.<br>
+</li>
+<li class="fragment"><strong>Self‑reported confidence</strong> is a free triage tool.<br>
+</li>
+<li class="fragment"><strong>Two‑layer validation</strong> (model‑vs‑model <em>and</em> model‑vs‑human).<br>
+</li>
+<li class="fragment"><strong>Transparency wins</strong>&nbsp;– repo + appendix enable peer scrutiny &amp; reuse.</li>
+</ol>
+</section>
+<section id="democratising-ambitious-research" class="slide level2" data-background-color="#f8f9fa">
+<h2>Democratising Ambitious Research</h2>
+<p>LLMs move projects from “requires a grant + 5 RAs” → “two researchers &amp; a weekend.”<br>
+- <strong>Consistency at scale</strong> &gt; spot‑on accuracy in a small sample<br>
+- Frees humans for theory, context &amp; ethics<br>
+- Still demands <em>your</em> critical judgment, documentation &amp; validation</p>
+</section>
+<section id="conclusion-next-steps" class="slide level2" data-background-color="#d4edda">
+<h2>Conclusion &amp; Next Steps</h2>
+<p><strong>Key Takeaways</strong></p>
+<ul>
+<li class="fragment"><strong>Mental model</strong> of the jagged frontier guides tool choice<br>
+</li>
+<li class="fragment"><strong>Prompt + Gem + Validation</strong> = core skill‑set for any researcher<br>
+</li>
+<li class="fragment"><strong>LLMs amplify, not replace</strong> your expertise</li>
+</ul>
+<p><strong>Your Homework</strong></p>
+<ol type="1">
+<li class="fragment">Identify <strong>one repetitive classification task</strong> in your work.<br>
+</li>
+<li class="fragment">Prototype with <strong>10 examples</strong> &amp; a structured prompt.<br>
+</li>
+<li class="fragment">Design a <strong>light‑weight validation</strong> (model‑vs‑you).<br>
+</li>
+<li class="fragment">Share results with the group – we’re building best practices together.</li>
+</ol>
+</section>
+<section id="thank-you" class="slide level2 center" data-background-color="#1e4a5f">
+<h2>Thank You!</h2>
+<p><strong>Questions?</strong><br>
+<em>Slides &amp; detailed guide:</em><br>
+<a href="https://teal‑insights.github.io/soas_llm_training" class="uri">https://teal‑insights.github.io/soas_llm_training</a></p>
+</section>
+<section class="slide level2">
+
 
 
 </section></section>
