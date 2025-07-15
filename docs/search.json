@@ -7,18 +7,18 @@
     "text": "Practical Strategies for Using LLMs in Research\nTeal Emery | July 15, 2025"
   },
   {
-    "objectID": "slides.html#my-china-project-story",
-    "href": "slides.html#my-china-project-story",
+    "objectID": "slides.html#my-chinese-green-lending-project-story",
+    "href": "slides.html#my-chinese-green-lending-project-story",
     "title": "AI for the Skeptical Scholar",
-    "section": "My China Project Story",
-    "text": "My China Project Story\n\n\n\n\n\n18,000 projects classified\n\n\n\nApril 2025: Published “Greener on the other side?”\nThe challenge: Classify 18,000 Chinese lending projects - 🟢 Green | 🟫 Brown | 🔘 Grey | ⚪ Neutral\nTraditional: 1,500 hours, $22,500\nOur result: 15 hours, $1.58\nWhy I’m here: Share practical lessons learned"
+    "section": "My Chinese Green Lending Project Story",
+    "text": "My Chinese Green Lending Project Story\n\n\n\n\n\n18,000 projects classified\n\n\n\nApril 2025: Published “Greener on the other side?”\nThe challenge: Classify 18,000 Chinese lending projects - 🟢 Green | 🟫 Brown | 🔘 Grey | ⚪ Neutral\nTraditional: 1,500 hours, $22,500\nOur result: 15 hours, $1.58\nWhy I’m here: Share practical lessons learned"
   },
   {
     "objectID": "slides.html#chinas-green-lending-reality",
     "href": "slides.html#chinas-green-lending-reality",
     "title": "AI for the Skeptical Scholar",
     "section": "China’s Green Lending Reality",
-    "text": "China’s Green Lending Reality\n\nDespite “Green Belt and Road” rhetoric, minimal renewable energy financingKey finding: Only 5.8% of Chinese lending went to green projects\nThe point: This analysis was only possible because LLMs handled the routine classification"
+    "text": "China’s Green Lending Reality\n\nDespite “Green Belt and Road” rhetoric, minimal renewable energy financingKey finding: 5.8% of Chinese lending went to green projects\nThe point: This analysis was only possible because LLMs handled the routine classification"
   },
   {
     "objectID": "slides.html#who-am-i",

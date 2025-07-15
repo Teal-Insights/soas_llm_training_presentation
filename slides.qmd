@@ -21,7 +21,7 @@ format:
 
 ---
 
-## My China Project Story {background-color="#f8f9fa"}
+## My Chinese Green Lending Project Story {background-color="#f8f9fa"}
 
 ::: {.columns}
 ::: {.column width="40%"}
@@ -48,7 +48,7 @@ format:
 
 ![Despite "Green Belt and Road" rhetoric, minimal renewable energy financing](images/odi_green_lending_trends.png)
 
-**Key finding**: Only 5.8% of Chinese lending went to green projects
+**Key finding**: 5.8% of Chinese lending went to green projects
 
 **The point**: This analysis was only possible because LLMs handled the routine classification
 
