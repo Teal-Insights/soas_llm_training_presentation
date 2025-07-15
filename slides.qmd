@@ -6,19 +6,15 @@ date: "July 15, 2025"
 format:
   revealjs:
     theme: white
-    incremental: true
+    incremental: false
     slide-number: true
     footer: "SOAS Faculty Workshop • Detailed Guide: teal-insights.github.io/soas_llm_training"
     css: teal-theme.css
     logo: images/teal_insights_logo_small.png
 ---
 
-# AI for the Skeptical Scholar {background-color="#1e4a5f"}
+# Getting Started {background-color="#1e4a5f"}
 
-## Practical Strategies for Using LLMs in Research
-
-**Teal Emery** | Founder, Teal Insights  
-July 15, 2025 • SOAS Faculty Workshop
 
 ---
 
@@ -110,17 +106,22 @@ July 15, 2025 • SOAS Faculty Workshop
 
 ---
 
+## This Workshop's Goal {.center background-color="#4a90b8"}
+
+ - You can't learn everything about AI in 2 hours. 
+ - This workshop aims to give you the mental, practical tools, and inspiration to get started
+
+---
+
 ## What You'll Leave With Today {.center background-color="#4a90b8"}
 
 ### Three Practical Tools
 
 ::: {.nonincremental}
-1. **A mental model** for when AI helps vs. hurts your research
+1. **A mental model** for how to us AI effectively and responsibly
 2. **Working prompts and systems** you can use immediately  
 3. **Validation strategies** to maintain research integrity
 :::
-
-**Goal: You can't learn everything about AI in 2 hours. This workshop aims to give you the mental and practical tools to get started**
 
 ---
 
@@ -1201,152 +1202,462 @@ Please include comments and use the tidyverse style guide.
 
 **Remember**: AI is a coding co-pilot, not an autopilot
 
-# Part 3: Advanced Possibilities {background-color="#1e4a5f"}
-
-## Scaling Up with a Real‑World Case Study
-
 ---
 
-## Where We Are & What’s Next {background-color="#f8f9fa"}
+## What You've Built Throughout Part 2 {background-color="#d4edda"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-### Foundations ✔️  
-- Mental model → *the jagged frontier*  
-- How to choose & pay for LLM tools  
-- Validation mind‑set  
+**Foundations**: Mental model + strategic tool selection
+
+**Practical Skills**:
+
+- Professional context for all AI interactions
+- Enhanced prompting techniques
+- Literature review enhancement workflow
+- Custom research assistant (Gem)
 :::
 
 ::: {.column width="50%"}
-### Practical Tools ✔️  
-1. Prompt engineering & context  
-2. **Gems / custom assistants**  
-3. Two “low‑hanging fruit” inside the frontier  
-   - Text summarisation  
-   - Coding assistance  
+**Areas of Low-Hanging Fruit**:
+
+- **Text summarization**: AI excels at processing and organizing information
+- **Coding assistance**: Dramatically faster for routine programming tasks
+- **Translation**: Both linguistic and cross-disciplinary
+- **First-draft generation**: Starting points for refinement
 :::
 :::
 
-<div class="key-insight">Now: what happens when we aim <em>beyond</em> low‑hanging fruit?</div>
+**Next**: Case study showing what becomes possible when you scale up
 
 ---
 
-## Why a Case Study? {background-color="#e8f4f8"}
+# Part 3: Advanced Possibilities {background-color="#1e4a5f"}
 
-- Shows the **full pipeline** from idea → validation → policy insight  
-- Demonstrates how two researchers **beat a 1,500‑hour task in 15 hours**  
-- Highlights **pitfalls you’ll face** (content moderation, hallucinations, drift)  
-- Offers a **template you can reuse** even if you can’t code (yet)
+## Case Study: Using LLMs at Scale
+
+**What we're exploring**: How AI enables policy-relevant research at scale
 
 ---
 
 ## The Policy Challenge {background-color="#f8f9fa"}
 
-**Question:** *Is China really financing a green energy transition overseas, or is the rhetoric ahead of reality?*  
+**Understanding China's Role in Financing the Energy Transition**
 
-- 18 000 overseas projects (AidData GCDF 3.0)  
-- Needed four categories: 🟢 Green&nbsp;&nbsp;🟫 Brown&nbsp;&nbsp;🔘 Grey&nbsp;&nbsp;⚪ Neutral  
-- Traditional manual coding: **~1 500 hours & \$22 500**  
-- LLM approach: **15 hours & \$1.58**
+::: {.incremental}
+- China: Key source of lending to developing countries
+- Policy pronouncements about "Green Belt and Road Initiative"
+- Emphasis on "small and beautiful" projects
+- Shift from policy banks to commercial co-financing
+:::
 
----
-
-## Context Beats Keywords {background-color="#f8f9fa"}
-
-> “Development of a 500 MW solar plant with back‑up diesel generator”
-
-- Keyword search → “diesel” ⇒ *Brown* (**wrong**)  
-- LLM reads full description → understands primary purpose ⇒ *Green* (**right**)  
-
-<div class="callout-box">LLMs provide the <strong>contextual reasoning</strong> keyword filters lack.</div>
+**Critical questions**: Was China actually supporting green transition? Who was participating? What scale?
 
 ---
 
-## Our Five‑Phase Build‑Measure‑Learn Cycle {background-color="#e8f4f8"}
+## The Classification Challenge {background-color="#f8f9fa"}
 
-1. **Prototype (10 examples)** – sanity‑check categories  
-2. **Edge‑case refinement (≈30)** – mixed projects, transmission lines  
-3. **Infrastructure test (100)** – API calls, JSON schema, retries  
-4. **Validation design (300)** – humans vs. three frontier models  
-5. **Full run (18 000)** – DeepSeek v3 @ 91.8 % agreement
+**18,000 Chinese overseas lending projects** from AidData's database
 
-*Catch problems small; scale only when confident.*
+::: {.columns}
+::: {.column width="50%"}
+**Categories needed**:
 
----
+- 🟢 **Green**: Solar, wind, hydro, nuclear
+- 🟫 **Brown**: Coal, oil, fossil fuels
+- 🔘 **Grey**: Indirect impacts (transmission)
+- ⚪ **Neutral**: Non-energy projects
+:::
 
-## Validation Snapshot {background-color="#f8f9fa"}
+::: {.column width="50%"}
+**Traditional approach**:
 
-![Pair‑wise agreement between LLMs](images/llm_agreement_analysis.png){width="550px"}
+- 1,500 hours of work
+- $22,500 in research costs
+- Large grant funding required
+:::
+:::
 
-- Highest concordance on **Green** & **Neutral**  
-- **Multiple models + human spot‑checks** ≥ single “gold standard”  
-- Confidence scores from the model were **predictive of disagreement**
-
----
-
-## Debugging the *“Content Exists Risk”* Error {background-color="#fff3cd"}
-
-56 stubborn failures → turned out to reference **politically sensitive names**  
-(Bo Xilai, Peng Liyuan, Zhang Gaoli).  
-
-**Fix:** simple find‑replace → “a Chinese official” → pipeline resumed.  
-
-👉 Lesson: add **robust error handling** & expect non‑technical failures.
+**Our result**: Completed in 15 hours for $1.58
 
 ---
 
-## Key Findings (2010‑2021) {background-color="#f8f9fa"}
+## The Reality of Human vs. LLM Classification {background-color="#e8f4f8"}
 
-![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png){width="550px"}
+**Let's be honest about manual classification at scale:**
 
-- Only **5.8 %** of lending was 🟢 green; dominated by large hydro & nuclear  
-- No evidence of a **“green surge”** despite BRI rhetoric  
-- Co‑financing networks for green vs. brown projects are **bifurcated**  
+::: {.incremental}
+- After a few hours, your eyes glaze over
+- Are you applying criteria consistently?
+- Are you coding the same way as yesterday? Last week?
+- Research assistants face the same challenges
+:::
 
-Policy takeaway: **structural, not rhetorical, barriers** block large‑scale green finance.
+**LLMs bring endless patience and consistency**
 
----
+- Apply same criteria to project 17,000 as to project 1
+- No fatigue, no drift in standards, no bad days
+- Your LLM didn't stay out partying until 4 AM
 
-## Big Ideas to Steal {background-color="#e8f4f8"}
-
-1. **Iterate small → scale big** – catch costly mistakes early.  
-2. **Structured outputs** (JSON) = machine‑readable & verifiable.  
-3. **Self‑reported confidence** is a free triage tool.  
-4. **Two‑layer validation** (model‑vs‑model *and* model‑vs‑human).  
-5. **Transparency wins** – repo + appendix enable peer scrutiny & reuse.
-
----
-
-## Democratising Ambitious Research {background-color="#f8f9fa"}
-
-LLMs move projects from “requires a grant + 5 RAs” → “two researchers & a weekend.”  
-- **Consistency at scale** > spot‑on accuracy in a small sample  
-- Frees humans for theory, context & ethics  
-- Still demands *your* critical judgment, documentation & validation
+**Key insight**: Not about perfection, but about good-enough accuracy with perfect consistency
 
 ---
 
-## Conclusion & Next Steps {background-color="#d4edda"}
+## Why Keywords Failed, Context Succeeded {background-color="#f8f9fa"}
 
-**Key Takeaways**
+**Example project**: *"Development of 500MW solar power plant with backup diesel generator"*
 
-- **Mental model** of the jagged frontier guides tool choice  
-- **Prompt + Gem + Validation** = core skill‑set for any researcher  
-- **LLMs amplify, not replace** your expertise  
+::: {.columns}
+::: {.column width="50%"}
+**❌ Keyword Search**
 
-**Your Homework**
+- Sees "diesel" 
+- Classifies as brown
+- Misses primary purpose
+:::
 
-1. Identify **one repetitive classification task** in your work.  
-2. Prototype with **10 examples** & a structured prompt.  
-3. Design a **light‑weight validation** (model‑vs‑you).  
-4. Share results with the group – we’re building best practices together.
+::: {.column width="50%"}
+**✅ LLM Context Understanding**
+
+- Reads entire description
+- Understands primary purpose
+- Recognizes backup as auxiliary
+- Correctly classifies as green
+:::
+:::
+
+**The advantage**: LLMs understand context that keyword searches miss entirely
 
 ---
 
-## Thank You! {background-color="#1e4a5f" .center}
+## Our Development Journey {background-color="#f8f9fa"}
 
-**Questions?**  
-*Slides & detailed guide:*  
-<https://teal‑insights.github.io/soas_llm_training>
+**Phase 1: Getting Started** *(5-10 examples)*
+
+- Test basic concepts
+- Refine classification framework
+
+**Phase 2: Working Out Kinks** *(~30 examples)*
+
+- Handle edge cases and mixed projects
+- Develop nuanced reasoning
+
+**Phase 3: Infrastructure Testing** *(100 projects)*
+
+- Test API calls and error handling
+- Build processing pipelines
+
+**Phase 4: Validation Strategy** *(300 projects)*
+
+- Test multiple models against human judgment
+- Measure reliability and accuracy
+
+**Phase 5: Full Implementation** *(18,000 projects)*
+
+- Process complete dataset with confidence
 
 ---
+
+## What Made Our Approach Work {background-color="#e8f4f8"}
+
+**Multi-shot prompting**: Showed AI how to reason through complex cases
+
+**Structured output**: Required JSON format with confidence levels
+
+**Confidence calibration**: AI assessed its own certainty
+
+- **HIGH**: Clear alignment with categories
+- **MEDIUM**: Some ambiguity but reasonable certainty
+- **LOW**: Significant uncertainty - flag for human review
+
+**Key insight**: When AI said it was uncertain, it usually was
+
+---
+
+## Validation Strategy {background-color="#f8f9fa"}
+
+**Step 1: Inter-Model Agreement**
+
+- Tested different LLMs on same projects
+- High agreement (85-95%) on most categories
+- Deepseek v3 emerged as best performer
+
+**Step 2: Human Validation Benchmark**
+
+- 300 projects manually classified by experts
+- **91.8% agreement** with human ratings
+- **95.5% accuracy** on green projects specifically
+
+![LLM Agreement Analysis](images/llm_agreement_analysis.png){width="600px"}
+
+---
+
+## The Unexpected Challenge {background-color="#fff3cd"}
+
+All LLM providers do some type of content moderation. 
+
+Using Deepseek (an LLM from a Chinese AI lab) required "Non Traditional Debugging" to sanitize politically sensitive names.
+
+![Non-traditional debugging approach](images/non_traditional_debugging.png){width="300px"}
+
+---
+
+## What We Discovered {background-color="#f8f9fa"}
+
+![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png){width="800px"}
+
+**Key findings challenged conventional wisdom**:
+
+- Only **$86.5 billion in green investments** (5.8% of total)
+- **No green surge over time** despite policy rhetoric
+- **Bifurcated co-financing networks** - green and commercial financing remain separate
+
+---
+
+## The Transformation of Research Possibilities {background-color="#e8f4f8"}
+
+**This wasn't about doing the impossible**
+
+- Large teams could have done this manually
+- It would have required major grant funding
+
+**This was about democratizing ambitious research**
+
+**Key insight**: AI handles mechanical tasks while humans focus on research design, validation, and interpretation
+
+---
+
+## Essential Lessons for Other Researchers {background-color="#f8f9fa"}
+
+**1. Start Simple, Build Complexity Gradually**
+
+- Get basic cases working first
+- Add examples iteratively
+- Test infrastructure early
+- Plan validation upfront
+
+**2. Validation Is Everything**
+
+- Test models against each other
+- Verify with human judgment
+- Always preserve original data
+- Document your methodology
+
+**3. Transparency Enables Progress**
+
+- Share methods, code, and validation data
+- Others can build on your work
+- Contribute to methodological development
+
+**📖 Full methodology**: [27-page appendix](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/) + [GitHub repository](https://github.com/Teal-Insights/odi_china_lending_llm_classification)
+
+---
+
+## The Bigger Picture {background-color="#4a90b8"}
+
+### Democratizing Ambitious Research {.text-light}
+
+- **We face urgent policy challenges**
+
+**Tools that enable more researchers to tackle these questions at scale**:
+
+- While maintaining academic rigor
+- With transparent methodology
+- Building on each other's work
+
+**The promise**: Not replacing expertise, but amplifying it to address urgent global challenges
+
+---
+
+## What This Means for Your Research {background-color="#e8f4f8"}
+
+**When you're ready to scale up**:
+
+::: {.incremental}
+- **Web tools → API development** - What you've learned applies to programmatic approaches
+- **Small samples → Large datasets** - Tackle questions requiring comprehensive analysis
+- **Individual papers → Pattern recognition** - Find insights across hundreds of documents
+- **Limited scope → Ambitious projects** - Questions you couldn't previously afford to pursue
+:::
+
+**The path forward**: Build comfort with web interfaces, then consider scaling when your research questions demand it
+
+---
+
+## Looking Forward {background-color="#f8f9fa"}
+
+**Methodological challenges we all face**:
+
+::: {.incremental}
+- **Validation strategies** for LLM-generated analysis
+- **Transparency requirements** for AI-assisted research
+- **Best practices** for handling provider constraints
+- **Training programs** for responsible AI use
+:::
+
+**This case study represents one approach** - not perfect, but a contribution toward responsible, effective AI use in policy research
+
+**The conversation is just beginning** - your research and methods will help shape how these tools evolve
+
+---
+
+# Wrap-Up: Your Next Steps {background-color="#1e4a5f"}
+
+## Action Planning & Sustained Engagement
+
+**What we're doing**: Consolidating learning and planning your continued exploration
+
+---
+
+## Learning Objectives Check {background-color="#d4edda"}
+
+### What You Built Today ✅
+
+::: {.columns}
+::: {.column width="50%"}
+**🧠 Mental Model**
+- Jagged frontier understanding
+- Collaborative approach to AI
+- Strategic tool selection
+
+**🔧 Practical Tools**
+- Professional context template
+- Enhanced prompting techniques
+- Literature review workflow
+- Custom research assistant (Gem)
+:::
+
+::: {.column width="50%"}
+**📚 Understanding**
+- Where AI excels vs. struggles
+- Validation strategies
+- Advanced possibilities
+- Scaling considerations
+
+**🎯 Strategic Approach**
+- When to use web tools vs. APIs
+- How to maintain research integrity
+- Building on others' methodological work
+:::
+:::
+
+**Achievement**: You're no longer starting from zero with AI tools
+
+---
+
+## Your Action Plan for This Week {background-color="#e8f4f8"}
+
+**Immediate next steps** *(choose 2-3 that fit your current work)*:
+
+::: {.incremental}
+1. **Refine your Professional Context** - Test with 3-5 different research questions
+2. **Create 1-2 additional Gems** - For tasks you do regularly (grant writing, email analysis)
+3. **Test literature enhancement** - Try with 5-10 papers in your field
+4. **Explore advanced tools** - Upload document collection to NotebookLM
+5. **Try coding assistance** - If you use R/Python/Stata, test with current project
+6. **Share with colleagues** - Discuss one useful application you discovered
+:::
+
+**💬 Chat**: *Which 2-3 actions are you most likely to try this week?*
+
+---
+
+## When You're Ready for More {background-color="#f8f9fa"}
+
+**📖 Your Reference Book**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
+
+---
+
+## Resources for Continued Learning {background-color="#f8f9fa"}
+
+**Essential reading**:
+
+- [Ethan Mollick's "One Useful Thing"](https://www.oneusefulthing.org/) - Best practical AI guidance
+- [*Co-Intelligence*](https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/) - Deeper dive into human-AI collaboration
+
+**Technical resources**:
+
+- [Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Vellum's LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) - Track model performance
+
+**Methodological development**:
+
+- Our [ODI methodology appendix](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/)
+- [GitHub repository](https://github.com/Teal-Insights/odi_china_lending_llm_classification) - Code and validation data
+
+---
+
+## Contact & Questions {background-color="#f8f9fa"}
+
+**Teal Emery**
+
+- **Email**: lte at tealinsights.com
+- **Website**: [tealemery.com](https://www.tealemery.com)
+- **Workshop materials**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
+
+**I'm interested in your experiences**:
+
+- What works well for your research?
+- What challenges do you encounter?
+- What methodological questions arise?
+
+**Building better practices together** 
+
+- share your insights and questions
+
+---
+
+## Final Reflections {background-color="#e8f4f8"}
+
+**What we've explored today**:
+
+::: {.incremental}
+- **Realistic assessment** of AI's capabilities and limitations
+- **Practical tools** you can use immediately
+- **Validation strategies** to maintain research integrity
+- **Scaling possibilities** for ambitious projects
+:::
+
+**The bigger picture**: Tools that enable more researchers to tackle urgent policy questions while maintaining academic rigor
+
+**Your contribution**: As you experiment with these tools, you're helping shape responsible AI use in scholarship
+
+---
+
+## Questions & Discussion {background-color="#4a90b8"}
+
+### Open Floor for Q&A {.text-light}
+
+**Share your thoughts**:
+
+- What applications seem most promising for your work?
+- What concerns or challenges do you anticipate?
+- How might these tools change your research approach?
+
+**💬 Chat**: *Any final questions or insights you'd like to share?*
+
+---
+
+## Thank You {background-color="#1e4a5f"}
+
+### AI for the Skeptical Scholar {.text-light}
+
+**Your skepticism is valuable** 
+
+- maintain it while exploring possibilities
+
+**Your expertise is irreplaceable** 
+
+- AI amplifies what you already know
+
+**Your research matters** 
+
+- these tools can help you tackle more ambitious questions
+
+**Keep exploring, keep questioning, keep building**
+
+---
+
+**All materials**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
+
+**Contact**: lte at tealinsights.com
