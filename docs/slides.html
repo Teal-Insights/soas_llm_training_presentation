@@ -188,6 +188,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -208,1409 +211,955 @@ Teal Emery
   <p class="date">2025-07-15</p>
 </section>
 <section>
-<section id="getting-started" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Getting Started</h1>
+<section id="ai-for-the-skeptical-scholar" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>AI for the Skeptical Scholar</h1>
 
 </section>
-<section id="how-i-got-here" class="slide level2" data-background-color="#f8f9fa">
-<h2>How I Got Here</h2>
+<section id="practical-strategies-for-using-llms-in-research" class="slide level2">
+<h2>Practical Strategies for Using LLMs in Research</h2>
+<p><strong>Teal Emery</strong> | July 15, 2025</p>
+</section>
+<section id="my-china-project-story" class="slide level2" data-background-color="#f8f9fa">
+<h2>My China Project Story</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/odi_cover_page.png" width="300"></p>
-<figcaption>Greener on the Other Side - ODI Global Report</figcaption>
+<figcaption>18,000 projects classified</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:60%;">
-<p><strong>April 2025</strong>: Published <a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">“Greener on the other side?”</a> using AI to classify 18,000 Chinese lending projects</p>
-<p><strong>After publication</strong>: Professor Carlos Oya reached out</p>
-<p><strong>Today</strong>: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I’ve been thinking about a lot</p>
+<p><strong>April 2025</strong>: Published <a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">“Greener on the other side?”</a></p>
+<p><strong>The challenge</strong>: Classify 18,000 Chinese lending projects - 🟢 Green | 🟫 Brown | 🔘 Grey | ⚪ Neutral</p>
+<p><strong>Traditional</strong>: 1,500 hours, $22,500</p>
+<p><strong>Our result</strong>: 15 hours, $1.58</p>
+<p><strong>Why I’m here</strong>: Share practical lessons learned</p>
 </div></div>
 </section>
 <section id="chinas-green-lending-reality" class="slide level2" data-background-color="#f8f9fa">
 <h2>China’s Green Lending Reality</h2>
 
-<img data-src="images/odi_green_lending_trends.png" class="r-stretch quarto-figure-center"><p class="caption">Trends in Chinese overseas lending by project type</p><p><strong>What we discovered</strong>: Despite “Green Belt and Road” rhetoric, minimal actual renewable energy financing</p>
-<p><strong>LLM Best Practices</strong>: No established best practices. We are trying to start that conversation</p>
+<img data-src="images/odi_green_lending_trends.png" class="r-stretch quarto-figure-center"><p class="caption">Despite “Green Belt and Road” rhetoric, minimal renewable energy financing</p><p><strong>Key finding</strong>: Only 5.8% of Chinese lending went to green projects</p>
+<p><strong>The point</strong>: This analysis was only possible because LLMs handled the routine classification</p>
 </section>
-<section id="my-take-on-ai" class="slide level2" data-background-color="#f8f9fa">
-<h2>My Take on AI</h2>
+<section id="who-am-i" class="slide level2" data-background-color="#f8f9fa">
+<h2>Who Am I?</h2>
+<p><strong>Current roles:</strong></p>
+<ul>
+<li>Founder, Teal Insights (sovereign debt &amp; climate finance)</li>
+<li>Research Consultant, AidData</li>
+<li>Fellow, Energy for Growth Hub</li>
+<li>Adjunct Lecturer, Johns Hopkins SAIS</li>
+</ul>
+<p><strong>Relevant experience:</strong></p>
+<ul>
+<li>7 years as EM sovereign analyst, Morgan Stanley</li>
+<li>Using AI tools daily for research &amp; code development</li>
+<li>Building LLM products for finance ministries</li>
+</ul>
+<p><strong>Philosophy</strong>: Build in the open, amplify expertise</p>
+</section>
+<section id="real-problems-real-value" class="slide level2" data-background-color="#e8f4f8">
+<h2>Real Problems, Real Value</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>There are real problems with AI</strong> ⚠️</p>
+<p><strong>Yes, there are problems</strong> ⚠</p>
 <ul>
-<li>Bias and training data issues</li>
-<li>Hallucinations and false confidence</li>
-<li>Serious social &amp; ethical issues</li>
+<li>Training data bias</li>
+<li>Hallucinations</li>
+<li>Ethical concerns</li>
+<li>Missing context</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong>Despite this…</strong> 💡</p>
 <ul>
-<li>I believe AI can be a powerful tool for those of us who want to make the world a better place</li>
-</ul>
-<p><strong>Value I can add</strong>:</p>
-<ul>
-<li>I’ve spent a lot of time figuring out what works and what doesn’t. I can share my practical experience with you.</li>
+<li>Powerful amplifier for good</li>
+<li>Democratizes research capacity</li>
+<li>Frees time for deep thinking</li>
+<li>Enables ambitious projects</li>
 </ul>
 </div></div>
+<p><strong>My value add</strong>: Practical experience on what works (and what doesn’t)</p>
 </section>
-<section id="my-relevant-ai-experience" class="slide level2" data-background-color="#f8f9fa">
-<h2>My Relevant AI Experience</h2>
-<div>
-<ul>
-<li class="fragment"><strong>ODI research project</strong>: 18,000 project classification in 15 hours vs.&nbsp;1,500 hours manually for cost of $1.58.</li>
-<li class="fragment"><strong>Day job</strong>: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.</li>
-<li class="fragment"><strong>Our approach</strong>: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.</li>
-<li class="fragment"><strong>Building LLM products</strong>: To facilitate our research process and help countries avoid expensive consulting fees</li>
-</ul>
-</div>
-</section>
-<section id="other-relevant-experience" class="slide level2">
-<h2>Other Relevant Experience</h2>
-<div>
-<ul>
-<li><strong>EM sovereign debt research analyst</strong>, Morgan Stanley Investment Management</li>
-<li><strong>Adjunct Lecturer</strong>, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)</li>
-<li><strong>Thought leadership</strong> on sovereign debt + sustainability, World Bank</li>
-<li><strong>Chinese debt restructuring &amp; flows</strong> research, AidData</li>
-<li><strong>Big nerd</strong> 🤓</li>
-</ul>
-</div>
-</section>
-<section id="who-this-workshop-is-for" class="slide level2" data-background-color="#f8f9fa">
-<h2>Who This Workshop Is For</h2>
-<p><strong>Experienced researchers who want to explore how LLMs might enhance their work</strong></p>
-<div>
-<ul>
-<li class="fragment"><strong>Deep expertise</strong> in your research domain<br>
-</li>
-<li class="fragment"><strong>Healthy skepticism</strong> about new technologies and their promises</li>
-<li class="fragment"><strong>No prior LLM knowledge</strong> or coding experience required</li>
-<li class="fragment"><strong>Interest in practical tools</strong> that could streamline routine research tasks</li>
-<li class="fragment"><strong>Your skepticism is justified</strong>—LLMs have real limitations we’ll address directly</li>
-</ul>
-</div>
-</section>
-<section id="this-workshops-goal" class="slide level2 center" data-background-color="#4a90b8">
-<h2>This Workshop’s Goal</h2>
-<ul>
-<li>You can’t learn everything about AI in 2 hours.</li>
-<li>This workshop aims to give you the mental, practical tools, and inspiration to get started</li>
-</ul>
-</section>
-<section id="what-youll-leave-with-today" class="slide level2 center" data-background-color="#4a90b8">
-<h2>What You’ll Leave With Today</h2>
-<h3 id="three-practical-tools">Three Practical Tools</h3>
+<section id="what-youll-build-today" class="slide level2 center" data-background-color="#4a90b8">
+<h2>What You’ll Build Today</h2>
+<h3 id="three-cumulative-tools">Three Cumulative Tools</h3>
 <div>
 <ol type="1">
-<li><strong>A mental model</strong> for how to us AI effectively and responsibly</li>
-<li><strong>Working prompts and systems</strong> you can use immediately<br>
-</li>
-<li><strong>Validation strategies</strong> to maintain research integrity</li>
+<li><strong>Professional Context</strong> → Foundation for everything</li>
+<li><strong>Enhanced Prompting</strong> → Uses context for better results</li>
+<li><strong>Literature Review Gem</strong> → Combines both into reusable system</li>
 </ol>
 </div>
+<p><strong>Each builds on the last</strong></p>
 </section>
-<section id="our-flipped-approach" class="slide level2" data-background-color="#e8f4f8">
-<h2>Our “Flipped” Approach</h2>
+<section id="roadmap-for-our-journey" class="slide level2" data-background-color="#f8f9fa">
+<h2>Roadmap for Our Journey</h2>
+<h3 class="text-blue" id="part-1-mental-model-20-min">Part 1: Mental Model <em>(20 min)</em></h3>
+<p>Why AI works this way + strategic thinking</p>
+<h3 class="text-blue" id="part-2-three-cumulative-tools-70-min">Part 2: Three Cumulative Tools <em>(70 min)</em></h3>
+<p>Hands-on practice with immediate applications</p>
+<h3 class="text-blue" id="part-3-scaling-up-15-min">Part 3: Scaling Up <em>(15 min)</em></h3>
+<p>From web interfaces to APIs - the China case study</p>
+<h3 class="text-blue" id="your-next-steps-15-min">Your Next Steps <em>(15 min)</em></h3>
+<p>Action planning &amp; Q&amp;A</p>
+</section>
+<section id="your-reference-book" class="slide level2" data-background-color="#e8f4f8">
+<h2>Your Reference Book</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Live Session</strong></p>
+<p><strong>Today’s Workshop</strong></p>
 <ul>
-<li>Concept exploration &amp; discussion</li>
-<li>Hands-on activities in Part 2</li>
-<li>Problem-solving together</li>
-<li>Learning from each other</li>
+<li>Core concepts</li>
+<li>Hands-on activities<br>
+</li>
+<li>Interactive discussion</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Your Reference Book</strong></p>
+<p><strong>Companion Book</strong></p>
 <ul>
 <li>Detailed explanations</li>
 <li>Extended examples</li>
-<li>Enables live session to be more interactive</li>
+<li>Everything we can’t cover</li>
 </ul>
 </div></div>
-<p><strong>All details at</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
-</section>
-<section id="our-journey-together" class="slide level2" data-background-color="#f8f9fa">
-<h2>Our Journey Together</h2>
-<h3 class="text-blue" id="part-1-foundations-20-min">Part 1: Foundations <em>(20 min)</em></h3>
-<p>Understanding the research reality &amp; building your mental model</p>
-<h3 class="text-blue" id="part-2-practical-applications-70-min">Part 2: Practical Applications <em>(70 min)</em></h3>
-<p>Hands-on tools &amp; techniques with 3 activities</p>
-<h3 class="text-blue" id="part-3-advanced-possibilities-15-min">Part 3: Advanced Possibilities <em>(15 min)</em></h3>
-<p>Case study &amp; scaling considerations</p>
-<h3 class="text-blue" id="wrap-up-your-next-steps-15-min">Wrap-Up: Your Next Steps <em>(15 min)</em></h3>
-<p>Action planning &amp; Q&amp;A</p>
+<p><strong>📖 Full guide</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="part-1-foundations" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Part 1: Foundations</h1>
+<section id="part-1-mental-model" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 1: Mental Model</h1>
 
 </section>
-<section id="understanding-the-research-reality" class="slide level2">
-<h2>Understanding the Research Reality</h2>
-<p><strong>What we’re exploring</strong>: Why this matters &amp; how to think about AI strategically</p>
+<section id="understanding-how-to-work-with-ai-effectively" class="slide level2">
+<h2>Understanding How To Work With AI Effectively</h2>
+<p><strong>What we’re building</strong>: Strategic thinking about AI capabilities</p>
 </section>
-<section id="the-scale-problem-we-all-face" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Scale Problem We All Face</h2>
-<p><strong>The literature explosion</strong></p>
+<section id="the-research-reality" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Research Reality</h2>
+<p><strong>Information overload is real:</strong></p>
 <ul>
-<li>Too much to read, too little time</li>
+<li>Too many papers to read</li>
+<li>Cross-disciplinary insights trapped in jargon</li>
+<li>Important work in other languages</li>
+<li>Routine tasks eating research time</li>
 </ul>
-<p><strong>Your reality</strong></p>
-<ul>
-<li>Deep expertise, but finite time</li>
-<li>Job, family, life outside research</li>
-<li>Can’t read everything that looks relevant</li>
-</ul>
-<p><strong>💬 Chat</strong>: <em>Share one research task you find tedious</em></p>
+<p><strong>💬 Chat</strong>: <em>Share one routine task that consumes too much of your time</em></p>
+<p><strong>The opportunity</strong>: What if AI could handle the routine so you focus on insight?</p>
 </section>
-<section id="approach-to-ai" class="slide level2" data-background-color="#fff3cd">
-<h2>Approach to AI</h2>
+<section id="two-ways-to-access-ai" class="slide level2" data-background-color="#f8f9fa">
+<h2>Two Ways to Access AI</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="avoiding">❌ Avoiding</h3>
+<p><strong>Web Interfaces</strong> <em>(Our focus)</em></p>
 <ul>
-<li>Replacing your critical thinking</li>
-<li>Trusting AI without verification<br>
-</li>
-<li>Ignoring bias and limitations</li>
-<li>Displacing human expertise</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="amplifying">✅ Amplifying</h3>
-<ul>
-<li>Your domain knowledge</li>
-<li>Your analytical capabilities<br>
-</li>
-<li>Your research capacity</li>
-<li>Your time for deep thinking</li>
-</ul>
-</div></div>
-<p><strong>Key insight</strong>: AI handles routine so you focus on remarkable</p>
-</section>
-<section id="mental-model-the-jagged-frontier" class="slide level2" data-background-color="#f8f9fa">
-<h2>Mental Model: The “Jagged Frontier”</h2>
-
-<img data-src="images/jagged_frontier.png" alt="Detailed frontier diagram showing task categories" class="r-stretch quarto-figure-center"><p class="caption">What is AI good at?</p><p>From <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321">Dell’Acqua et al 2023</a></p>
-<p><strong>Inside the frontier</strong>: AI excels<br>
-<strong>Outside the frontier</strong>: AI struggles<br>
-<strong>The challenge</strong>: The boundary is invisible, unpredictable, and moving quickly</p>
-</section>
-<section id="the-jagged-frontier-in-action" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Jagged Frontier in Action</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Single prompt: “Make a painting of a dumpster fire in the style of Monet”</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/dumpster_fire.png" width="300"></p>
-<figcaption>Made by ChatGPT in seconds</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-<p><strong>One hour of prompting: “Make a better jagged frontier visualization”</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/bad_jagged_frontier.png" width="400"></p>
-<figcaption>Non-sensical output after countless attempts</figcaption>
-</figure>
-</div>
-</div></div>
-<p><strong>This is the jagged frontier</strong>: Seemingly similar tasks with wildly different AI performance</p>
-</section>
-<section id="understanding-the-frontier" class="slide level2" data-background-color="#f8f9fa">
-<h2>Understanding the Frontier</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Inside (AI excels)</strong></p>
-<ul>
-<li>Summarizing complex texts quickly</li>
-<li>Pattern recognition across documents</li>
-<li>First-draft generation</li>
-<li>Code generation</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Outside (AI struggles)</strong></p>
-<ul>
-<li>Understanding implicit context</li>
-<li>Making ethical judgments</li>
-<li>Recognizing what’s missing</li>
-<li>Cultural and political subtext</li>
-</ul>
-</div></div>
-<p><strong>Only YOU can find the “jagged frontier” for tasks that matter to you</strong></p>
-</section>
-<section id="the-collaborative-model" class="slide level2" data-background-color="#e8f4f8">
-<h2>The Collaborative Model</h2>
-<p><strong>Think of LLMs as sophisticated research assistants with unique strengths and blind spots</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Your Unique Value</strong></p>
-<ul>
-<li>Domain expertise &amp; contextual understanding</li>
-<li>Critical analysis &amp; theoretical frameworks</li>
-<li>Ethical judgment &amp; interpretation</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>AI’s Unique Value</strong></p>
-<ul>
-<li>Processing large volumes quickly</li>
-<li>Generating first drafts</li>
-<li>Handling routine tasks</li>
-<li>Providing different perspectives</li>
-</ul>
-</div></div>
-<p><strong>The goal</strong>: AI amplifies your expertise, doesn’t replace it</p>
-</section>
-<section id="finding-your-frontier" class="slide level2" data-background-color="#f8f9fa">
-<h2>Finding Your Frontier</h2>
-<p><strong>How to discover what works for your research:</strong></p>
-<div>
-<ul>
-<li class="fragment"><strong>Start with your own work</strong>: Test AI on papers you know intimately</li>
-<li class="fragment"><strong>Begin with low-stakes tasks</strong>: Where errors won’t matter much</li>
-<li class="fragment"><strong>Test systematically</strong>: Try similar but different tasks to map boundaries</li>
-<li class="fragment"><strong>Stay updated</strong>: The frontier is expanding rapidly but unevenly</li>
-</ul>
-</div>
-<p><strong>Key principle</strong>: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?</p>
-<p>Try them with an LLM. Does it help or hinder?</p>
-</section>
-<section id="why-this-matters-democratizing-ambitious-research" class="slide level2" data-background-color="#e8f4f8">
-<h2>Why This Matters: Democratizing Ambitious Research</h2>
-<p><strong>The bigger picture</strong>: Tools that enable more researchers to tackle urgent questions at scale</p>
-<div>
-<ul>
-<li class="fragment"><strong>Previously required</strong>: Large research grants, teams of research assistants, months of work</li>
-<li class="fragment"><strong>Now possible</strong>: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams</li>
-<li class="fragment"><strong>What this enables</strong>: More ambitious, policy-relevant research while maintaining academic rigor</li>
-<li class="fragment"><strong>The promise</strong>: Not replacing researchers, but enabling more transparent and impactful research</li>
-</ul>
-</div>
-<p>We face urgent policy challenges around climate finance, development effectiveness, and global economic transitions</p>
-</section>
-<section id="two-ways-to-use-ai" class="slide level2" data-background-color="#f8f9fa">
-<h2>Two Ways to Use AI</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Web Interfaces</strong> <em>(Our Focus)</em></p>
-<ul>
-<li>Type questions, get answers</li>
+<li>Browser-based (ChatGPT, Claude, Gemini)</li>
 <li>No coding required</li>
-<li><strong>Best for</strong>: Individual papers, exploration</li>
+<li>Interactive conversation</li>
+<li><strong>Best for</strong>: Exploration, individual tasks</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong>APIs</strong> <em>(Advanced)</em></p>
 <ul>
-<li>Requires coding skills</li>
-<li>Process thousands automatically</li>
+<li>Programmatic access</li>
+<li>Requires coding</li>
+<li>Automated workflows</li>
 <li><strong>Best for</strong>: Large-scale projects</li>
 </ul>
 </div></div>
-<p><strong>For most researchers starting with LLMs</strong>: Web interfaces are the better choice</p>
+<p><strong>Today</strong>: Web interfaces | <strong>Case study</strong>: How APIs enabled our China project</p>
 </section>
-<section id="the-big-three-ai-providers" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Big Three AI Providers</h2>
-<div>
+<section id="the-jagged-frontier" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Jagged Frontier</h2>
+
+<img data-src="images/jagged_frontier.png" alt="Jagged frontier diagram" class="r-stretch quarto-figure-center"><p class="caption">AI capabilities form an irregular, unpredictable boundary</p><p><strong>Key insight from Ethan Mollick’s research:</strong></p>
 <ul>
-<li class="fragment"><strong>OpenAI (ChatGPT)</strong>: Deep Research tool, strong reasoning</li>
-<li class="fragment"><strong>Anthropic (Claude)</strong>: Excellent for coding, high-quality writing<br>
-</li>
-<li class="fragment"><strong>Google (Gemini)</strong>: Massive context window, built-in citations</li>
-<li class="fragment"><strong>Reality check</strong>: I pay for all three (~$20/month each). Each has unique strengths.</li>
-<li class="fragment"><strong>This landscape changes rapidly</strong> - what’s best today may not be tomorrow</li>
+<li>Tasks inside frontier: AI excels</li>
+<li>Tasks outside: AI struggles</li>
+<li>The boundary is invisible and shifts</li>
 </ul>
-</div>
 </section>
-<section id="why-gemini-for-today" class="slide level2" data-background-color="#e8f4f8">
-<h2>Why Gemini for Today</h2>
-<p><strong>Context Window</strong>: How much text AI can process at once</p>
-<div>
-<ul>
-<li class="fragment"><strong>Gemini</strong>: ~750,000 words (10-15 academic papers)</li>
-<li class="fragment"><strong>Others</strong>: ~150,000 words (2-3 papers)</li>
-<li class="fragment"><strong>Built-in citations</strong>: Automatic source references</li>
-<li class="fragment"><strong>Perfect for</strong>: Academic workflows with large documents</li>
-</ul>
-</div>
-<p><strong>We’ll explore other tools briefly, but Gemini is our main focus</strong></p>
-</section>
-<section id="key-takeaways-from-foundations" class="slide level2" data-background-color="#d4edda">
-<h2>Key Takeaways from Foundations</h2>
+<section id="jagged-frontier-in-action" class="slide level2" data-background-color="#f8f9fa">
+<h2>Jagged Frontier in Action</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>The Challenge</strong></p>
+<p><strong>“Paint a dumpster fire in Monet’s style”</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/dumpster_fire.png" width="300"></p>
+<figcaption>Perfect in seconds</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>“Make a better jagged frontier diagram”</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/bad_jagged_frontier.png" width="400"></p>
+<figcaption>Failed after an hour</figcaption>
+</figure>
+</div>
+</div></div>
+<p><strong>The lesson</strong>: You must explore the frontier for YOUR tasks</p>
+</section>
+<section id="low-hanging-fruit" class="slide level2" data-background-color="#e8f4f8">
+<h2>Low-Hanging Fruit</h2>
+<p><strong>Where AI consistently saves researchers time:</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Literature Tasks</strong> 📚</p>
 <ul>
-<li>Information overload in academic research</li>
-<li>Limited time for comprehensive literature review</li>
-<li>Need for strategic filtering and prioritization</li>
+<li>Summarizing papers</li>
+<li>Finding patterns</li>
+<li>Translation (language &amp; jargon)</li>
+<li>Initial categorization</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Your Strategic Advantage</strong></p>
+<p><strong>Coding Tasks</strong> 💻</p>
 <ul>
-<li>Understanding the jagged frontier</li>
-<li>Collaborative approach: AI handles scale, you provide judgment</li>
-<li>Tool selection based on your specific needs</li>
+<li>Data cleaning scripts</li>
+<li>Statistical analysis</li>
+<li>Debugging errors</li>
+<li>Documentation</li>
 </ul>
 </div></div>
-<p><strong>Next</strong>: We’ll put this into practice with hands-on tools and techniques</p>
+<p><strong>These are INSIDE the frontier</strong> - reliable time-savers</p>
+</section>
+<section id="why-collaborative" class="slide level2" data-background-color="#f8f9fa">
+<h2>Why Collaborative?</h2>
+<p><strong>Think of AI as an infinitely patient research assistant</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>You Provide</strong></p>
+<ul>
+<li>Domain expertise</li>
+<li>Research questions</li>
+<li>Quality judgment</li>
+<li>Ethical framework</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>AI Provides</strong></p>
+<ul>
+<li>Processing speed</li>
+<li>Pattern recognition</li>
+<li>Multiple drafts</li>
+<li>Tireless consistency</li>
+</ul>
+</div></div>
+<p><strong>Key principle</strong>: AI amplifies expertise, doesn’t replace it</p>
+</section>
+<section id="tool-selection-why-gemini-today" class="slide level2" data-background-color="#f8f9fa">
+<h2>Tool Selection: Why Gemini Today</h2>
+<p><strong>Three major providers, each with strengths:</strong></p>
+<ul>
+<li><strong>OpenAI (ChatGPT)</strong>: Best “Deep Research” tool</li>
+<li><strong>Anthropic (Claude)</strong>: Excellent for coding</li>
+<li><strong>Google (Gemini)</strong>: Largest context window</li>
+</ul>
+<p><strong>Context window</strong> = Working memory</p>
+<ul>
+<li>Gemini: ~750,000 words (15 papers)</li>
+<li>Others: ~150,000 words (3 papers)</li>
+</ul>
+<p><strong>For academic work</strong>: Gemini’s massive context + citations = best choice</p>
+</section>
+<section id="what-makes-ai-different" class="slide level2" data-background-color="#e8f4f8">
+<h2>What Makes AI Different</h2>
+<p><strong>Traditional software</strong>: Predictable rules, consistent outputs</p>
+<p><strong>LLMs</strong>: More like a knowledgeable but quirky colleague</p>
+<ul>
+<li>Sometimes brilliant insights</li>
+<li>Sometimes confident nonsense</li>
+<li>Always needs verification</li>
+<li>Success depends on how you communicate</li>
+</ul>
+<p><strong>This is why prompting matters</strong> - it’s how you communicate effectively</p>
+</section>
+<section id="signpost-from-theory-to-practice" class="slide level2 center" data-background-color="#4a90b8">
+<h2>Signpost: From Theory to Practice</h2>
+<h3 id="you-now-understand">You now understand:</h3>
+<p>✓ Jagged frontier concept<br>
+✓ Where AI excels (literature, coding)<br>
+✓ Why collaboration works<br>
+✓ Tool options</p>
+<h3 id="next-build-your-toolkit-with-three-cumulative-activities">Next: Build your toolkit with three cumulative activities</h3>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="part-2-practical-applications" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Part 2: Practical Applications</h1>
+<section id="part-2-three-cumulative-tools" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 2: Three Cumulative Tools</h1>
 
 </section>
-<section id="building-your-research-toolkit" class="slide level2">
-<h2>Building Your Research Toolkit</h2>
-<p><strong>What we’re building</strong>: Working prompts, custom assistants, and literature enhancement tools</p>
+<section id="building-your-ai-research-toolkit" class="slide level2">
+<h2>Building Your AI Research Toolkit</h2>
+<p><strong>What we’re building</strong>: Practical tools you’ll use immediately</p>
 </section>
-<section id="your-learning-journey" class="slide level2" data-background-color="#e8f4f8">
-<h2>Your Learning Journey</h2>
-<h3 class="text-blue" id="activity-1-professional-context-8-min">🔧 Activity 1: Professional Context <em>(8 min)</em></h3>
-<p>Build foundation for all AI interactions</p>
-<h3 class="text-blue" id="activity-2-enhanced-prompting-10-min">🔧 Activity 2: Enhanced Prompting <em>(10 min)</em></h3>
-<p>Transform vague requests into powerful prompts</p>
-<h3 class="text-blue" id="activity-3-literature-review-assistant-25-min">🔧 Activity 3: Literature Review Assistant <em>(25 min)</em></h3>
-<p>Create reusable research assistant using a Gemini Gem</p>
-<p><strong>📖 Book chapters</strong>: 4-6 provide provide more detail</p>
-</section>
-<section id="the-power-and-the-problem" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Power and the Problem</h2>
-<p><strong>Large Language Models are powerful but not clairvoyant</strong></p>
-<div>
+<section id="the-foundation-why-prompting-matters" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Foundation: Why Prompting Matters</h2>
+<p><strong>LLMs are powerful but not clairvoyant</strong></p>
+<p>They need:</p>
 <ul>
-<li class="fragment"><strong>Powerful</strong>: Can handle complex tasks that take humans hours or days</li>
-<li class="fragment"><strong>Not clairvoyant</strong>: Can’t read your mind or guess what you really need</li>
-<li class="fragment"><strong>Need sufficient information</strong>: The more context you provide, the better the output</li>
-<li class="fragment"><strong>Key insight</strong>: Quality of output depends heavily on quality of input</li>
+<li><strong>Context</strong>: Who you are, what you’re working on</li>
+<li><strong>Clear instructions</strong>: Specific tasks, not vague requests</li>
+<li><strong>Output format</strong>: How you want results structured</li>
+<li><strong>Quality controls</strong>: Ways to verify accuracy</li>
 </ul>
-</div>
+<p><strong>Analogy</strong>: Like briefing a new research assistant who’s brilliant but knows nothing about your work</p>
 </section>
-<section id="from-google-to-collaborative-partner" class="slide level2" data-background-color="#fff3cd">
-<h2>From Google to Collaborative Partner</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>❌ Google Search Approach</strong></p>
-<ul>
-<li>Few keywords</li>
-<li>Browse results</li>
-<li>Find what you need</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>✅ AI Collaboration Approach</strong></p>
-<ul>
-<li>Detailed context</li>
-<li>Specific instructions</li>
-<li>Iterative refinement</li>
-</ul>
-</div></div>
-<p><strong>Think of AI as a knowledgeable colleague who needs clear direction</strong></p>
-</section>
-<section id="anatomy-of-effective-prompts" class="slide level2" data-background-color="#f8f9fa">
+<section id="anatomy-of-effective-prompts" class="slide level2" data-background-color="#e8f4f8">
 <h2>Anatomy of Effective Prompts</h2>
-<p><strong>Essential components for research-quality outputs:</strong></p>
-<div>
-<ul>
-<li class="fragment"><strong>Context</strong>: Who you are, what you’re working on</li>
-<li class="fragment"><strong>Task</strong>: What specifically you want the AI to do</li>
-<li class="fragment"><strong>Format</strong>: How you want the output structured</li>
-<li class="fragment"><strong>Constraints</strong>: Limitations, requirements, things to avoid</li>
-<li class="fragment"><strong>Examples</strong>: Sample inputs/outputs when helpful</li>
-</ul>
-</div>
-<p><strong>📖 Detailed templates</strong>: Chapter 4</p>
-</section>
-<section id="activity-1-create-your-professional-context" class="slide level2" data-background-color="#4a90b8">
-<h2>🔧 Activity 1: Create Your Professional Context</h2>
-<h3 class="text-teal" id="build-your-ai-research-foundation-8-minutes">Build Your AI Research Foundation <em>(8 minutes)</em></h3>
-<p><strong>What you’ll do:</strong> 1. Go to <a href="https://gemini.google.com">gemini.google.com</a> 2. Upload your CV, LinkedIn profile, or faculty bio 3. Use the prompt template (next slide) 4. Create reusable professional context</p>
-<p><strong>Why this matters:</strong> This becomes the foundation for all your AI interactions</p>
-</section>
-<section id="professional-context-prompt-template" class="slide level2" data-background-color="#f8f9fa">
-<h2>Professional Context Prompt Template</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a>Please analyze my professional background and help me create a </span>
-<span id="cb1-2"><a></a>professional context for AI interactions. Based on my CV/profile, </span>
-<span id="cb1-3"><a></a>create a summary that includes:</span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a></a><span class="an">CONTEXT:</span><span class="co"> Background information, your expertise, project details</span></span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>TASK: Specific request with clear action verbs</span>
 <span id="cb1-4"><a></a></span>
-<span id="cb1-5"><a></a><span class="fu">## Domain Expertise &amp; Background</span></span>
-<span id="cb1-6"><a></a><span class="co">[</span><span class="ot">My main research areas, methodology preferences, key expertise</span><span class="co">]</span></span>
-<span id="cb1-7"><a></a></span>
-<span id="cb1-8"><a></a><span class="fu">## Current Roles &amp; Affiliations  </span></span>
-<span id="cb1-9"><a></a><span class="co">[</span><span class="ot">Current positions, institutional affiliations, responsibilities</span><span class="co">]</span></span>
-<span id="cb1-10"><a></a></span>
-<span id="cb1-11"><a></a><span class="fu">## Research Focus Areas</span></span>
-<span id="cb1-12"><a></a><span class="co">[</span><span class="ot">Main research interests, current projects, regional expertise</span><span class="co">]</span></span>
-<span id="cb1-13"><a></a></span>
-<span id="cb1-14"><a></a><span class="fu">## Communication Style &amp; Audience</span></span>
-<span id="cb1-15"><a></a><span class="co">[</span><span class="ot">Who I typically write for, how I prefer to communicate findings</span><span class="co">]</span></span>
-<span id="cb1-16"><a></a></span>
-<span id="cb1-17"><a></a><span class="fu">## Technical Approach</span></span>
-<span id="cb1-18"><a></a><span class="co">[</span><span class="ot">Specific tools, methods, analytical approaches I use</span><span class="co">]</span></span>
-<span id="cb1-19"><a></a></span>
-<span id="cb1-20"><a></a>Make this professional but concise - about 200-300 words total.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a></a>FORMAT: Structure, length, style preferences  </span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a>CONSTRAINTS: What to avoid, limitations, requirements</span>
+<span id="cb1-8"><a></a></span>
+<span id="cb1-9"><a></a>QUALITY CONTROLS: "Ask clarifying questions", "Tell me when unsure"</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Each element improves output quality</strong></p>
 </section>
-<section id="activity-1-instructions" class="slide level2" data-background-color="#e8f4f8">
-<h2>Activity 1: Instructions</h2>
-<div>
+<section id="tool-1-professional-context" class="slide level2" data-background-color="#f8f9fa">
+<h2>Tool 1: Professional Context</h2>
+<p><strong>The problem</strong>: Starting from scratch every conversation</p>
+<p><strong>The solution</strong>: Reusable professional context that captures:</p>
+<ul>
+<li>Your expertise and background</li>
+<li>Research focus areas</li>
+<li>Communication style</li>
+<li>Methodological preferences</li>
+</ul>
+<p><strong>Why this matters</strong>: Foundation for all future AI interactions</p>
+</section>
+<section id="activity-1-create-your-context" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 1: Create Your Context</h2>
+<h3 class="text-teal" id="build-your-ai-foundation-8-minutes">Build Your AI Foundation <em>(8 minutes)</em></h3>
 <ol type="1">
-<li class="fragment"><strong>Upload your document</strong>: CV, LinkedIn, or faculty bio to Gemini</li>
-<li class="fragment"><strong>Paste the template</strong>: Copy the prompt from the previous slide</li>
-<li class="fragment"><strong>Review the output</strong>: Does it capture your expertise accurately?</li>
-<li class="fragment"><strong>Refine if needed</strong>: Ask for adjustments to better reflect your work</li>
-<li class="fragment"><strong>Save the result</strong>: You’ll use this in our next activities</li>
+<li>Go to <a href="https://gemini.google.com">gemini.google.com</a></li>
+<li>Upload your CV, bio, or LinkedIn profile</li>
+<li>Use this prompt:</li>
 </ol>
-</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a>Analyze my professional background and create a 200-300 word </span>
+<span id="cb2-2"><a></a>professional context for AI interactions including:</span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="ss">- </span>Domain expertise &amp; background</span>
+<span id="cb2-5"><a></a><span class="ss">- </span>Current roles &amp; affiliations  </span>
+<span id="cb2-6"><a></a><span class="ss">- </span>Research focus areas</span>
+<span id="cb2-7"><a></a><span class="ss">- </span>Communication style &amp; audience</span>
+<span id="cb2-8"><a></a><span class="ss">- </span>Technical approaches I use</span>
+<span id="cb2-9"><a></a></span>
+<span id="cb2-10"><a></a>Make it professional but conversational.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="activity-1-walkthrough" class="slide level2" data-background-color="#e8f4f8">
+<h2>Activity 1 Walkthrough</h2>
+<p><strong>Step by step:</strong></p>
+<ol type="1">
+<li><strong>Upload</strong> → CV or professional bio</li>
+<li><strong>Paste prompt</strong> → Exactly as shown</li>
+<li><strong>Review</strong> → Does it capture your expertise?</li>
+<li><strong>Refine</strong> → “Make it more concise” or “Add my regional expertise”</li>
+<li><strong>Save</strong> → Copy to a document for reuse</li>
+</ol>
+<p><strong>Success indicator</strong>: AI understands your research domain and communication needs</p>
 <div class="time-indicator">
 ⏱️ 8 minutes
 </div>
 </section>
-<section id="the-difference-context-makes" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Difference Context Makes</h2>
-<p><strong>Without context</strong>: Generic, surface-level responses<br>
-<strong>With context</strong>: Targeted, sophisticated assistance</p>
+<section id="checkpoint-what-you-built" class="slide level2" data-background-color="#d4edda">
+<h2>Checkpoint: What You Built</h2>
+<p>✅ <strong>Professional context that:</strong></p>
+<ul>
+<li>Introduces you to any AI system</li>
+<li>Captures your unique expertise</li>
+<li>Sets appropriate communication style</li>
+<li>Eliminates repetitive explanations</li>
+</ul>
+<p><strong>This becomes part of EVERY future prompt</strong></p>
 </section>
-<section id="two-powerful-prompt-enhancers" class="slide level2" data-background-color="#e8f4f8">
-<h2>Two Powerful Prompt Enhancers</h2>
-<p><strong>Add these to any prompt for better results:</strong></p>
-<div>
-<ol type="1">
-<li class="fragment"><strong>“Please ask me clarifying questions”</strong> - Encourages AI to seek additional information rather than make assumptions</li>
-<li class="fragment"><strong>“Tell me when you’re unsure about something”</strong> - Reduces hallucinations by encouraging admission of uncertainty</li>
-</ol>
-</div>
-<p><strong>These simple additions can save you from misleading responses</strong></p>
-</section>
-<section id="common-prompting-mistakes" class="slide level2" data-background-color="#fff3cd">
-<h2>Common Prompting Mistakes</h2>
+<section id="tool-2-enhanced-prompting" class="slide level2" data-background-color="#f8f9fa">
+<h2>Tool 2: Enhanced Prompting</h2>
+<p><strong>Now we combine context with structured requests</strong></p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>❌ What Doesn’t Work</strong></p>
-<ul>
-<li>Treating AI like Google</li>
-<li>Vague requests: “Help me with X”</li>
-<li>No quality control</li>
-<li>Overwhelming with too much at once</li>
-</ul>
+<p><strong>Without structure</strong> ❌ “Help with literature review”</p>
+<p>Vague → Generic output</p>
 </div><div class="column" style="width:50%;">
-<p><strong>✅ What Works</strong></p>
-<ul>
-<li>Provide documents + ask for analysis</li>
-<li>Specific tasks + output format</li>
-<li>Ask for sources and reasoning</li>
-<li>Break complex tasks into steps</li>
-</ul>
+<p><strong>With structure</strong> ✅ Context + Task + Format</p>
+<p>Specific → Useful output</p>
 </div></div>
+<p><strong>The magic</strong>: Your context + clear structure = targeted assistance</p>
 </section>
-<section id="activity-2-enhanced-prompting-practice" class="slide level2" data-background-color="#4a90b8">
-<h2>🔧 Activity 2: Enhanced Prompting Practice</h2>
-<h3 class="text-teal" id="from-vague-to-powerful-10-minutes">From Vague to Powerful <em>(10 minutes)</em></h3>
-<p><strong>What you’ll do:</strong></p>
+<section id="why-structure-works" class="slide level2" data-background-color="#e8f4f8">
+<h2>Why Structure Works</h2>
+<p><strong>Two powerful additions to any prompt:</strong></p>
 <ol type="1">
-<li>Take your professional context from Activity 1</li>
-<li>Choose a current research question you’re working on</li>
-<li>Create a structured prompt using the template</li>
-<li>Test it and refine</li>
+<li><p><strong>“Ask me clarifying questions”</strong></p>
+<ul>
+<li>AI seeks missing information</li>
+<li>Prevents assumptions</li>
+</ul></li>
+<li><p><strong>“Tell me when you’re unsure”</strong></p>
+<ul>
+<li>Reduces hallucinations</li>
+<li>Flags uncertainty</li>
+</ul></li>
 </ol>
-<p><strong>Goal:</strong> Experience the difference between generic and contextualized AI assistance</p>
+<p><strong>These simple phrases dramatically improve reliability</strong></p>
 </section>
-<section id="enhanced-prompting-template" class="slide level2" data-background-color="#f8f9fa">
-<h2>Enhanced Prompting Template</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a></a><span class="co">[</span><span class="ot">Paste your professional context from Activity 1</span><span class="co">]</span></span>
-<span id="cb2-2"><a></a></span>
-<span id="cb2-3"><a></a><span class="fu">## Current Research Question</span></span>
-<span id="cb2-4"><a></a><span class="co">[</span><span class="ot">Describe what you're working on - paper, project, grant, etc.</span><span class="co">]</span></span>
-<span id="cb2-5"><a></a></span>
-<span id="cb2-6"><a></a><span class="fu">## Specific Request</span></span>
-<span id="cb2-7"><a></a>I need help with <span class="co">[</span><span class="ot">specific task</span><span class="co">]</span>. Please:</span>
-<span id="cb2-8"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">What you want the AI to do</span><span class="co">]</span></span>
-<span id="cb2-9"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">How you want it formatted</span><span class="co">]</span></span>
-<span id="cb2-10"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">Any constraints or requirements</span><span class="co">]</span></span>
-<span id="cb2-11"><a></a></span>
-<span id="cb2-12"><a></a><span class="fu">## Additional Context</span></span>
-<span id="cb2-13"><a></a><span class="co">[</span><span class="ot">Any relevant background, documents, or constraints</span><span class="co">]</span></span>
-<span id="cb2-14"><a></a></span>
-<span id="cb2-15"><a></a>Please ask me clarifying questions if you need more information, </span>
-<span id="cb2-16"><a></a>and tell me when you're unsure about something.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="activity-2-enhanced-prompting" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 2: Enhanced Prompting</h2>
+<h3 class="text-teal" id="transform-vague-to-powerful-10-minutes">Transform Vague to Powerful <em>(10 minutes)</em></h3>
+<p>Build on Activity 1 by adding structure:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a><span class="co">[</span><span class="ot">Your professional context from Activity 1</span><span class="co">]</span></span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a>I'm working on <span class="co">[</span><span class="ot">specific research question/paper/project</span><span class="co">]</span>.</span>
+<span id="cb3-4"><a></a></span>
+<span id="cb3-5"><a></a>Please help me <span class="co">[</span><span class="ot">specific task</span><span class="co">]</span>:</span>
+<span id="cb3-6"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">What you want</span><span class="co">]</span></span>
+<span id="cb3-7"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">How it should be formatted</span><span class="co">]</span></span>
+<span id="cb3-8"><a></a><span class="ss">- </span><span class="co">[</span><span class="ot">Any constraints</span><span class="co">]</span></span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a>Ask clarifying questions if needed.</span>
+<span id="cb3-11"><a></a>Tell me when you're unsure about something.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="activity-2-step-by-step" class="slide level2" data-background-color="#e8f4f8">
-<h2>Activity 2: Step-by-Step</h2>
-<div>
+<section id="activity-2-practice" class="slide level2" data-background-color="#e8f4f8">
+<h2>Activity 2 Practice</h2>
+<p><strong>Try it with a real research need:</strong></p>
 <ol type="1">
-<li class="fragment"><strong>Start with your context</strong>: Use the professional summary from Activity 1</li>
-<li class="fragment"><strong>Choose your research question</strong>: Something you’re currently working on</li>
-<li class="fragment"><strong>Be specific</strong>: What exactly do you want help with?</li>
-<li class="fragment"><strong>Add the enhancers</strong>: Ask for clarifying questions and uncertainty flags</li>
-<li class="fragment"><strong>Test and refine</strong>: Try it, see what happens, adjust as needed</li>
+<li><strong>Paste your context</strong> (from Activity 1)</li>
+<li><strong>Add current research</strong> - Be specific, add context, upload documents</li>
+<li><strong>Structure your request</strong> - Task, format, constraints</li>
+<li><strong>Include quality controls</strong> - Questions and uncertainty</li>
+<li><strong>Compare results</strong> - How does this differ from a vague request?</li>
 </ol>
-</div>
+<p><strong>💬 Chat</strong>: <em>What surprised you about the enhanced response?</em></p>
 <div class="time-indicator">
 ⏱️ 10 minutes
 </div>
-<p><strong>💬 Chat</strong>: <em>Share your biggest “aha” moment from improved prompting</em></p>
 </section>
-<section id="the-art-of-iterative-prompting" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Art of Iterative Prompting</h2>
-<p><strong>AI works best through conversation, not one-shot requests</strong></p>
-<div>
+<section id="the-compounding-effect" class="slide level2" data-background-color="#d4edda">
+<h2>The Compounding Effect</h2>
+<p>✅ <strong>What you’ve discovered:</strong></p>
 <ul>
-<li class="fragment"><strong>Start broad</strong>: Get initial direction and framework</li>
-<li class="fragment"><strong>Drill down</strong>: Ask for specifics on the most interesting parts</li>
-<li class="fragment"><strong>Refine</strong>: Request adjustments to tone, format, or focus</li>
-<li class="fragment"><strong>Verify</strong>: Ask for sources, evidence, or reasoning</li>
+<li>Context → No more generic responses</li>
+<li>Structure → Clear, actionable outputs</li>
+<li>Quality controls → Reduced errors</li>
+<li><strong>Together</strong> → AI that understands YOUR research needs</li>
 </ul>
-</div>
-<p><strong>Example flow</strong>: Research question → Initial analysis → Specific methodology → Alternative approaches → Validation strategy</p>
+<p><strong>Next</strong>: Apply this to your biggest time sink - literature review</p>
 </section>
-<section id="prompt-chaining-for-complex-tasks" class="slide level2" data-background-color="#e8f4f8">
-<h2>Prompt Chaining for Complex Tasks</h2>
-<p><strong>Break complex requests into sequential steps:</strong></p>
+<section id="tool-3-literature-review-enhancement" class="slide level2" data-background-color="#f8f9fa">
+<h2>Tool 3: Literature Review Enhancement</h2>
+<p><strong>The universal research challenge:</strong></p>
+<ul>
+<li>Explosion of publications</li>
+<li>Relevant work in other languages</li>
+<li>Insights trapped in other disciplines</li>
+<li>No time to read everything</li>
+</ul>
+<p><strong>Initial literature review is prime “low-hanging fruit”</strong> - squarely inside AI’s capabilities</p>
+</section>
+<section id="my-personal-workflow" class="slide level2" data-background-color="#e8f4f8">
+<h2>My Personal Workflow</h2>
+<p><strong>For every potentially relevant paper:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a><span class="co">[</span><span class="ot">Professional context</span><span class="co">]</span></span>
+<span id="cb4-2"><a></a></span>
+<span id="cb4-3"><a></a>Please provide the full citation information for this document at the top, then create a detailed structured summary of this entire document, including any appendices.</span>
+<span id="cb4-4"><a></a></span>
+<span id="cb4-5"><a></a>I need to understand:</span>
+<span id="cb4-6"><a></a><span class="ss">- </span>The main argument or purpose</span>
+<span id="cb4-7"><a></a><span class="ss">- </span>Key findings or conclusions</span>
+<span id="cb4-8"><a></a><span class="ss">- </span>Important data, evidence, or examples</span>
+<span id="cb4-9"><a></a><span class="ss">- </span>Any policy implications or practical applications</span>
+<span id="cb4-10"><a></a><span class="ss">- </span>Who the intended audience appears to be</span>
+<span id="cb4-11"><a></a></span>
+<span id="cb4-12"><a></a>Format this as a structured summary with clear headings.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Result</strong>: 5% merit deep reading, 95% the summary is sufficient</p>
+</section>
+<section id="two-translation-superpowers" class="slide level2" data-background-color="#f8f9fa">
+<h2>Two Translation Superpowers</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>❌ All at once</strong></p>
-<p>“Analyze this email thread, identify key issues, and draft a response”</p>
-</div><div class="column" style="width:50%;">
-<p><strong>✅ Step by step</strong></p>
-<ol type="1">
-<li>First: Analyze and clarify</li>
-<li>Then: Draft based on analysis</li>
-</ol>
-</div></div>
-<p><strong>Why this works</strong>: Each step can be optimized, you maintain quality control, AI has clearer focus</p>
-</section>
-<section id="building-your-prompt-library" class="slide level2" data-background-color="#f8f9fa">
-<h2>Building Your Prompt Library</h2>
-<p><strong>As you develop effective prompts, save them:</strong></p>
-<div>
+<p><strong>Language Translation</strong> 🌍</p>
 <ul>
-<li class="fragment"><strong>Literature analysis</strong>: Templates for paper summaries</li>
-<li class="fragment"><strong>Research brainstorming</strong>: Question generation prompts</li>
-<li class="fragment"><strong>Writing enhancement</strong>: Revision and feedback requests</li>
-<li class="fragment"><strong>Email threads</strong>: Complex communication analysis</li>
-<li class="fragment"><strong>Grant applications</strong>: Proposal development assistance</li>
-</ul>
-</div>
-<p><strong>📖 Ready-to-use templates</strong>: Chapter 4 provides tested prompts for common research tasks</p>
-</section>
-<section id="what-youve-built-so-far" class="slide level2" data-background-color="#d4edda">
-<h2>What You’ve Built So Far</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Tool 1: Professional Context</strong></p>
-<ul>
-<li>Reusable foundation for all AI interactions</li>
-<li>Captures your expertise and communication style</li>
-<li>Enables targeted, sophisticated assistance</li>
+<li>Spanish economics paper → English</li>
+<li>Chinese policy document → English</li>
+<li>Initial assessment of relevance</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Tool 2: Enhanced Prompting</strong></p>
+<p><strong>Jargon Translation</strong> 🔄</p>
 <ul>
-<li>Structured approach to AI requests</li>
-<li>Quality control through verification</li>
-<li>Iterative refinement process</li>
-</ul>
-</div></div>
-<p><strong>Next</strong>: We’ll enhance your literature review capabilities, then build specialized research assistants</p>
-</section>
-<section id="literature-review-enhancement" class="slide level2" data-background-color="#f8f9fa">
-<h2>Literature Review Enhancement</h2>
-<p><strong>The information deluge problem we all face</strong></p>
-<div>
-<ul>
-<li class="fragment"><strong>Explosion of research</strong>: Even narrow subfields are impossible to keep up with</li>
-<li class="fragment"><strong>Your reality</strong>: Job, family, life outside research - finite time</li>
-<li class="fragment"><strong>The challenge</strong>: Can’t read everything, can’t afford to miss important work</li>
-</ul>
-</div>
-<p><strong>AI as intelligent filter</strong>: Help identify what deserves your limited attention</p>
-</section>
-<section id="the-scale-advantage" class="slide level2" data-background-color="#e8f4f8">
-<h2>The Scale Advantage</h2>
-<p><strong>Time mathematics for literature processing:</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Traditional Reading</strong></p>
-<ul>
-<li>Academic paper: 40-80 minutes</li>
-<li>100-page report: 3-5 hours</li>
-<li>Weekly literature (10 papers): 7-13 hours</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>AI Processing</strong></p>
-<ul>
-<li>Paper summary: 30-60 seconds</li>
-<li>100-page report analysis: 2-3 minutes</li>
-<li>10-paper pattern analysis: 5-10 minutes</li>
-</ul>
-</div></div>
-<p><strong>This isn’t about replacing careful reading—it’s about deciding what merits it</strong></p>
-</section>
-<section id="my-personal-literature-workflow" class="slide level2" data-background-color="#f8f9fa">
-<h2>My Personal Literature Workflow</h2>
-<p><strong>Step 1: Initial Filtering</strong></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a><span class="co">[</span><span class="ot">Add your professional context</span><span class="co">]</span></span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a>Please provide full citation information, then create a detailed </span>
-<span id="cb3-4"><a></a>structured summary including:</span>
-<span id="cb3-5"><a></a><span class="ss">- </span>Main argument or purpose</span>
-<span id="cb3-6"><a></a><span class="ss">- </span>Key findings or conclusions</span>
-<span id="cb3-7"><a></a><span class="ss">- </span>Important data, evidence, or examples</span>
-<span id="cb3-8"><a></a><span class="ss">- </span>Policy implications or practical applications</span>
-<span id="cb3-9"><a></a><span class="ss">- </span>Intended audience</span>
-<span id="cb3-10"><a></a></span>
-<span id="cb3-11"><a></a>Format as structured summary with clear headings.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Result</strong>: 95% of documents - summary gives me what I need. 5% - worth reading in detail</p>
-</section>
-<section id="two-types-of-translation" class="slide level2" data-background-color="#e8f4f8">
-<h2>Two Types of Translation</h2>
-<p><strong>AI excels at bridging barriers:</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>1. Language Translation</strong></p>
-<ul>
-<li>Access research in other languages</li>
-<li>Initial translations for relevance assessment</li>
-<li>Professional translation for key sources</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>2. Cross-Disciplinary Translation</strong></p>
-<ul>
-<li>Bridge academic jargon differences</li>
-<li>Access insights from related fields</li>
-<li>Translate complex concepts to plain language</li>
+<li>Economics → Plain English</li>
+<li>Computer science → Social science</li>
+<li>Technical → Policymaker-friendly</li>
 </ul>
 </div></div>
 <p><strong>Both expand your research scope dramatically</strong></p>
 </section>
-<section id="cross-disciplinary-translation-example" class="slide level2" data-background-color="#f8f9fa">
-<h2>Cross-Disciplinary Translation Example</h2>
-<p><strong>Prompt for bridging disciplines:</strong></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a><span class="co">[</span><span class="ot">Your professional context</span><span class="co">]</span></span>
-<span id="cb4-2"><a></a></span>
-<span id="cb4-3"><a></a>This paper is written for <span class="co">[</span><span class="ot">source discipline</span><span class="co">]</span> using terminology </span>
-<span id="cb4-4"><a></a>unfamiliar to <span class="co">[</span><span class="ot">target discipline</span><span class="co">]</span> researchers. Please:</span>
-<span id="cb4-5"><a></a></span>
-<span id="cb4-6"><a></a><span class="ss">1. </span>Identify key concepts and findings</span>
-<span id="cb4-7"><a></a><span class="ss">2. </span>Explain them in plain language  </span>
-<span id="cb4-8"><a></a><span class="ss">3. </span>Suggest how insights might apply to <span class="co">[</span><span class="ot">target discipline</span><span class="co">]</span></span>
-<span id="cb4-9"><a></a><span class="ss">4. </span>Highlight adaptable methodological approaches</span>
-<span id="cb4-10"><a></a></span>
-<span id="cb4-11"><a></a>Focus on practical applications, avoid oversimplification.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Real value</strong>: Access methodologies and insights trapped in other fields</p>
+<section id="cross-disciplinary-example" class="slide level2" data-background-color="#e8f4f8">
+<h2>Cross-Disciplinary Example</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a><span class="co">[</span><span class="ot">Your context</span><span class="co">]</span></span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a>This computer science paper uses unfamiliar technical terminology. </span>
+<span id="cb5-4"><a></a>Please:</span>
+<span id="cb5-5"><a></a><span class="ss">1. </span>Identify the main contribution in plain language</span>
+<span id="cb5-6"><a></a><span class="ss">2. </span>Explain how their methods might apply to social science research  </span>
+<span id="cb5-7"><a></a><span class="ss">3. </span>Highlight any useful techniques for <span class="co">[</span><span class="ot">your research area</span><span class="co">]</span></span>
+<span id="cb5-8"><a></a></span>
+<span id="cb5-9"><a></a>Focus on practical applications, not technical details.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Unlock insights from other fields</strong></p>
 </section>
-<section id="activity-3-literature-enhancement-practice" class="slide level2" data-background-color="#4a90b8">
-<h2>🔧 Activity 3: Literature Enhancement Practice</h2>
-<h3 class="text-teal" id="test-your-literature-workflow-15-minutes">Test Your Literature Workflow <em>(15 minutes)</em></h3>
-<p><strong>What you’ll do:</strong></p>
-<ol type="1">
-<li>Choose a paper from your field (or upload one)</li>
-<li>Use your professional context + literature summary prompt</li>
-<li>Test cross-disciplinary translation: Try translating it into plain language understandable to someone outside your field.</li>
-<li>Evaluate: Does this save time while maintaining quality?</li>
-</ol>
-<p><strong>Goal</strong>: Experience AI as literature processing amplifier</p>
+<section id="gems-your-reusable-assistants" class="slide level2" data-background-color="#f8f9fa">
+<h2>Gems: Your Reusable Assistants</h2>
+<p><strong>What are Gems?</strong></p>
+<ul>
+<li>Saved AI configurations with your instructions</li>
+<li>Reusable across conversations</li>
+<li>No need to re-enter context</li>
+<li>Continuously improvable</li>
+</ul>
+<p><strong>Think of it as</strong>: Training a specialized research assistant who remembers your preferences</p>
+</section>
+<section id="activity-3-build-literature-gem" class="slide level2" data-background-color="#4a90b8">
+<h2>🔧 Activity 3: Build Literature Gem</h2>
+<h3 class="text-teal" id="create-your-research-assistant-25-minutes">Create Your Research Assistant <em>(25 minutes)</em></h3>
+<p><strong>Part A: Test &amp; Refine</strong> (10 min)</p>
+<ul>
+<li>Upload a paper</li>
+<li>Apply context + literature prompt</li>
+<li>Identify what to improve</li>
+</ul>
+<p><strong>Part B: Create Gem</strong> (15 min)</p>
+<ul>
+<li>Combine all your learning</li>
+<li>Save as reusable tool</li>
+<li>Test on new paper</li>
+</ul>
+<p><strong>This combines everything you’ve learned</strong></p>
+</section>
+<section id="literature-gem-template" class="slide level2" data-background-color="#f8f9fa">
+<h2>Literature Gem Template</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a></a><span class="fu"># Literature Review Assistant - [Your Name]</span></span>
+<span id="cb6-2"><a></a></span>
+<span id="cb6-3"><a></a><span class="co">[</span><span class="ot">Your professional context from Activity 1</span><span class="co">]</span></span>
+<span id="cb6-4"><a></a></span>
+<span id="cb6-5"><a></a><span class="fu">## Your Role</span></span>
+<span id="cb6-6"><a></a>Help me efficiently analyze papers in <span class="co">[</span><span class="ot">your field</span><span class="co">]</span>, identifying </span>
+<span id="cb6-7"><a></a>insights relevant to <span class="co">[</span><span class="ot">your research focus</span><span class="co">]</span>.</span>
+<span id="cb6-8"><a></a></span>
+<span id="cb6-9"><a></a><span class="fu">## For every document:</span></span>
+<span id="cb6-10"><a></a><span class="ss">- </span>Full citation</span>
+<span id="cb6-11"><a></a><span class="ss">- </span>Main argument + theoretical framework</span>
+<span id="cb6-12"><a></a><span class="ss">- </span>Methods and evidence  </span>
+<span id="cb6-13"><a></a><span class="ss">- </span>Key findings with page numbers</span>
+<span id="cb6-14"><a></a><span class="ss">- </span>Implications for <span class="co">[</span><span class="ot">your specific interests</span><span class="co">]</span></span>
+<span id="cb6-15"><a></a><span class="ss">- </span>Connections to other disciplines</span>
+<span id="cb6-16"><a></a></span>
+<span id="cb6-17"><a></a><span class="fu">## Quality Standards</span></span>
+<span id="cb6-18"><a></a><span class="ss">- </span>Distinguish claims from evidence</span>
+<span id="cb6-19"><a></a><span class="ss">- </span>Note limitations and biases</span>
+<span id="cb6-20"><a></a><span class="ss">- </span>Flag surprising or controversial points</span>
+<span id="cb6-21"><a></a><span class="ss">- </span>Suggest related papers if mentioned</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="activity-3-step-by-step" class="slide level2" data-background-color="#e8f4f8">
-<h2>Activity 3: Step-by-Step</h2>
-<div>
+<h2>Activity 3 Step-by-Step</h2>
+<p><strong>Part A: Test the workflow</strong></p>
 <ol type="1">
-<li class="fragment"><strong>Upload a paper</strong>: Something recent in your field</li>
-<li class="fragment"><strong>Use structured prompt</strong>: Professional context + literature summary template</li>
-<li class="fragment"><strong>Evaluate output</strong>: Does it capture what you need?</li>
-<li class="fragment"><strong>Test boundaries</strong>: Try with a paper from a related discipline</li>
-<li class="fragment"><strong>Refine approach</strong>: Adjust prompts based on what you learn</li>
+<li>Upload paper to Gemini</li>
+<li>Use context + summary prompt</li>
+<li>Evaluate: What’s missing? Too detailed? Just right?</li>
 </ol>
-</div>
+<p><strong>Part B: Create your Gem</strong></p>
+<ol type="1">
+<li>Go to Gemini → Explore Gems → New Gem</li>
+<li>Name clearly: “Literature Review - [Your Field]”</li>
+<li>Paste refined instructions</li>
+<li>Save and test with different paper</li>
+</ol>
 <div class="time-indicator">
-⏱️ 15 minutes
+⏱️ 25 minutes
 </div>
-<p><strong>💬 Chat</strong>: <em>Share one insight AI helped you discover that you might have missed</em></p>
 </section>
-<section id="critical-validation-strategies" class="slide level2" data-background-color="#fff3cd">
-<h2>Critical Validation Strategies</h2>
-<p><strong>Essential practices for literature AI:</strong></p>
-<div>
-<ul>
-<li class="fragment"><strong>Always verify key claims</strong>: Especially quantitative findings</li>
-<li class="fragment"><strong>Check citations</strong>: Ensure quotes aren’t taken out of context</li>
-<li class="fragment"><strong>Use for exploration</strong>: Identify promising papers, then read sections carefully</li>
-<li class="fragment"><strong>Cross-reference</strong>: Compare AI summaries with abstracts and conclusions</li>
-<li class="fragment"><strong>Professional translation</strong>: For sources central to your argument</li>
-</ul>
-</div>
-<p><strong>Remember</strong>: AI helps you cast a wider net, human judgment determines what to keep</p>
-</section>
-<section id="what-are-gems" class="slide level2" data-background-color="#f8f9fa">
-<h2>What Are Gems?</h2>
-<p><strong>Now that you understand literature enhancement, let’s save this approach</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Think of Gems as specialized research assistants</strong></p>
-<ul>
-<li><strong>Google Gemini</strong>: Gems</li>
-<li><strong>Claude</strong>: Projects<br>
-</li>
-<li><strong>ChatGPT</strong>: Custom GPTs</li>
-<li><strong>Same concept</strong>: Saved instructions for specific tasks</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Benefits for literature work</strong></p>
-<ul>
-<li>Consistent approach across papers</li>
-<li>No re-entering context each time</li>
-<li>Specialized for your research needs</li>
-<li>Can share with colleagues</li>
-</ul>
-</div></div>
-</section>
-<section id="activity-4-create-your-literature-review-gem" class="slide level2" data-background-color="#4a90b8">
-<h2>🔧 Activity 4: Create Your Literature Review Gem</h2>
-<h3 class="text-teal" id="build-your-specialized-research-assistant-10-minutes">Build Your Specialized Research Assistant <em>(10 minutes)</em></h3>
-<p><strong>What you’ll do:</strong></p>
+<section id="the-cumulative-power" class="slide level2" data-background-color="#d4edda">
+<h2>The Cumulative Power</h2>
+<p>✅ <strong>You’ve built a complete system:</strong></p>
 <ol type="1">
-<li>Create a new Gem in Gemini</li>
-<li>Use your professional context from Activity 1</li>
-<li>Add your refined literature review approach from Activity 3</li>
-<li>Test it with a new paper</li>
-<li>Save for future use</li>
+<li><strong>Context</strong> → AI understands you</li>
+<li><strong>Structure</strong> → Clear, useful outputs<br>
+</li>
+<li><strong>Gem</strong> → Reusable, improving tool</li>
 </ol>
-<p><strong>Goal</strong>: Reusable literature processing system</p>
+<p><strong>Each element reinforces the others</strong></p>
+<p><strong>You now have a literature review assistant tailored to YOUR research</strong></p>
 </section>
-<section id="literature-review-gem-template" class="slide level2" data-background-color="#f8f9fa">
-<h2>Literature Review Gem Template</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a><span class="fu"># Literature Review Specialist - [Your Name]</span></span>
-<span id="cb5-2"><a></a></span>
-<span id="cb5-3"><a></a><span class="co">[</span><span class="ot">Your professional context from Activity 1</span><span class="co">]</span></span>
-<span id="cb5-4"><a></a></span>
-<span id="cb5-5"><a></a><span class="fu">## Your Role</span></span>
-<span id="cb5-6"><a></a>Help me efficiently analyze academic papers, identify patterns, </span>
-<span id="cb5-7"><a></a>find research gaps, and synthesize findings.</span>
-<span id="cb5-8"><a></a></span>
-<span id="cb5-9"><a></a><span class="fu">## Analysis Approach</span></span>
-<span id="cb5-10"><a></a><span class="co">[</span><span class="ot">Add your refined approach from Activity 3</span><span class="co">]</span></span>
-<span id="cb5-11"><a></a></span>
-<span id="cb5-12"><a></a><span class="fu">## Output Format</span></span>
-<span id="cb5-13"><a></a><span class="ss">- </span>Clear section headers with full citation</span>
-<span id="cb5-14"><a></a><span class="ss">- </span>Page numbers for key findings</span>
-<span id="cb5-15"><a></a><span class="ss">- </span>Methodological details when relevant</span>
-<span id="cb5-16"><a></a><span class="ss">- </span>Cross-disciplinary connections where applicable</span>
-<span id="cb5-17"><a></a></span>
-<span id="cb5-18"><a></a><span class="fu">## Quality Standards</span></span>
-<span id="cb5-19"><a></a><span class="ss">- </span>Maintain academic rigor</span>
-<span id="cb5-20"><a></a><span class="ss">- </span>Distinguish claims from empirical findings</span>
-<span id="cb5-21"><a></a><span class="ss">- </span>Note limitations and methodological concerns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="signpost-literature-to-coding" class="slide level2 center" data-background-color="#4a90b8">
+<h2>Signpost: Literature to Coding</h2>
+<h3 id="literature-review-low-hanging-fruit-1">Literature review = Low-hanging fruit #1</h3>
+<h3 id="coding-assistance-low-hanging-fruit-2">Coding assistance = Low-hanging fruit #2</h3>
+<p><strong>Both save massive time on routine tasks</strong></p>
 </section>
-<section id="what-youve-built-now" class="slide level2" data-background-color="#d4edda">
-<h2>What You’ve Built Now</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Tool 3: Literature Enhancement Workflow</strong></p>
+<section id="coding-the-other-major-time-saver" class="slide level2" data-background-color="#f8f9fa">
+<h2>Coding: The Other Major Time-Saver</h2>
+<p><strong>Who this helps:</strong></p>
 <ul>
-<li>Structured approach to paper processing</li>
-<li>Cross-disciplinary translation capabilities</li>
-<li>Time-saving while maintaining quality</li>
+<li>Researchers who code (R, Python, Stata, SPSS)</li>
+<li>Those who supervise coders</li>
+<li>Excel users wanting reproducible workflows</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Tool 4: Literature Review Gem</strong></p>
-<ul>
-<li>Reusable specialist assistant</li>
-<li>Consistent high-quality analysis</li>
-<li>Saves your refined approach</li>
-</ul>
-</div></div>
-<p><strong>Next</strong>: Advanced tools and coding assistance</p>
-</section>
-<section id="advanced-tools-beyond-basic-chat" class="slide level2" data-background-color="#f8f9fa">
-<h2>Advanced Tools: Beyond Basic Chat</h2>
-<p><strong>For when you need to analyze large document collections:</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>NotebookLM</strong></p>
-<ul>
-<li>Upload up to 300 documents</li>
-<li>Ask questions across entire corpus</li>
-<li>Exact citations to source material</li>
-<li>Perfect for exploratory analysis</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Deep Research Tools</strong></p>
-<ul>
-<li>AI conducts 15-20 minute research projects</li>
-<li>Produces detailed 15-30 page reports</li>
-<li>Available in ChatGPT, Claude, Perplexity</li>
-<li>Good for initial topic exploration</li>
-</ul>
-</div></div>
-<p><strong>📖 Detailed guide</strong>: Chapter 7 for advanced tools</p>
-</section>
-<section id="notebooklm-in-action" class="slide level2" data-background-color="#e8f4f8">
-<h2>NotebookLM in Action</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/notebooklm.png" style="width:100.0%"></p>
-<figcaption>NotebookLM analyzing Chinese policy bank annual reports</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:40%;">
-<p><strong>Real example:</strong></p>
-<ul>
-<li>Financial analysis revealed China ExIM losses in 2017</li>
-<li>Asked: “What caused the losses?”</li>
-<li>Found exchange rate explanation with exact citations</li>
-</ul>
-</div></div>
-<p><strong>Key insight</strong>: Use for exploration, verify with original sources</p>
-</section>
-<section id="deep-research-reality-check" class="slide level2" data-background-color="#fff3cd">
-<h2>Deep Research Reality Check</h2>
-<p><strong>What they do well:</strong></p>
-<ul>
-<li>Comprehensive coverage of complex topics</li>
-<li>Synthesis across multiple sources</li>
-<li>Quality equivalent to skilled research assistant after a week</li>
-</ul>
-<p><strong>Important limitations:</strong></p>
-<ul>
-<li>Can be confidently wrong about specific facts</li>
-<li>Limited access to academic databases</li>
-<li>May miss recent developments</li>
-<li>Always verify important claims</li>
-</ul>
-<p><strong>Best approach</strong>: Use for initial exploration, follow up with domain expertise</p>
-</section>
-<section id="coding-assistance-the-bigger-opportunity" class="slide level2" data-background-color="#f8f9fa">
-<h2>Coding Assistance: The Bigger Opportunity</h2>
-<p><strong>Many researchers work with data analysis code:</strong></p>
-<div>
-<ul>
-<li class="fragment">R, Python, Stata, SPSS, MATLAB</li>
-<li class="fragment">Whether you code yourself or supervise others</li>
-<li class="fragment">Wish you could move from Excel to more reproducible workflows</li>
-<li class="fragment">Face time-consuming debugging and learning curves</li>
-</ul>
-</div>
-<p><strong>AI coding assistance can dramatically reduce time on routine tasks</strong></p>
+<p><strong>The opportunity</strong>: AI as infinitely patient coding tutor and assistant</p>
 </section>
 <section id="the-coding-jagged-frontier" class="slide level2" data-background-color="#e8f4f8">
 <h2>The Coding Jagged Frontier</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Inside (AI excels)</strong></p>
+<p><strong>AI Excels At</strong> ✅</p>
 <ul>
-<li>Standard data manipulation</li>
-<li>Statistical analysis code</li>
-<li>Explaining existing code</li>
-<li>Generating documentation</li>
-<li>Debugging common errors</li>
-<li>Translating between languages</li>
+<li>Data cleaning code</li>
+<li>Standard analyses</li>
+<li>Debugging errors</li>
+<li>Writing documentation</li>
+<li>Translation between languages</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Outside (AI struggles)</strong></p>
+<p><strong>AI Struggles With</strong> ❌</p>
 <ul>
-<li>Your specific research context</li>
+<li>Your specific data quirks</li>
+<li>Complex architecture</li>
 <li>Domain-specific packages</li>
-<li>Complex multi-step analyses</li>
 <li>Performance optimization</li>
 <li>Statistical method selection</li>
 </ul>
 </div></div>
-<p><strong>The key</strong>: AI handles syntax, you provide the research logic</p>
+<p><strong>Success key</strong>: You provide research logic and context, AI handles syntax</p>
 </section>
-<section id="the-vibe-coding-problem" class="slide level2" data-background-color="#fff3cd">
-<h2>The “Vibe Coding” Problem</h2>
-<p><strong>What is “vibe coding”?</strong></p>
-<p>AI generates code that <em>looks</em> professional and runs without errors, but:</p>
-<div>
+<section id="the-promise-and-the-peril" class="slide level2" data-background-color="#f8f9fa">
+<h2>The Promise and The Peril</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Promise</strong> 🚀</p>
 <ul>
-<li class="fragment">Produces incorrect results</li>
-<li class="fragment">Uses functions that don’t exist</li>
-<li class="fragment">Mixes syntax from different languages</li>
-<li class="fragment">Works for simple cases but fails with real data</li>
+<li>10x faster for routine tasks</li>
+<li>Learn new languages quickly</li>
+<li>Better documentation</li>
+<li>Fewer silly errors</li>
 </ul>
-</div>
-<p><strong>The 0-to-90% problem</strong>: AI quickly gets you 90% there, then you spend hours debugging the remaining 10%</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Peril</strong> ⚠️</p>
+<ul>
+<li>“Vibe coding” - looks right, runs wrong</li>
+<li>Hallucinated functions</li>
+<li>The 0-to-90% problem</li>
+<li>Overconfidence in output</li>
+</ul>
+</div></div>
+<p><strong>Critical</strong>: You need to understand your code. Always validate results.</p>
+</section>
+<section id="what-is-vibe-coding" class="slide level2" data-background-color="#fff3cd">
+<h2>What is “Vibe Coding”?</h2>
+<p><strong>The dangerous phenomenon where:</strong></p>
+<ul>
+<li>Code looks professional ✓</li>
+<li>Runs without errors ✓<br>
+</li>
+<li>Produces wrong results ✗</li>
+</ul>
+<p><strong>Example</strong>: Statistical test that always returns p &lt; 0.05</p>
+<p><strong>Protection</strong>:</p>
+<ul>
+<li>Test with known data</li>
+<li>Verify calculations manually</li>
+<li>Check package documentation</li>
+</ul>
 </section>
 <section id="best-practices-for-research-coding" class="slide level2" data-background-color="#f8f9fa">
 <h2>Best Practices for Research Coding</h2>
-<p><strong>Strategic approach:</strong></p>
-<div>
 <ol type="1">
-<li class="fragment"><strong>Use most advanced models</strong> - Pay for premium access ($20/month is worth it)</li>
-<li class="fragment"><strong>Start with your own expertise</strong> - Test AI on code you know well</li>
-<li class="fragment"><strong>Provide complete context</strong> - Include data structure, expected outputs, error messages</li>
-<li class="fragment"><strong>Break complex tasks into steps</strong> - Don’t ask for entire analysis at once</li>
-<li class="fragment"><strong>Always validate outputs</strong> - Check results against known answers</li>
+<li><strong>Use advanced models</strong> - Claude for coding, worth the $20/month</li>
+<li><strong>Provide complete context</strong> - Data structure, expected output</li>
+<li><strong>Work iteratively</strong> - Build step by step, test each part</li>
+<li><strong>Include your preferences</strong> - “Use tidyverse style with base R pipe”</li>
+<li><strong>Always validate</strong> - Check against known results</li>
 </ol>
-</div>
-<p><strong>📖 Comprehensive guide</strong>: Chapter 8 for coding best practices</p>
 </section>
-<section id="r-tidyverse-example" class="slide level2" data-background-color="#e8f4f8">
-<h2>R Tidyverse Example</h2>
-<p><strong>Prompt for data analysis:</strong></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a></a>I'm analyzing survey data on household income and education. </span>
-<span id="cb6-2"><a></a>I have columns: household_id, income, education, region, year.</span>
-<span id="cb6-3"><a></a></span>
-<span id="cb6-4"><a></a>Using R tidyverse style with the base R pipe |&gt;, help me:</span>
-<span id="cb6-5"><a></a><span class="ss">1. </span>Calculate median income by region and education level</span>
-<span id="cb6-6"><a></a><span class="ss">2. </span>Create a summary table showing trends over time</span>
-<span id="cb6-7"><a></a><span class="ss">3. </span>Generate a clean visualization for publication</span>
-<span id="cb6-8"><a></a></span>
-<span id="cb6-9"><a></a>Please include comments and use the tidyverse style guide.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Result</strong>: AI generates clean, documented code following your preferences</p>
+<section id="effective-coding-prompts" class="slide level2" data-background-color="#e8f4f8">
+<h2>Effective Coding Prompts</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a></a><span class="co">[</span><span class="ot">Your context including preferred languages/packages</span><span class="co">]</span></span>
+<span id="cb7-2"><a></a></span>
+<span id="cb7-3"><a></a>I have survey data with columns: household_id, income, education, </span>
+<span id="cb7-4"><a></a>region, year. The data has some missing values.</span>
+<span id="cb7-5"><a></a></span>
+<span id="cb7-6"><a></a>Using R with tidyverse style and base R pipe |&gt;, please:</span>
+<span id="cb7-7"><a></a><span class="ss">1. </span>Create a script to calculate and visualize median income by region and education</span>
+<span id="cb7-8"><a></a><span class="ss">2. </span>Create plots to help me understand  how to handle missing data appropriately  </span>
+<span id="cb7-9"><a></a><span class="ss">4. </span>Include comments explaining each step</span>
+<span id="cb7-10"><a></a></span>
+<span id="cb7-11"><a></a>Note: I prefer functional programming (purrr) over loops.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="when-ai-coding-shines" class="slide level2" data-background-color="#f8f9fa">
-<h2>When AI Coding Shines</h2>
-<p><strong>Dramatic speed improvements for:</strong></p>
+<section id="advanced-coding-tools" class="slide level2" data-background-color="#f8f9fa">
+<h2>Advanced Coding Tools</h2>
+<p><strong>When you’re ready for more:</strong></p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Routine Tasks</strong></p>
+<p><strong>Cursor</strong></p>
 <ul>
-<li>Data cleaning and transformation</li>
-<li>Standard statistical analyses</li>
-<li>Creating visualizations</li>
-<li>Writing documentation</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Learning Acceleration</strong></p>
-<ul>
-<li>Explaining unfamiliar code</li>
-<li>Bridging between languages</li>
-<li>Discovering best practices</li>
-<li>Understanding error messages</li>
-</ul>
-</div></div>
-<p><strong>Real value</strong>: Frees you from syntax struggles to focus on research questions</p>
-</section>
-<section id="moving-beyond-web-interfaces" class="slide level2" data-background-color="#e8f4f8">
-<h2>Moving Beyond Web Interfaces</h2>
-<p><strong>Advanced coding environments:</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Cursor IDE</strong></p>
-<ul>
-<li>AI-native code editor</li>
-<li>Understands entire project context</li>
+<li>AI-native IDE</li>
 <li>Edits code in place</li>
-<li>Runs and iterates based on results</li>
+<li>Understands whole project</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><strong>GitHub Copilot</strong></p>
 <ul>
-<li>Autocomplete suggestions</li>
-<li>Works in existing IDEs</li>
-<li>Learns from your coding patterns</li>
-<li>Integrates with development workflow</li>
+<li>Autocomplete on steroids</li>
+<li>Works in your IDE</li>
+<li>Learns your patterns</li>
 </ul>
 </div></div>
-<p><strong>When you’re ready</strong>: These tools enable more sophisticated AI-assisted development</p>
+<p><strong>Start with chat interfaces, graduate to these when ready</strong></p>
 </section>
-<section id="validation-strategies-for-ai-code" class="slide level2" data-background-color="#fff3cd">
-<h2>Validation Strategies for AI Code</h2>
-<p><strong>Essential practices:</strong></p>
-<div>
-<ol type="1">
-<li class="fragment"><strong>Test with known data</strong> - Use datasets where you know expected results</li>
-<li class="fragment"><strong>Start small</strong> - Test functions with simple examples first</li>
-<li class="fragment"><strong>Manual verification</strong> - Check AI calculations against hand calculations</li>
-<li class="fragment"><strong>Cross-platform validation</strong> - Compare results across different tools</li>
-<li class="fragment"><strong>Peer review</strong> - Have colleagues examine AI-generated code</li>
-</ol>
-</div>
-<p><strong>Remember</strong>: AI is a coding co-pilot, not an autopilot</p>
-</section>
-<section id="what-youve-built-throughout-part-2" class="slide level2" data-background-color="#d4edda">
-<h2>What You’ve Built Throughout Part 2</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>Foundations</strong>: Mental model + strategic tool selection</p>
-<p><strong>Practical Skills</strong>:</p>
-<ul>
-<li>Professional context for all AI interactions</li>
-<li>Enhanced prompting techniques</li>
-<li>Literature review enhancement workflow</li>
-<li>Custom research assistant (Gem)</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Areas of Low-Hanging Fruit</strong>:</p>
-<ul>
-<li><strong>Text summarization</strong>: AI excels at processing and organizing information</li>
-<li><strong>Coding assistance</strong>: Dramatically faster for routine programming tasks</li>
-<li><strong>Translation</strong>: Both linguistic and cross-disciplinary</li>
-<li><strong>First-draft generation</strong>: Starting points for refinement</li>
-</ul>
-</div></div>
-<p><strong>Next</strong>: Case study showing what becomes possible when you scale up</p>
+<section id="signpost-from-tools-to-scale" class="slide level2 center" data-background-color="#4a90b8">
+<h2>Signpost: From Tools to Scale</h2>
+<h3 id="you-now-have">You now have:</h3>
+<p>✓ Mental model (jagged frontier)<br>
+✓ Three practical tools<br>
+✓ Understanding of low-hanging fruit</p>
+<h3 id="next-what-becomes-possible-at-scale">Next: What becomes possible at scale</h3>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="part-3-advanced-possibilities" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Part 3: Advanced Possibilities</h1>
+<section id="part-3-scaling-up" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Part 3: Scaling Up</h1>
 
 </section>
-<section id="case-study-using-llms-at-scale" class="slide level2">
-<h2>Case Study: Using LLMs at Scale</h2>
-<p><strong>What we’re exploring</strong>: How AI enables policy-relevant research at scale</p>
+<section id="from-web-interfaces-to-apis" class="slide level2">
+<h2>From Web Interfaces to APIs</h2>
+<p><strong>What we’re exploring</strong>: How these tools enable ambitious research</p>
 </section>
-<section id="the-policy-challenge" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Policy Challenge</h2>
-<p><strong>Understanding China’s Role in Financing the Energy Transition</strong></p>
-<div>
+<section id="back-to-china-the-full-challenge" class="slide level2" data-background-color="#f8f9fa">
+<h2>Back to China: The Full Challenge</h2>
+<p><strong>Research question</strong>: Given policy chatter about the “Green Belt &amp; Road,” what do we know about China’s role in funding the energy transition in developing countries?</p>
+<p><strong>The data</strong>: 18,000 lending projects needing classification</p>
 <ul>
-<li class="fragment">China: Key source of lending to developing countries</li>
-<li class="fragment">Policy pronouncements about “Green Belt and Road Initiative”</li>
-<li class="fragment">Emphasis on “small and beautiful” projects</li>
-<li class="fragment">Shift from policy banks to commercial co-financing</li>
+<li>🟢 Green: Solar, wind, hydro, nuclear</li>
+<li>🟫 Brown: Coal, oil, fossil fuels<br>
+</li>
+<li>🔘 Grey: Mixed/indirect (transmission lines)</li>
+<li>⚪ Neutral: Non-energy</li>
 </ul>
-</div>
-<p><strong>Critical questions</strong>: Was China actually supporting green transition? Who was participating? What scale?</p>
+<p><strong>The constraint</strong>: Ambitious project, limited budget</p>
 </section>
-<section id="the-classification-challenge" class="slide level2" data-background-color="#f8f9fa">
-<h2>The Classification Challenge</h2>
-<p><strong>18,000 Chinese overseas lending projects</strong> from AidData’s database</p>
+<section id="web-interface-vs-api-approach" class="slide level2" data-background-color="#e8f4f8">
+<h2>Web Interface vs API Approach</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Categories needed</strong>:</p>
+<p><strong>What you’ve learned</strong> 🖥️</p>
 <ul>
-<li>🟢 <strong>Green</strong>: Solar, wind, hydro, nuclear</li>
-<li>🟫 <strong>Brown</strong>: Coal, oil, fossil fuels</li>
-<li>🔘 <strong>Grey</strong>: Indirect impacts (transmission)</li>
-<li>⚪ <strong>Neutral</strong>: Non-energy projects</li>
+<li>Manual chat interface</li>
+<li>One document at a time</li>
+<li>Great for exploration</li>
+<li>No coding required</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>Traditional approach</strong>:</p>
+<p><strong>What we used</strong> 🔧</p>
 <ul>
-<li>1,500 hours of work</li>
-<li>$22,500 in research costs</li>
-<li>Large grant funding required</li>
+<li>Programmatic API</li>
+<li>Thousands automatically</li>
+<li>Systematic processing</li>
+<li>Required Python or R</li>
 </ul>
 </div></div>
-<p><strong>Our result</strong>: Completed in 15 hours for $1.58</p>
+<p><strong>Same AI, different access method</strong></p>
 </section>
-<section id="the-reality-of-human-vs.-llm-classification" class="slide level2" data-background-color="#e8f4f8">
-<h2>The Reality of Human vs.&nbsp;LLM Classification</h2>
-<p><strong>Let’s be honest about manual classification at scale:</strong></p>
-<div>
-<ul>
-<li class="fragment">After a few hours, your eyes glaze over</li>
-<li class="fragment">Are you applying criteria consistently?</li>
-<li class="fragment">Are you coding the same way as yesterday? Last week?</li>
-<li class="fragment">Research assistants face the same challenges</li>
-</ul>
-</div>
-<p><strong>LLMs bring endless patience and consistency</strong></p>
-<ul>
-<li>Apply same criteria to project 17,000 as to project 1</li>
-<li>No fatigue, no drift in standards, no bad days</li>
-<li>Your LLM didn’t stay out partying until 4 AM</li>
-</ul>
-<p><strong>Key insight</strong>: Not about perfection, but about good-enough accuracy with perfect consistency</p>
+<section id="the-scale-mathematics" class="slide level2 center" data-background-color="#4a90b8">
+<h2>The Scale Mathematics</h2>
+<h3 id="manual-classification">Manual Classification</h3>
+<p><strong>1,500 hours</strong> × <strong>$15/hour</strong> = <strong>$22,500</strong></p>
+<h3 id="our-api-approach">Our API Approach</h3>
+<p><strong>15 hours</strong> × <strong>$0.11/hour</strong> = <strong>$1.58</strong></p>
+<h3 id="x-faster-14000x-cheaper">100x faster, 14,000x cheaper</h3>
 </section>
-<section id="why-keywords-failed-context-succeeded" class="slide level2" data-background-color="#f8f9fa">
-<h2>Why Keywords Failed, Context Succeeded</h2>
-<p><strong>Example project</strong>: <em>“Development of 500MW solar power plant with backup diesel generator”</em></p>
+<section id="why-context-beat-keywords" class="slide level2" data-background-color="#f8f9fa">
+<h2>Why Context Beat Keywords</h2>
+<p><strong>Real example</strong>: “500MW solar power plant with backup diesel generator”</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>❌ Keyword Search</strong></p>
+<p><strong>Keyword approach</strong> ❌</p>
 <ul>
-<li>Sees “diesel”</li>
+<li>Searches for “diesel”</li>
 <li>Classifies as brown</li>
 <li>Misses primary purpose</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><strong>✅ LLM Context Understanding</strong></p>
+<p><strong>LLM approach</strong> ✅</p>
 <ul>
-<li>Reads entire description</li>
-<li>Understands primary purpose</li>
-<li>Recognizes backup as auxiliary</li>
-<li>Correctly classifies as green</li>
+<li>Reads full description</li>
+<li>Understands context</li>
+<li>Correctly identifies as green</li>
 </ul>
 </div></div>
-<p><strong>The advantage</strong>: LLMs understand context that keyword searches miss entirely</p>
+<p><strong>This is the jagged frontier in action</strong></p>
 </section>
-<section id="our-development-journey" class="slide level2" data-background-color="#f8f9fa">
+<section id="our-development-journey" class="slide level2" data-background-color="#e8f4f8">
 <h2>Our Development Journey</h2>
-<p><strong>Phase 1: Getting Started</strong> <em>(5-10 examples)</em></p>
-<ul>
-<li>Test basic concepts</li>
-<li>Refine classification framework</li>
-</ul>
-<p><strong>Phase 2: Working Out Kinks</strong> <em>(~30 examples)</em></p>
-<ul>
-<li>Handle edge cases and mixed projects</li>
-<li>Develop nuanced reasoning</li>
-</ul>
-<p><strong>Phase 3: Infrastructure Testing</strong> <em>(100 projects)</em></p>
-<ul>
-<li>Test API calls and error handling</li>
-<li>Build processing pipelines</li>
-</ul>
-<p><strong>Phase 4: Validation Strategy</strong> <em>(300 projects)</em></p>
-<ul>
-<li>Test multiple models against human judgment</li>
-<li>Measure reliability and accuracy</li>
-</ul>
-<p><strong>Phase 5: Full Implementation</strong> <em>(18,000 projects)</em></p>
-<ul>
-<li>Process complete dataset with confidence</li>
-</ul>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A[10 examples&lt;br/&gt;Test concept] --&gt; B[100 examples&lt;br/&gt;Refine approach]
+    B --&gt; C[300 examples&lt;br/&gt;Validate]
+    C --&gt; D[18,000 projects&lt;br/&gt;Full scale]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Key insight</strong>: Start small, validate early, scale confidently</p>
 </section>
-<section id="what-made-our-approach-work" class="slide level2" data-background-color="#e8f4f8">
-<h2>What Made Our Approach Work</h2>
-<p><strong>Multi-shot prompting</strong>: Showed AI how to reason through complex cases</p>
-<p><strong>Structured output</strong>: Required JSON format with confidence levels</p>
-<p><strong>Confidence calibration</strong>: AI assessed its own certainty</p>
+<section id="validation-the-critical-step" class="slide level2" data-background-color="#f8f9fa">
+<h2>Validation: The Critical Step</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/llm_agreement_analysis.png" width="400"></p>
+<figcaption>Model agreement analysis</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>Our approach:</strong></p>
 <ul>
-<li><strong>HIGH</strong>: Clear alignment with categories</li>
-<li><strong>MEDIUM</strong>: Some ambiguity but reasonable certainty</li>
-<li><strong>LOW</strong>: Significant uncertainty - flag for human review</li>
+<li>Test multiple models</li>
+<li>Human validation sample</li>
+<li><strong>91.8% agreement</strong></li>
+<li>Full methodology published</li>
 </ul>
-<p><strong>Key insight</strong>: When AI said it was uncertain, it usually was</p>
+</div></div>
+<p><strong>Transparency enables trust and progress</strong></p>
 </section>
-<section id="validation-strategy" class="slide level2" data-background-color="#f8f9fa">
-<h2>Validation Strategy</h2>
-<p><strong>Step 1: Inter-Model Agreement</strong></p>
-<ul>
-<li>Tested different LLMs on same projects</li>
-<li>High agreement (85-95%) on most categories</li>
-<li>Deepseek v3 emerged as best performer</li>
-</ul>
-<p><strong>Step 2: Human Validation Benchmark</strong></p>
-<ul>
-<li>300 projects manually classified by experts</li>
-<li><strong>91.8% agreement</strong> with human ratings</li>
-<li><strong>95.5% accuracy</strong> on green projects specifically</li>
-</ul>
-
-<img data-src="images/llm_agreement_analysis.png" width="600" class="r-stretch quarto-figure-center"><p class="caption">LLM Agreement Analysis</p></section>
-<section id="the-unexpected-challenge" class="slide level2" data-background-color="#fff3cd">
-<h2>The Unexpected Challenge</h2>
-<p>All LLM providers do some type of content moderation.</p>
-<p>Using Deepseek (an LLM from a Chinese AI lab) required “Non Traditional Debugging” to sanitize politically sensitive names.</p>
-
-<img data-src="images/non_traditional_debugging.png" width="300" class="r-stretch quarto-figure-center"><p class="caption">Non-traditional debugging approach</p></section>
 <section id="what-we-discovered" class="slide level2" data-background-color="#f8f9fa">
 <h2>What We Discovered</h2>
 
-<img data-src="images/odi_green_lending_trends.png" width="800" class="r-stretch quarto-figure-center"><p class="caption">Trends in Chinese overseas lending by project type</p><p><strong>Key findings challenged conventional wisdom</strong>:</p>
-<ul>
-<li>Only <strong>$86.5 billion in green investments</strong> (5.8% of total)</li>
-<li><strong>No green surge over time</strong> despite policy rhetoric</li>
-<li><strong>Bifurcated co-financing networks</strong> - green and commercial financing remain separate</li>
-</ul>
+<img data-src="images/odi_green_lending_trends.png" class="r-stretch quarto-figure-center"><p class="caption">China’s green lending: mostly hydro, minimal solar/wind</p><p><strong>Only possible through scale</strong> - patterns invisible in small samples</p>
 </section>
-<section id="the-transformation-of-research-possibilities" class="slide level2" data-background-color="#e8f4f8">
-<h2>The Transformation of Research Possibilities</h2>
-<p><strong>This wasn’t about doing the impossible</strong></p>
-<ul>
-<li>Large teams could have done this manually</li>
-<li>It would have required major grant funding</li>
-</ul>
-<p><strong>This was about democratizing ambitious research</strong></p>
-<p><strong>Key insight</strong>: AI handles mechanical tasks while humans focus on research design, validation, and interpretation</p>
+<section id="lessons-for-your-research" class="slide level2" data-background-color="#e8f4f8">
+<h2>Lessons for Your Research</h2>
+<ol type="1">
+<li><strong>Start where you are</strong> - Web interfaces are powerful enough for most tasks</li>
+<li><strong>Think about scale</strong> - What questions could you ask with unlimited processing?</li>
+<li><strong>Validation is everything</strong> - Build it in from the start</li>
+<li><strong>Share your methods</strong> - We all benefit from transparency</li>
+<li><strong>Perfect &lt; Good enough</strong> - 92% accurate on 18,000 beats 100% on 100</li>
+</ol>
 </section>
-<section id="essential-lessons-for-other-researchers" class="slide level2" data-background-color="#f8f9fa">
-<h2>Essential Lessons for Other Researchers</h2>
-<p><strong>1. Start Simple, Build Complexity Gradually</strong></p>
+<section id="when-to-consider-apis" class="slide level2" data-background-color="#f8f9fa">
+<h2>When to Consider APIs</h2>
+<p><strong>Stay with web interfaces when:</strong></p>
 <ul>
-<li>Get basic cases working first</li>
-<li>Add examples iteratively</li>
-<li>Test infrastructure early</li>
-<li>Plan validation upfront</li>
+<li>Exploring and learning</li>
+<li>Need flexibility</li>
+<li>Not a confident R or Python programmer</li>
 </ul>
-<p><strong>2. Validation Is Everything</strong></p>
+<p><strong>Consider APIs when:</strong></p>
 <ul>
-<li>Test models against each other</li>
-<li>Verify with human judgment</li>
-<li>Always preserve original data</li>
-<li>Document your methodology</li>
+<li>Processing a large number of items</li>
+<li>Repeating same analysis</li>
+<li>Need systematic approach</li>
+<li>Have strong coding skills or coding support</li>
 </ul>
-<p><strong>3. Transparency Enables Progress</strong></p>
-<ul>
-<li>Share methods, code, and validation data</li>
-<li>Others can build on your work</li>
-<li>Contribute to methodological development</li>
-</ul>
-<p><strong>📖 Full methodology</strong>: <a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">27-page appendix</a> + <a href="https://github.com/Teal-Insights/odi_china_lending_llm_classification">GitHub repository</a></p>
+<p><strong>Most research stays in the first category</strong></p>
 </section>
-<section id="the-bigger-picture" class="slide level2" data-background-color="#4a90b8">
-<h2>The Bigger Picture</h2>
-<h3 class="text-light" id="democratizing-ambitious-research">Democratizing Ambitious Research</h3>
-<ul>
-<li><strong>We face urgent policy challenges</strong></li>
-</ul>
-<p><strong>Tools that enable more researchers to tackle these questions at scale</strong>:</p>
-<ul>
-<li>While maintaining academic rigor</li>
-<li>With transparent methodology</li>
-<li>Building on each other’s work</li>
-</ul>
-<p><strong>The promise</strong>: Not replacing expertise, but amplifying it to address urgent global challenges</p>
-</section>
-<section id="what-this-means-for-your-research" class="slide level2" data-background-color="#e8f4f8">
-<h2>What This Means for Your Research</h2>
-<p><strong>When you’re ready to scale up</strong>:</p>
-<div>
-<ul>
-<li class="fragment"><strong>Web tools → API development</strong> - What you’ve learned applies to programmatic approaches</li>
-<li class="fragment"><strong>Small samples → Large datasets</strong> - Tackle questions requiring comprehensive analysis</li>
-<li class="fragment"><strong>Individual papers → Pattern recognition</strong> - Find insights across hundreds of documents</li>
-<li class="fragment"><strong>Limited scope → Ambitious projects</strong> - Questions you couldn’t previously afford to pursue</li>
-</ul>
-</div>
-<p><strong>The path forward</strong>: Build comfort with web interfaces, then consider scaling when your research questions demand it</p>
-</section>
-<section id="looking-forward" class="slide level2" data-background-color="#f8f9fa">
-<h2>Looking Forward</h2>
-<p><strong>Methodological challenges we all face</strong>:</p>
-<div>
-<ul>
-<li class="fragment"><strong>Validation strategies</strong> for LLM-generated analysis</li>
-<li class="fragment"><strong>Transparency requirements</strong> for AI-assisted research</li>
-<li class="fragment"><strong>Best practices</strong> for handling provider constraints</li>
-<li class="fragment"><strong>Training programs</strong> for responsible AI use</li>
-</ul>
-</div>
-<p><strong>This case study represents one approach</strong> - not perfect, but a contribution toward responsible, effective AI use in policy research</p>
-<p><strong>The conversation is just beginning</strong> - your research and methods will help shape how these tools evolve</p>
+<section id="the-bigger-opportunity" class="slide level2 center" data-background-color="#4a90b8">
+<h2>The Bigger Opportunity</h2>
+<h3 id="not-about-technology">Not about technology</h3>
+<h3 id="about-democratizing-ambitious-research">About democratizing ambitious research</h3>
+<h3 id="about-freeing-you-for-high-value-thinking">About freeing you for high-value thinking</h3>
+<p><strong>You now have the tools</strong></p>
 </section>
 <section class="slide level2">
 
 </section></section>
 <section>
-<section id="wrap-up-your-next-steps" class="title-slide slide level1 center" data-background-color="#1e4a5f">
-<h1>Wrap-Up: Your Next Steps</h1>
+<section id="your-next-steps" class="title-slide slide level1 center" data-background-color="#1e4a5f">
+<h1>Your Next Steps</h1>
 
 </section>
-<section id="action-planning-sustained-engagement" class="slide level2">
-<h2>Action Planning &amp; Sustained Engagement</h2>
-<p><strong>What we’re doing</strong>: Consolidating learning and planning your continued exploration</p>
+<section id="from-workshop-to-practice" class="slide level2">
+<h2>From Workshop to Practice</h2>
 </section>
-<section id="learning-objectives-check" class="slide level2" data-background-color="#d4edda">
-<h2>Learning Objectives Check</h2>
-<h3 id="what-you-built-today">What You Built Today ✅</h3>
+<section id="what-you-built-today" class="slide level2" data-background-color="#d4edda">
+<h2>What You Built Today</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>🧠 Mental Model</strong> - Jagged frontier understanding - Collaborative approach to AI - Strategic tool selection</p>
-<p><strong>🔧 Practical Tools</strong> - Professional context template - Enhanced prompting techniques - Literature review workflow - Custom research assistant (Gem)</p>
+<p><strong>✅ Mental Models</strong></p>
+<ul>
+<li>Jagged frontier</li>
+<li>Collaborative approach</li>
+<li>Low-hanging fruit identification</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p><strong>📚 Understanding</strong> - Where AI excels vs.&nbsp;struggles - Validation strategies - Advanced possibilities - Scaling considerations</p>
-<p><strong>🎯 Strategic Approach</strong> - When to use web tools vs.&nbsp;APIs - How to maintain research integrity - Building on others’ methodological work</p>
-</div></div>
-<p><strong>Achievement</strong>: You’re no longer starting from zero with AI tools</p>
-</section>
-<section id="your-action-plan-for-this-week" class="slide level2" data-background-color="#e8f4f8">
-<h2>Your Action Plan for This Week</h2>
-<p><strong>Immediate next steps</strong> <em>(choose 2-3 that fit your current work)</em>:</p>
-<div>
+<p><strong>✅ Three Tools</strong></p>
 <ol type="1">
-<li class="fragment"><strong>Refine your Professional Context</strong> - Test with 3-5 different research questions</li>
-<li class="fragment"><strong>Create 1-2 additional Gems</strong> - For tasks you do regularly (grant writing, email analysis)</li>
-<li class="fragment"><strong>Test literature enhancement</strong> - Try with 5-10 papers in your field</li>
-<li class="fragment"><strong>Explore advanced tools</strong> - Upload document collection to NotebookLM</li>
-<li class="fragment"><strong>Try coding assistance</strong> - If you use R/Python/Stata, test with current project</li>
-<li class="fragment"><strong>Share with colleagues</strong> - Discuss one useful application you discovered</li>
+<li>Professional context</li>
+<li>Enhanced prompting</li>
+<li>Literature review Gem</li>
 </ol>
-</div>
-<p><strong>💬 Chat</strong>: <em>Which 2-3 actions are you most likely to try this week?</em></p>
+<p><strong>✅ Understanding of scale</strong></p>
+</div></div>
+<p><strong>You’re ready to start integrating AI into your research</strong></p>
 </section>
-<section id="when-youre-ready-for-more" class="slide level2" data-background-color="#f8f9fa">
-<h2>When You’re Ready for More</h2>
-<p><strong>📖 Your Reference Book</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
+<section id="this-weeks-action-plan" class="slide level2" data-background-color="#e8f4f8">
+<h2>This Week’s Action Plan</h2>
+<p><strong>Choose 2-3 that fit your current work:</strong></p>
+<ol type="1">
+<li><strong>Test your Literature Gem</strong> on 5-10 papers</li>
+<li><strong>Create a second Gem</strong> for grant writing or another task</li>
+<li><strong>Try coding assistance</strong> if you use R/Python/Stata</li>
+<li><strong>Upload a document collection</strong> to NotebookLM</li>
+<li><strong>Share one success</strong> with a colleague</li>
+</ol>
+<p><strong>💬 Chat</strong>: <em>Which actions match your immediate needs?</em></p>
 </section>
-<section id="resources-for-continued-learning" class="slide level2" data-background-color="#f8f9fa">
-<h2>Resources for Continued Learning</h2>
+<section id="going-deeper-resources" class="slide level2" data-background-color="#f8f9fa">
+<h2>Going Deeper: Resources</h2>
+<p><strong>Your reference book</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
 <p><strong>Essential reading</strong>:</p>
 <ul>
-<li><a href="https://www.oneusefulthing.org/">Ethan Mollick’s “One Useful Thing”</a> - Best practical AI guidance</li>
-<li><a href="https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/"><em>Co-Intelligence</em></a> - Deeper dive into human-AI collaboration</li>
+<li><a href="https://www.oneusefulthing.org/">Ethan Mollick’s “One Useful Thing”</a> - I’ve found Mollick’s book, blog, and papers helpful</li>
+<li><a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">Our ODI methodology</a> - Detailed validation approach</li>
 </ul>
-<p><strong>Technical resources</strong>:</p>
+<p><strong>Stay connected</strong>:</p>
 <ul>
-<li><a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview">Anthropic’s Prompt Engineering Guide</a></li>
-<li><a href="https://www.vellum.ai/llm-leaderboard">Vellum’s LLM Leaderboard</a> - Track model performance</li>
-</ul>
-<p><strong>Methodological development</strong>:</p>
-<ul>
-<li>Our <a href="https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/">ODI methodology appendix</a></li>
-<li><a href="https://github.com/Teal-Insights/odi_china_lending_llm_classification">GitHub repository</a> - Code and validation data</li>
+<li>Email: lte at tealinsights.com</li>
+<li>Share what works (and what doesn’t)</li>
 </ul>
 </section>
-<section id="contact-questions" class="slide level2" data-background-color="#f8f9fa">
-<h2>Contact &amp; Questions</h2>
-<p><strong>Teal Emery</strong></p>
+<section id="final-thoughts" class="slide level2" data-background-color="#e8f4f8">
+<h2>Final Thoughts</h2>
+<p><strong>Remember:</strong></p>
 <ul>
-<li><strong>Email</strong>: lte at tealinsights.com</li>
-<li><strong>Website</strong>: <a href="https://www.tealemery.com">tealemery.com</a></li>
-<li><strong>Workshop materials</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></li>
+<li>Start small, validate always</li>
+<li>Use AI for routine tasks</li>
+<li>Keep your critical thinking</li>
+<li>Share your learnings</li>
 </ul>
-<p><strong>I’m interested in your experiences</strong>:</p>
-<ul>
-<li>What works well for your research?</li>
-<li>What challenges do you encounter?</li>
-<li>What methodological questions arise?</li>
-</ul>
-<p><strong>Building better practices together</strong></p>
-<ul>
-<li>share your insights and questions</li>
-</ul>
-</section>
-<section id="final-reflections" class="slide level2" data-background-color="#e8f4f8">
-<h2>Final Reflections</h2>
-<p><strong>What we’ve explored today</strong>:</p>
-<div>
-<ul>
-<li class="fragment"><strong>Realistic assessment</strong> of AI’s capabilities and limitations</li>
-<li class="fragment"><strong>Practical tools</strong> you can use immediately</li>
-<li class="fragment"><strong>Validation strategies</strong> to maintain research integrity</li>
-<li class="fragment"><strong>Scaling possibilities</strong> for ambitious projects</li>
-</ul>
-</div>
-<p><strong>The bigger picture</strong>: Tools that enable more researchers to tackle urgent policy questions while maintaining academic rigor</p>
-<p><strong>Your contribution</strong>: As you experiment with these tools, you’re helping shape responsible AI use in scholarship</p>
-</section>
-<section id="questions-discussion" class="slide level2" data-background-color="#4a90b8">
-<h2>Questions &amp; Discussion</h2>
-<h3 class="text-light" id="open-floor-for-qa">Open Floor for Q&amp;A</h3>
-<p><strong>Share your thoughts</strong>:</p>
-<ul>
-<li>What applications seem most promising for your work?</li>
-<li>What concerns or challenges do you anticipate?</li>
-<li>How might these tools change your research approach?</li>
-</ul>
-<p><strong>💬 Chat</strong>: <em>Any final questions or insights you’d like to share?</em></p>
+<p><strong>The opportunity</strong>: More ambitious research while maintaining rigor</p>
+<p><strong>The tools</strong>: You now have them</p>
 </section>
 <section id="thank-you" class="slide level2" data-background-color="#1e4a5f">
 <h2>Thank You</h2>
-<h3 class="text-light" id="ai-for-the-skeptical-scholar">AI for the Skeptical Scholar</h3>
-<p><strong>Your skepticism is valuable</strong></p>
-<ul>
-<li>maintain it while exploring possibilities</li>
-</ul>
-<p><strong>Your expertise is irreplaceable</strong></p>
-<ul>
-<li>AI amplifies what you already know</li>
-</ul>
-<p><strong>Your research matters</strong></p>
-<ul>
-<li>these tools can help you tackle more ambitious questions</li>
-</ul>
-<p><strong>Keep exploring, keep questioning, keep building</strong></p>
-</section>
-<section class="slide level2">
-
-<p><strong>All materials</strong>: <a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
-<p><strong>Contact</strong>: lte at tealinsights.com</p>
+<h3 id="your-skepticism-is-an-assetkeep-it">Your skepticism is an asset—keep it</h3>
+<h3 id="your-expertise-is-irreplaceableamplify-it">Your expertise is irreplaceable—amplify it</h3>
+<h3 id="your-research-matterslet-ai-help-you-do-more">Your research matters—let AI help you do more</h3>
+<p><strong>Questions &amp; Discussion</strong></p>
+<p><a href="https://teal-insights.github.io/soas_llm_training">teal-insights.github.io/soas_llm_training</a></p>
 
 
 </section></section>

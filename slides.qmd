@@ -13,24 +13,32 @@ format:
     logo: images/teal_insights_logo_small.png
 ---
 
-# Getting Started {background-color="#1e4a5f"}
+# AI for the Skeptical Scholar {background-color="#1e4a5f"}
 
+## Practical Strategies for Using LLMs in Research
+
+**Teal Emery** | July 15, 2025
 
 ---
 
-## How I Got Here {background-color="#f8f9fa"}
+## My China Project Story {background-color="#f8f9fa"}
 
 ::: {.columns}
 ::: {.column width="40%"}
-![Greener on the Other Side - ODI Global Report](images/odi_cover_page.png){width="300px"}
+![18,000 projects classified](images/odi_cover_page.png){width="300px"}
 :::
 
 ::: {.column width="60%"}
-**April 2025**: Published ["Greener on the other side?"](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/) using AI to classify 18,000 Chinese lending projects
+**April 2025**: Published ["Greener on the other side?"](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/)
 
-**After publication**: Professor Carlos Oya reached out
+**The challenge**: Classify 18,000 Chinese lending projects
+- 🟢 Green | 🟫 Brown | 🔘 Grey | ⚪ Neutral
 
-**Today**: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I've been thinking about a lot
+**Traditional**: 1,500 hours, $22,500
+
+**Our result**: 15 hours, $1.58
+
+**Why I'm here**: Share practical lessons learned
 :::
 :::
 
@@ -38,767 +46,548 @@ format:
 
 ## China's Green Lending Reality {background-color="#f8f9fa"}
 
-![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png)
+![Despite "Green Belt and Road" rhetoric, minimal renewable energy financing](images/odi_green_lending_trends.png)
 
-**What we discovered**: Despite "Green Belt and Road" rhetoric, minimal actual renewable energy financing
+**Key finding**: Only 5.8% of Chinese lending went to green projects
 
-**LLM Best Practices**: No established best practices. We are trying to start that conversation
+**The point**: This analysis was only possible because LLMs handled the routine classification
 
 ---
 
-## My Take on AI {background-color="#f8f9fa"}
+## Who Am I? {background-color="#f8f9fa"}
+
+**Current roles:**
+
+- Founder, Teal Insights (sovereign debt & climate finance)
+- Research Consultant, AidData
+- Fellow, Energy for Growth Hub
+- Adjunct Lecturer, Johns Hopkins SAIS
+
+**Relevant experience:**
+
+- 7 years as EM sovereign analyst, Morgan Stanley
+- Using AI tools daily for research & code development
+- Building LLM products for finance ministries
+
+**Philosophy**: Build in the open, amplify expertise
+
+---
+
+## Real Problems, Real Value {background-color="#e8f4f8"}
 
 ::: {.columns}
 ::: {.column width="50%"}
+**Yes, there are problems** ⚠
 
-**There are real problems with AI** ⚠️
-
-- Bias and training data issues
-- Hallucinations and false confidence
-- Serious social & ethical issues
+- Training data bias
+- Hallucinations
+- Ethical concerns
+- Missing context
 :::
 
 ::: {.column width="50%"}
 **Despite this...** 💡
 
-- I believe AI can be a powerful tool for those of us who want to make the world a better place
-
-**Value I can add**: 
-
-- I've spent a lot of time figuring out what works and what doesn't. I can share my practical experience with you.
+- Powerful amplifier for good
+- Democratizes research capacity
+- Frees time for deep thinking
+- Enables ambitious projects
 :::
 :::
+
+**My value add**: Practical experience on what works (and what doesn't)
 
 ---
 
-## My Relevant AI Experience {background-color="#f8f9fa"}
+## What You'll Build Today {.center background-color="#4a90b8"}
 
-::: {.incremental}
-- **ODI research project**: 18,000 project classification in 15 hours vs. 1,500 hours manually for cost of $1.58.
-- **Day job**: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.
-- **Our approach**: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.
-- **Building LLM products**: To facilitate our research process and help countries avoid expensive consulting fees
-:::
-
-## Other Relevant Experience
+### Three Cumulative Tools
 
 ::: {.nonincremental}
--   **EM sovereign debt research analyst**, Morgan Stanley Investment Management 
--   **Adjunct Lecturer**, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)
--   **Thought leadership** on sovereign debt + sustainability, World Bank
--   **Chinese debt restructuring & flows** research, AidData
--   **Big nerd** 🤓
+1. **Professional Context** → Foundation for everything
+2. **Enhanced Prompting** → Uses context for better results
+3. **Literature Review Gem** → Combines both into reusable system
 :::
+
+**Each builds on the last**
 
 ---
 
-## Who This Workshop Is For {background-color="#f8f9fa"}
+## Roadmap for Our Journey {background-color="#f8f9fa"}
 
-**Experienced researchers who want to explore how LLMs might enhance their work**
+### Part 1: Mental Model *(20 min)*{.text-blue}
+Why AI works this way + strategic thinking
 
-::: {.incremental}
-- **Deep expertise** in your research domain  
-- **Healthy skepticism** about new technologies and their promises
-- **No prior LLM knowledge** or coding experience required
-- **Interest in practical tools** that could streamline routine research tasks
-- **Your skepticism is justified**—LLMs have real limitations we'll address directly
-:::
+### Part 2: Three Cumulative Tools *(70 min)*{.text-blue}  
+Hands-on practice with immediate applications
 
----
+### Part 3: Scaling Up *(15 min)*{.text-blue}
+From web interfaces to APIs - the China case study
 
-## This Workshop's Goal {.center background-color="#4a90b8"}
-
- - You can't learn everything about AI in 2 hours. 
- - This workshop aims to give you the mental, practical tools, and inspiration to get started
-
----
-
-## What You'll Leave With Today {.center background-color="#4a90b8"}
-
-### Three Practical Tools
-
-::: {.nonincremental}
-1. **A mental model** for how to us AI effectively and responsibly
-2. **Working prompts and systems** you can use immediately  
-3. **Validation strategies** to maintain research integrity
-:::
-
----
-
-## Our "Flipped" Approach {background-color="#e8f4f8"}
-
-::: {.columns}
-::: {.column width="50%"}
-**Live Session**
-
-- Concept exploration & discussion
-- Hands-on activities in Part 2
-- Problem-solving together
-- Learning from each other
-:::
-
-::: {.column width="50%"}
-**Your Reference Book**
-
-- Detailed explanations
-- Extended examples
-- Enables live session to be more interactive
-
-:::
-:::
-
-**All details at**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
-
----
-
-## Our Journey Together {background-color="#f8f9fa"}
-
-### Part 1: Foundations *(20 min)*{.text-blue}
-Understanding the research reality & building your mental model
-
-### Part 2: Practical Applications *(70 min)*{.text-blue}  
-Hands-on tools & techniques with 3 activities
-
-### Part 3: Advanced Possibilities *(15 min)*{.text-blue}
-Case study & scaling considerations
-
-### Wrap-Up: Your Next Steps *(15 min)*{.text-blue}
+### Your Next Steps *(15 min)*{.text-blue}
 Action planning & Q&A
 
 ---
 
-# Part 1: Foundations {background-color="#1e4a5f"}
-
-## Understanding the Research Reality
-
-**What we're exploring**: Why this matters & how to think about AI strategically
-
----
-
-## The Scale Problem We All Face {background-color="#f8f9fa"}
-
-**The literature explosion**
-
-- Too much to read, too little time
-
-**Your reality**
-
-- Deep expertise, but finite time
-- Job, family, life outside research
-- Can't read everything that looks relevant
-
-**💬 Chat**: *Share one research task you find tedious*
-
----
-
-## Approach to AI {background-color="#fff3cd"}
+## Your Reference Book {background-color="#e8f4f8"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-### ❌ Avoiding
+**Today's Workshop**
 
-- Replacing your critical thinking
-- Trusting AI without verification  
-- Ignoring bias and limitations
-- Displacing human expertise
+- Core concepts
+- Hands-on activities  
+- Interactive discussion
 :::
 
 ::: {.column width="50%"}
-### ✅ Amplifying
+**Companion Book**
 
-- Your domain knowledge
-- Your analytical capabilities  
-- Your research capacity
-- Your time for deep thinking
+- Detailed explanations
+- Extended examples
+- Everything we can't cover
 :::
 :::
 
-**Key insight**: AI handles routine so you focus on remarkable
+**📖 Full guide**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
 
 ---
 
-## Mental Model: The "Jagged Frontier" {background-color="#f8f9fa"}
+# Part 1: Mental Model {background-color="#1e4a5f"}
 
-![What is AI good at?](images/jagged_frontier.png){fig-alt="Detailed frontier diagram showing task categories"}
+## Understanding How To Work With AI Effectively
 
-From [Dell'Acqua et al 2023](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4573321)
-
-**Inside the frontier**: AI excels  
-**Outside the frontier**: AI struggles  
-**The challenge**: The boundary is invisible, unpredictable, and moving quickly
-
-
+**What we're building**: Strategic thinking about AI capabilities
 
 ---
 
-## The Jagged Frontier in Action {background-color="#f8f9fa"}
+## The Research Reality {background-color="#f8f9fa"}
+
+**Information overload is real:**
+
+- Too many papers to read
+- Cross-disciplinary insights trapped in jargon
+- Important work in other languages
+- Routine tasks eating research time
+
+**💬 Chat**: *Share one routine task that consumes too much of your time*
+
+**The opportunity**: What if AI could handle the routine so you focus on insight?
+
+---
+
+## Two Ways to Access AI {background-color="#f8f9fa"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Single prompt: "Make a painting of a dumpster fire in the style of Monet"**
+**Web Interfaces** *(Our focus)*
 
-![Made by ChatGPT in seconds](images/dumpster_fire.png){width="300px"}
-:::
-
-::: {.column width="50%"}
-**One hour of prompting: "Make a better jagged frontier visualization"**
-
-![Non-sensical output after countless attempts](images/bad_jagged_frontier.png){width="400px"}
-:::
-:::
-
-**This is the jagged frontier**: Seemingly similar tasks with wildly different AI performance
-
----
-
-## Understanding the Frontier {background-color="#f8f9fa"}
-
-::: {.columns}
-::: {.column width="50%"}
-**Inside (AI excels)**
-
-- Summarizing complex texts quickly
-- Pattern recognition across documents
-- First-draft generation
-- Code generation
-:::
-
-::: {.column width="50%"}
-**Outside (AI struggles)**  
-
-- Understanding implicit context
-- Making ethical judgments
-- Recognizing what's missing
-- Cultural and political subtext
-:::
-:::
-
-**Only YOU can find the "jagged frontier" for tasks that matter to you**
-
----
-
-## The Collaborative Model {background-color="#e8f4f8"}
-
-**Think of LLMs as sophisticated research assistants with unique strengths and blind spots**
-
-::: {.columns}
-::: {.column width="50%"}
-**Your Unique Value**
-
-- Domain expertise & contextual understanding
-- Critical analysis & theoretical frameworks
-- Ethical judgment & interpretation
-:::
-
-::: {.column width="50%"}
-**AI's Unique Value**
-
-- Processing large volumes quickly
-- Generating first drafts
-- Handling routine tasks
-- Providing different perspectives
-:::
-:::
-
-**The goal**: AI amplifies your expertise, doesn't replace it
-
----
-
-## Finding Your Frontier {background-color="#f8f9fa"}
-
-**How to discover what works for your research:**
-
-::: {.incremental}
-- **Start with your own work**: Test AI on papers you know intimately
-- **Begin with low-stakes tasks**: Where errors won't matter much
-- **Test systematically**: Try similar but different tasks to map boundaries
-- **Stay updated**: The frontier is expanding rapidly but unevenly
-:::
-
-**Key principle**: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?
-
-Try them with an LLM. Does it help or hinder?
-
----
-
-## Why This Matters: Democratizing Ambitious Research {background-color="#e8f4f8"}
-
-**The bigger picture**: Tools that enable more researchers to tackle urgent questions at scale
-
-::: {.incremental}
-- **Previously required**: Large research grants, teams of research assistants, months of work
-- **Now possible**: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams
-- **What this enables**: More ambitious, policy-relevant research while maintaining academic rigor
-- **The promise**: Not replacing researchers, but enabling more transparent and impactful research
-:::
-
-We face urgent policy challenges around climate finance, development effectiveness, and global economic transitions
-
----
-
-## Two Ways to Use AI {background-color="#f8f9fa"}
-
-::: {.columns}
-::: {.column width="50%"}
-**Web Interfaces** *(Our Focus)*
-
-- Type questions, get answers
+- Browser-based (ChatGPT, Claude, Gemini)
 - No coding required
-- **Best for**: Individual papers, exploration
+- Interactive conversation
+- **Best for**: Exploration, individual tasks
 :::
 
 ::: {.column width="50%"}
 **APIs** *(Advanced)*
 
-- Requires coding skills
-- Process thousands automatically
+- Programmatic access
+- Requires coding
+- Automated workflows
 - **Best for**: Large-scale projects
 :::
 :::
 
-**For most researchers starting with LLMs**: Web interfaces are the better choice
+**Today**: Web interfaces | **Case study**: How APIs enabled our China project
 
 ---
 
-## The Big Three AI Providers {background-color="#f8f9fa"}
+## The Jagged Frontier {background-color="#f8f9fa"}
 
-::: {.incremental}
-- **OpenAI (ChatGPT)**: Deep Research tool, strong reasoning
-- **Anthropic (Claude)**: Excellent for coding, high-quality writing  
-- **Google (Gemini)**: Massive context window, built-in citations
-- **Reality check**: I pay for all three (~$20/month each). Each has unique strengths.
-- **This landscape changes rapidly** - what's best today may not be tomorrow
-:::
----
+![AI capabilities form an irregular, unpredictable boundary](images/jagged_frontier.png){fig-alt="Jagged frontier diagram"}
 
-## Why Gemini for Today {background-color="#e8f4f8"}
+**Key insight from Ethan Mollick's research:**
 
-**Context Window**: How much text AI can process at once
-
-::: {.incremental}
-- **Gemini**: ~750,000 words (10-15 academic papers)
-- **Others**: ~150,000 words (2-3 papers)
-- **Built-in citations**: Automatic source references
-- **Perfect for**: Academic workflows with large documents
-:::
-
-**We'll explore other tools briefly, but Gemini is our main focus**
+- Tasks inside frontier: AI excels
+- Tasks outside: AI struggles
+- The boundary is invisible and shifts
 
 ---
 
-## Key Takeaways from Foundations {background-color="#d4edda"}
+## Jagged Frontier in Action {background-color="#f8f9fa"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-**The Challenge**
+**"Paint a dumpster fire in Monet's style"**
 
-- Information overload in academic research
-- Limited time for comprehensive literature review
-- Need for strategic filtering and prioritization
+![Perfect in seconds](images/dumpster_fire.png){width="300px"}
 :::
 
 ::: {.column width="50%"}
-**Your Strategic Advantage**
+**"Make a better jagged frontier diagram"**
 
-- Understanding the jagged frontier
-- Collaborative approach: AI handles scale, you provide judgment
-- Tool selection based on your specific needs
+![Failed after an hour](images/bad_jagged_frontier.png){width="400px"}
 :::
 :::
 
-**Next**: We'll put this into practice with hands-on tools and techniques
+**The lesson**: You must explore the frontier for YOUR tasks
 
 ---
 
-# Part 2: Practical Applications {background-color="#1e4a5f"}
+## Low-Hanging Fruit {background-color="#e8f4f8"}
 
-## Building Your Research Toolkit
-
-**What we're building**: Working prompts, custom assistants, and literature enhancement tools
-
----
-
-## Your Learning Journey {background-color="#e8f4f8"}
-
-### 🔧 Activity 1: Professional Context *(8 min)*{.text-blue}
-Build foundation for all AI interactions
-
-### 🔧 Activity 2: Enhanced Prompting *(10 min)*{.text-blue}  
-Transform vague requests into powerful prompts
-
-### 🔧 Activity 3: Literature Review Assistant *(25 min)*{.text-blue}
-Create reusable research assistant using a Gemini Gem
-
-**📖 Book chapters**: 4-6 provide provide more detail
-
----
-
-## The Power and the Problem {background-color="#f8f9fa"}
-
-**Large Language Models are powerful but not clairvoyant**
-
-::: {.incremental}
-- **Powerful**: Can handle complex tasks that take humans hours or days
-- **Not clairvoyant**: Can't read your mind or guess what you really need
-- **Need sufficient information**: The more context you provide, the better the output
-- **Key insight**: Quality of output depends heavily on quality of input
-:::
-
-
-
----
-
-## From Google to Collaborative Partner {background-color="#fff3cd"}
+**Where AI consistently saves researchers time:**
 
 ::: {.columns}
 ::: {.column width="50%"}
-**❌ Google Search Approach**
+**Literature Tasks** 📚
 
-- Few keywords
-- Browse results
-- Find what you need
+- Summarizing papers
+- Finding patterns
+- Translation (language & jargon)
+- Initial categorization
 :::
 
 ::: {.column width="50%"}
-**✅ AI Collaboration Approach**
+**Coding Tasks** 💻
 
-- Detailed context
-- Specific instructions
-- Iterative refinement
+- Data cleaning scripts
+- Statistical analysis
+- Debugging errors
+- Documentation
 :::
 :::
 
-**Think of AI as a knowledgeable colleague who needs clear direction**
+**These are INSIDE the frontier** - reliable time-savers
 
 ---
 
-## Anatomy of Effective Prompts {background-color="#f8f9fa"}
+## Why Collaborative? {background-color="#f8f9fa"}
 
-**Essential components for research-quality outputs:**
+**Think of AI as an infinitely patient research assistant**
 
-::: {.incremental}
+::: {.columns}
+::: {.column width="50%"}
+**You Provide**
+
+- Domain expertise
+- Research questions
+- Quality judgment
+- Ethical framework
+:::
+
+::: {.column width="50%"}
+**AI Provides**
+
+- Processing speed
+- Pattern recognition
+- Multiple drafts
+- Tireless consistency
+:::
+:::
+
+**Key principle**: AI amplifies expertise, doesn't replace it
+
+---
+
+## Tool Selection: Why Gemini Today {background-color="#f8f9fa"}
+
+**Three major providers, each with strengths:**
+
+- **OpenAI (ChatGPT)**: Best "Deep Research" tool
+- **Anthropic (Claude)**: Excellent for coding
+- **Google (Gemini)**: Largest context window
+
+**Context window** = Working memory
+
+- Gemini: ~750,000 words (15 papers)
+- Others: ~150,000 words (3 papers)
+
+**For academic work**: Gemini's massive context + citations = best choice
+
+---
+
+## What Makes AI Different {background-color="#e8f4f8"}
+
+**Traditional software**: Predictable rules, consistent outputs
+
+**LLMs**: More like a knowledgeable but quirky colleague
+
+- Sometimes brilliant insights
+- Sometimes confident nonsense
+- Always needs verification
+- Success depends on how you communicate
+
+**This is why prompting matters** - it's how you communicate effectively
+
+---
+
+## Signpost: From Theory to Practice {.center background-color="#4a90b8"}
+
+### You now understand:
+✓ Jagged frontier concept  
+✓ Where AI excels (literature, coding)  
+✓ Why collaboration works  
+✓ Tool options
+
+### Next: Build your toolkit with three cumulative activities
+
+---
+
+# Part 2: Three Cumulative Tools {background-color="#1e4a5f"}
+
+## Building Your AI Research Toolkit
+
+**What we're building**: Practical tools you'll use immediately
+
+---
+
+## The Foundation: Why Prompting Matters {background-color="#f8f9fa"}
+
+**LLMs are powerful but not clairvoyant**
+
+They need:
+
 - **Context**: Who you are, what you're working on
-- **Task**: What specifically you want the AI to do
-- **Format**: How you want the output structured
-- **Constraints**: Limitations, requirements, things to avoid
-- **Examples**: Sample inputs/outputs when helpful
-:::
+- **Clear instructions**: Specific tasks, not vague requests
+- **Output format**: How you want results structured
+- **Quality controls**: Ways to verify accuracy
 
-**📖 Detailed templates**: Chapter 4
+**Analogy**: Like briefing a new research assistant who's brilliant but knows nothing about your work
 
 ---
 
-## 🔧 Activity 1: Create Your Professional Context {background-color="#4a90b8"}
-
-### Build Your AI Research Foundation *(8 minutes)*{.text-teal}
-
-**What you'll do:**
-1. Go to [gemini.google.com](https://gemini.google.com)
-2. Upload your CV, LinkedIn profile, or faculty bio
-3. Use the prompt template (next slide)
-4. Create reusable professional context
-
-**Why this matters:** This becomes the foundation for all your AI interactions
-
----
-
-## Professional Context Prompt Template {background-color="#f8f9fa"}
+## Anatomy of Effective Prompts {background-color="#e8f4f8"}
 
 ```markdown
-Please analyze my professional background and help me create a 
-professional context for AI interactions. Based on my CV/profile, 
-create a summary that includes:
+CONTEXT: Background information, your expertise, project details
 
-## Domain Expertise & Background
-[My main research areas, methodology preferences, key expertise]
+TASK: Specific request with clear action verbs
 
-## Current Roles & Affiliations  
-[Current positions, institutional affiliations, responsibilities]
+FORMAT: Structure, length, style preferences  
 
-## Research Focus Areas
-[Main research interests, current projects, regional expertise]
+CONSTRAINTS: What to avoid, limitations, requirements
 
-## Communication Style & Audience
-[Who I typically write for, how I prefer to communicate findings]
+QUALITY CONTROLS: "Ask clarifying questions", "Tell me when unsure"
+```
 
-## Technical Approach
-[Specific tools, methods, analytical approaches I use]
+**Each element improves output quality**
 
-Make this professional but concise - about 200-300 words total.
+---
+
+## Tool 1: Professional Context {background-color="#f8f9fa"}
+
+**The problem**: Starting from scratch every conversation
+
+**The solution**: Reusable professional context that captures:
+
+- Your expertise and background
+- Research focus areas
+- Communication style
+- Methodological preferences
+
+**Why this matters**: Foundation for all future AI interactions
+
+---
+
+## 🔧 Activity 1: Create Your Context {background-color="#4a90b8"}
+
+### Build Your AI Foundation *(8 minutes)*{.text-teal}
+
+1. Go to [gemini.google.com](https://gemini.google.com)
+2. Upload your CV, bio, or LinkedIn profile
+3. Use this prompt:
+
+```markdown
+Analyze my professional background and create a 200-300 word 
+professional context for AI interactions including:
+
+- Domain expertise & background
+- Current roles & affiliations  
+- Research focus areas
+- Communication style & audience
+- Technical approaches I use
+
+Make it professional but conversational.
 ```
 
 ---
 
-## Activity 1: Instructions {background-color="#e8f4f8"}
+## Activity 1 Walkthrough {background-color="#e8f4f8"}
 
-::: {.incremental}
-1. **Upload your document**: CV, LinkedIn, or faculty bio to Gemini
-2. **Paste the template**: Copy the prompt from the previous slide
-3. **Review the output**: Does it capture your expertise accurately?
-4. **Refine if needed**: Ask for adjustments to better reflect your work
-5. **Save the result**: You'll use this in our next activities
-:::
+**Step by step:**
+
+1. **Upload** → CV or professional bio
+2. **Paste prompt** → Exactly as shown
+3. **Review** → Does it capture your expertise?
+4. **Refine** → "Make it more concise" or "Add my regional expertise"
+5. **Save** → Copy to a document for reuse
+
+**Success indicator**: AI understands your research domain and communication needs
 
 <div class="time-indicator">⏱️ 8 minutes</div>
 
 ---
 
-## The Difference Context Makes {background-color="#f8f9fa"}
+## Checkpoint: What You Built {background-color="#d4edda"}
 
-**Without context**: Generic, surface-level responses  
-**With context**: Targeted, sophisticated assistance
+✅ **Professional context that:**
 
----
+- Introduces you to any AI system
+- Captures your unique expertise
+- Sets appropriate communication style
+- Eliminates repetitive explanations
 
-## Two Powerful Prompt Enhancers {background-color="#e8f4f8"}
-
-**Add these to any prompt for better results:**
-
-::: {.incremental}
-1. **"Please ask me clarifying questions"** - Encourages AI to seek additional information rather than make assumptions
-2. **"Tell me when you're unsure about something"** - Reduces hallucinations by encouraging admission of uncertainty
-:::
-
-**These simple additions can save you from misleading responses**
+**This becomes part of EVERY future prompt**
 
 ---
 
-## Common Prompting Mistakes {background-color="#fff3cd"}
+## Tool 2: Enhanced Prompting {background-color="#f8f9fa"}
+
+**Now we combine context with structured requests**
 
 ::: {.columns}
 ::: {.column width="50%"}
-**❌ What Doesn't Work**
+**Without structure** ❌
+"Help with literature review"
 
-- Treating AI like Google
-- Vague requests: "Help me with X"
-- No quality control
-- Overwhelming with too much at once
+Vague → Generic output
 :::
 
 ::: {.column width="50%"}
-**✅ What Works**
+**With structure** ✅
+Context + Task + Format
 
-- Provide documents + ask for analysis
-- Specific tasks + output format
-- Ask for sources and reasoning
-- Break complex tasks into steps
+Specific → Useful output
 :::
 :::
 
----
-
-## 🔧 Activity 2: Enhanced Prompting Practice {background-color="#4a90b8"}
-
-### From Vague to Powerful *(10 minutes)*{.text-teal}
-
-**What you'll do:**
-
-1. Take your professional context from Activity 1
-2. Choose a current research question you're working on
-3. Create a structured prompt using the template
-4. Test it and refine
-
-**Goal:** Experience the difference between generic and contextualized AI assistance
+**The magic**: Your context + clear structure = targeted assistance
 
 ---
 
-## Enhanced Prompting Template {background-color="#f8f9fa"}
+## Why Structure Works {background-color="#e8f4f8"}
+
+**Two powerful additions to any prompt:**
+
+1. **"Ask me clarifying questions"**
+
+   - AI seeks missing information
+   - Prevents assumptions
+   
+2. **"Tell me when you're unsure"**  
+
+   - Reduces hallucinations
+   - Flags uncertainty
+
+**These simple phrases dramatically improve reliability**
+
+---
+
+## 🔧 Activity 2: Enhanced Prompting {background-color="#4a90b8"}
+
+### Transform Vague to Powerful *(10 minutes)*{.text-teal}
+
+Build on Activity 1 by adding structure:
 
 ```markdown
-[Paste your professional context from Activity 1]
+[Your professional context from Activity 1]
 
-## Current Research Question
-[Describe what you're working on - paper, project, grant, etc.]
+I'm working on [specific research question/paper/project].
 
-## Specific Request
-I need help with [specific task]. Please:
-- [What you want the AI to do]
-- [How you want it formatted]
-- [Any constraints or requirements]
+Please help me [specific task]:
+- [What you want]
+- [How it should be formatted]
+- [Any constraints]
 
-## Additional Context
-[Any relevant background, documents, or constraints]
-
-Please ask me clarifying questions if you need more information, 
-and tell me when you're unsure about something.
+Ask clarifying questions if needed.
+Tell me when you're unsure about something.
 ```
 
 ---
 
-## Activity 2: Step-by-Step {background-color="#e8f4f8"}
+## Activity 2 Practice {background-color="#e8f4f8"}
 
-::: {.incremental}
-1. **Start with your context**: Use the professional summary from Activity 1
-2. **Choose your research question**: Something you're currently working on
-3. **Be specific**: What exactly do you want help with?
-4. **Add the enhancers**: Ask for clarifying questions and uncertainty flags
-5. **Test and refine**: Try it, see what happens, adjust as needed
-:::
+**Try it with a real research need:**
+
+1. **Paste your context** (from Activity 1)
+2. **Add current research** - Be specific, add context, upload documents
+3. **Structure your request** - Task, format, constraints
+4. **Include quality controls** - Questions and uncertainty
+5. **Compare results** - How does this differ from a vague request?
+
+**💬 Chat**: *What surprised you about the enhanced response?*
 
 <div class="time-indicator">⏱️ 10 minutes</div>
 
-**💬 Chat**: *Share your biggest "aha" moment from improved prompting*
+---
+
+## The Compounding Effect {background-color="#d4edda"}
+
+✅ **What you've discovered:**
+
+- Context → No more generic responses
+- Structure → Clear, actionable outputs
+- Quality controls → Reduced errors
+- **Together** → AI that understands YOUR research needs
+
+**Next**: Apply this to your biggest time sink - literature review
 
 ---
 
-## The Art of Iterative Prompting {background-color="#f8f9fa"}
+## Tool 3: Literature Review Enhancement {background-color="#f8f9fa"}
 
-**AI works best through conversation, not one-shot requests**
+**The universal research challenge:**
 
-::: {.incremental}
-- **Start broad**: Get initial direction and framework
-- **Drill down**: Ask for specifics on the most interesting parts
-- **Refine**: Request adjustments to tone, format, or focus
-- **Verify**: Ask for sources, evidence, or reasoning
-:::
+- Explosion of publications
+- Relevant work in other languages
+- Insights trapped in other disciplines
+- No time to read everything
 
-**Example flow**: Research question → Initial analysis → Specific methodology → Alternative approaches → Validation strategy
+**Initial literature review is prime "low-hanging fruit"** - squarely inside AI's capabilities
 
 ---
 
-## Prompt Chaining for Complex Tasks {background-color="#e8f4f8"}
+## My Personal Workflow {background-color="#e8f4f8"}
 
-**Break complex requests into sequential steps:**
+**For every potentially relevant paper:**
 
-::: {.columns}
-::: {.column width="50%"}
-**❌ All at once**
-
-"Analyze this email thread, identify key issues, and draft a response"
-:::
-
-::: {.column width="50%"}
-**✅ Step by step**
-
-1. First: Analyze and clarify
-2. Then: Draft based on analysis
-:::
-:::
-
-**Why this works**: Each step can be optimized, you maintain quality control, AI has clearer focus
-
----
-
-## Building Your Prompt Library {background-color="#f8f9fa"}
-
-**As you develop effective prompts, save them:**
-
-::: {.incremental}
-- **Literature analysis**: Templates for paper summaries
-- **Research brainstorming**: Question generation prompts
-- **Writing enhancement**: Revision and feedback requests
-- **Email threads**: Complex communication analysis
-- **Grant applications**: Proposal development assistance
-:::
-
-**📖 Ready-to-use templates**: Chapter 4 provides tested prompts for common research tasks
-
----
-
-## What You've Built So Far {background-color="#d4edda"}
-
-::: {.columns}
-::: {.column width="50%"}
-**Tool 1: Professional Context**
-
-- Reusable foundation for all AI interactions
-- Captures your expertise and communication style
-- Enables targeted, sophisticated assistance
-:::
-
-::: {.column width="50%"}
-**Tool 2: Enhanced Prompting**
-
-- Structured approach to AI requests
-- Quality control through verification
-- Iterative refinement process
-:::
-:::
-
-**Next**: We'll enhance your literature review capabilities, then build specialized research assistants
-
----
-
-## Literature Review Enhancement {background-color="#f8f9fa"}
-
-**The information deluge problem we all face**
-
-::: {.incremental}
-- **Explosion of research**: Even narrow subfields are impossible to keep up with
-- **Your reality**: Job, family, life outside research - finite time
-- **The challenge**: Can't read everything, can't afford to miss important work
-:::
-
-**AI as intelligent filter**: Help identify what deserves your limited attention
-
----
-
-## The Scale Advantage {background-color="#e8f4f8"}
-
-**Time mathematics for literature processing:**
-
-::: {.columns}
-::: {.column width="50%"}
-**Traditional Reading**
-
-- Academic paper: 40-80 minutes
-- 100-page report: 3-5 hours
-- Weekly literature (10 papers): 7-13 hours
-:::
-
-::: {.column width="50%"}
-**AI Processing**
-
-- Paper summary: 30-60 seconds
-- 100-page report analysis: 2-3 minutes
-- 10-paper pattern analysis: 5-10 minutes
-:::
-:::
-
-**This isn't about replacing careful reading—it's about deciding what merits it**
-
----
-
-## My Personal Literature Workflow {background-color="#f8f9fa"}
-
-**Step 1: Initial Filtering**
 ```markdown
-[Add your professional context]
+[Professional context]
 
-Please provide full citation information, then create a detailed 
-structured summary including:
-- Main argument or purpose
+Please provide the full citation information for this document at the top, then create a detailed structured summary of this entire document, including any appendices.
+
+I need to understand:
+- The main argument or purpose
 - Key findings or conclusions
 - Important data, evidence, or examples
-- Policy implications or practical applications
-- Intended audience
+- Any policy implications or practical applications
+- Who the intended audience appears to be
 
-Format as structured summary with clear headings.
+Format this as a structured summary with clear headings.
 ```
 
-**Result**: 95% of documents - summary gives me what I need. 5% - worth reading in detail
+**Result**: 5% merit deep reading, 95% the summary is sufficient
 
 ---
 
-## Two Types of Translation {background-color="#e8f4f8"}
-
-**AI excels at bridging barriers:**
+## Two Translation Superpowers {background-color="#f8f9fa"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-**1. Language Translation**
+**Language Translation** 🌍
 
-- Access research in other languages
-- Initial translations for relevance assessment
-- Professional translation for key sources
+- Spanish economics paper → English
+- Chinese policy document → English
+- Initial assessment of relevance
 :::
 
 ::: {.column width="50%"}
-**2. Cross-Disciplinary Translation**
+**Jargon Translation** 🔄
 
-- Bridge academic jargon differences
-- Access insights from related fields
-- Translate complex concepts to plain language
+- Economics → Plain English
+- Computer science → Social science
+- Technical → Policymaker-friendly
 :::
 :::
 
@@ -806,247 +595,137 @@ Format as structured summary with clear headings.
 
 ---
 
-## Cross-Disciplinary Translation Example {background-color="#f8f9fa"}
-
-**Prompt for bridging disciplines:**
+## Cross-Disciplinary Example {background-color="#e8f4f8"}
 
 ```markdown
-[Your professional context]
+[Your context]
 
-This paper is written for [source discipline] using terminology 
-unfamiliar to [target discipline] researchers. Please:
+This computer science paper uses unfamiliar technical terminology. 
+Please:
+1. Identify the main contribution in plain language
+2. Explain how their methods might apply to social science research  
+3. Highlight any useful techniques for [your research area]
 
-1. Identify key concepts and findings
-2. Explain them in plain language  
-3. Suggest how insights might apply to [target discipline]
-4. Highlight adaptable methodological approaches
-
-Focus on practical applications, avoid oversimplification.
+Focus on practical applications, not technical details.
 ```
 
-**Real value**: Access methodologies and insights trapped in other fields
+**Unlock insights from other fields**
 
 ---
 
-## 🔧 Activity 3: Literature Enhancement Practice {background-color="#4a90b8"}
+## Gems: Your Reusable Assistants {background-color="#f8f9fa"}
 
-### Test Your Literature Workflow *(15 minutes)*{.text-teal}
+**What are Gems?**
 
-**What you'll do:**
+- Saved AI configurations with your instructions
+- Reusable across conversations
+- No need to re-enter context
+- Continuously improvable
 
-1. Choose a paper from your field (or upload one)
-2. Use your professional context + literature summary prompt
-3. Test cross-disciplinary translation: Try translating it into plain language understandable to someone outside your field.
-4. Evaluate: Does this save time while maintaining quality?
-
-**Goal**: Experience AI as literature processing amplifier
+**Think of it as**: Training a specialized research assistant who remembers your preferences
 
 ---
 
-## Activity 3: Step-by-Step {background-color="#e8f4f8"}
+## 🔧 Activity 3: Build Literature Gem {background-color="#4a90b8"}
 
-::: {.incremental}
-1. **Upload a paper**: Something recent in your field
-2. **Use structured prompt**: Professional context + literature summary template
-3. **Evaluate output**: Does it capture what you need?
-4. **Test boundaries**: Try with a paper from a related discipline
-5. **Refine approach**: Adjust prompts based on what you learn
-:::
+### Create Your Research Assistant *(25 minutes)*{.text-teal}
 
-<div class="time-indicator">⏱️ 15 minutes</div>
+**Part A: Test & Refine** (10 min)
 
-**💬 Chat**: *Share one insight AI helped you discover that you might have missed*
+- Upload a paper
+- Apply context + literature prompt
+- Identify what to improve
 
----
+**Part B: Create Gem** (15 min)
 
-## Critical Validation Strategies {background-color="#fff3cd"}
+- Combine all your learning
+- Save as reusable tool
+- Test on new paper
 
-**Essential practices for literature AI:**
-
-::: {.incremental}
-- **Always verify key claims**: Especially quantitative findings
-- **Check citations**: Ensure quotes aren't taken out of context
-- **Use for exploration**: Identify promising papers, then read sections carefully
-- **Cross-reference**: Compare AI summaries with abstracts and conclusions
-- **Professional translation**: For sources central to your argument
-:::
-
-**Remember**: AI helps you cast a wider net, human judgment determines what to keep
+**This combines everything you've learned**
 
 ---
 
-## What Are Gems? {background-color="#f8f9fa"}
-
-**Now that you understand literature enhancement, let's save this approach**
-
-::: {.columns}
-::: {.column width="50%"}
-**Think of Gems as specialized research assistants**
-
-- **Google Gemini**: Gems
-- **Claude**: Projects  
-- **ChatGPT**: Custom GPTs
-- **Same concept**: Saved instructions for specific tasks
-:::
-
-::: {.column width="50%"}
-**Benefits for literature work**
-
-- Consistent approach across papers
-- No re-entering context each time
-- Specialized for your research needs
-- Can share with colleagues
-:::
-:::
-
----
-
-## 🔧 Activity 4: Create Your Literature Review Gem {background-color="#4a90b8"}
-
-### Build Your Specialized Research Assistant *(10 minutes)*{.text-teal}
-
-**What you'll do:**
-
-1. Create a new Gem in Gemini
-2. Use your professional context from Activity 1
-3. Add your refined literature review approach from Activity 3
-4. Test it with a new paper
-5. Save for future use
-
-**Goal**: Reusable literature processing system
-
----
-
-## Literature Review Gem Template {background-color="#f8f9fa"}
+## Literature Gem Template {background-color="#f8f9fa"}
 
 ```markdown
-# Literature Review Specialist - [Your Name]
+# Literature Review Assistant - [Your Name]
 
 [Your professional context from Activity 1]
 
 ## Your Role
-Help me efficiently analyze academic papers, identify patterns, 
-find research gaps, and synthesize findings.
+Help me efficiently analyze papers in [your field], identifying 
+insights relevant to [your research focus].
 
-## Analysis Approach
-[Add your refined approach from Activity 3]
-
-## Output Format
-- Clear section headers with full citation
-- Page numbers for key findings
-- Methodological details when relevant
-- Cross-disciplinary connections where applicable
+## For every document:
+- Full citation
+- Main argument + theoretical framework
+- Methods and evidence  
+- Key findings with page numbers
+- Implications for [your specific interests]
+- Connections to other disciplines
 
 ## Quality Standards
-- Maintain academic rigor
-- Distinguish claims from empirical findings
-- Note limitations and methodological concerns
+- Distinguish claims from evidence
+- Note limitations and biases
+- Flag surprising or controversial points
+- Suggest related papers if mentioned
 ```
 
 ---
 
-## What You've Built Now {background-color="#d4edda"}
+## Activity 3 Step-by-Step {background-color="#e8f4f8"}
 
-::: {.columns}
-::: {.column width="50%"}
-**Tool 3: Literature Enhancement Workflow**
+**Part A: Test the workflow**
 
-- Structured approach to paper processing
-- Cross-disciplinary translation capabilities
-- Time-saving while maintaining quality
-:::
+1. Upload paper to Gemini
+2. Use context + summary prompt
+3. Evaluate: What's missing? Too detailed? Just right?
 
-::: {.column width="50%"}
-**Tool 4: Literature Review Gem**
+**Part B: Create your Gem**
 
-- Reusable specialist assistant
-- Consistent high-quality analysis
-- Saves your refined approach
-:::
-:::
+1. Go to Gemini → Explore Gems → New Gem
+2. Name clearly: "Literature Review - [Your Field]"
+3. Paste refined instructions
+4. Save and test with different paper
 
-**Next**: Advanced tools and coding assistance
+<div class="time-indicator">⏱️ 25 minutes</div>
 
 ---
 
-## Advanced Tools: Beyond Basic Chat {background-color="#f8f9fa"}
+## The Cumulative Power {background-color="#d4edda"}
 
-**For when you need to analyze large document collections:**
+✅ **You've built a complete system:**
 
-::: {.columns}
-::: {.column width="50%"}
-**NotebookLM**
+1. **Context** → AI understands you
+2. **Structure** → Clear, useful outputs  
+3. **Gem** → Reusable, improving tool
 
-- Upload up to 300 documents
-- Ask questions across entire corpus
-- Exact citations to source material
-- Perfect for exploratory analysis
-:::
+**Each element reinforces the others**
 
-::: {.column width="50%"}
-**Deep Research Tools**
-
-- AI conducts 15-20 minute research projects
-- Produces detailed 15-30 page reports
-- Available in ChatGPT, Claude, Perplexity
-- Good for initial topic exploration
-:::
-:::
-
-**📖 Detailed guide**: Chapter 7 for advanced tools
+**You now have a literature review assistant tailored to YOUR research**
 
 ---
 
-## NotebookLM in Action {background-color="#e8f4f8"}
+## Signpost: Literature to Coding {.center background-color="#4a90b8"}
 
-::: {.columns}
-::: {.column width="60%"}
-![NotebookLM analyzing Chinese policy bank annual reports](images/notebooklm.png){width="100%"}
-:::
+### Literature review = Low-hanging fruit #1
 
-::: {.column width="40%"}
-**Real example:**
+### Coding assistance = Low-hanging fruit #2
 
-- Financial analysis revealed China ExIM losses in 2017
-- Asked: "What caused the losses?"
-- Found exchange rate explanation with exact citations
-:::
-:::
-
-**Key insight**: Use for exploration, verify with original sources
----
-
-## Deep Research Reality Check {background-color="#fff3cd"}
-
-**What they do well:**
-
-- Comprehensive coverage of complex topics
-- Synthesis across multiple sources
-- Quality equivalent to skilled research assistant after a week
-
-**Important limitations:**
-
-- Can be confidently wrong about specific facts
-- Limited access to academic databases
-- May miss recent developments
-- Always verify important claims
-
-**Best approach**: Use for initial exploration, follow up with domain expertise
+**Both save massive time on routine tasks**
 
 ---
 
-## Coding Assistance: The Bigger Opportunity {background-color="#f8f9fa"}
+## Coding: The Other Major Time-Saver {background-color="#f8f9fa"}
 
-**Many researchers work with data analysis code:**
+**Who this helps:**
 
-::: {.incremental}
-- R, Python, Stata, SPSS, MATLAB
-- Whether you code yourself or supervise others
-- Wish you could move from Excel to more reproducible workflows
-- Face time-consuming debugging and learning curves
-:::
+- Researchers who code (R, Python, Stata, SPSS)
+- Those who supervise coders
+- Excel users wanting reproducible workflows
 
-**AI coding assistance can dramatically reduce time on routine tasks**
+**The opportunity**: AI as infinitely patient coding tutor and assistant
 
 ---
 
@@ -1054,610 +733,395 @@ find research gaps, and synthesize findings.
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Inside (AI excels)**
+**AI Excels At** ✅
 
-- Standard data manipulation
-- Statistical analysis code
-- Explaining existing code
-- Generating documentation
-- Debugging common errors
-- Translating between languages
+- Data cleaning code
+- Standard analyses
+- Debugging errors
+- Writing documentation
+- Translation between languages
 :::
 
 ::: {.column width="50%"}
-**Outside (AI struggles)**
+**AI Struggles With** ❌
 
-- Your specific research context
+- Your specific data quirks
+- Complex architecture
 - Domain-specific packages
-- Complex multi-step analyses
 - Performance optimization
 - Statistical method selection
 :::
 :::
 
-**The key**: AI handles syntax, you provide the research logic
+**Success key**: You provide research logic and context, AI handles syntax
 
 ---
 
-## The "Vibe Coding" Problem {background-color="#fff3cd"}
+## The Promise and The Peril {background-color="#f8f9fa"}
 
-**What is "vibe coding"?**
+::: {.columns}
+::: {.column width="50%"}
+**Promise** 🚀
 
-AI generates code that *looks* professional and runs without errors, but:
-
-::: {.incremental}
-- Produces incorrect results
-- Uses functions that don't exist
-- Mixes syntax from different languages
-- Works for simple cases but fails with real data
+- 10x faster for routine tasks
+- Learn new languages quickly
+- Better documentation
+- Fewer silly errors
 :::
 
-**The 0-to-90% problem**: AI quickly gets you 90% there, then you spend hours debugging the remaining 10%
+::: {.column width="50%"}
+**Peril** ⚠️
+
+- "Vibe coding" - looks right, runs wrong
+- Hallucinated functions
+- The 0-to-90% problem
+- Overconfidence in output
+:::
+:::
+
+**Critical**: You need to understand your code. Always validate results. 
+
+---
+
+## What is "Vibe Coding"? {background-color="#fff3cd"}
+
+**The dangerous phenomenon where:**
+
+- Code looks professional ✓
+- Runs without errors ✓  
+- Produces wrong results ✗
+
+**Example**: Statistical test that always returns p < 0.05
+
+**Protection**: 
+
+- Test with known data
+- Verify calculations manually
+- Check package documentation
 
 ---
 
 ## Best Practices for Research Coding {background-color="#f8f9fa"}
 
-**Strategic approach:**
-
-::: {.incremental}
-1. **Use most advanced models** - Pay for premium access ($20/month is worth it)
-2. **Start with your own expertise** - Test AI on code you know well
-3. **Provide complete context** - Include data structure, expected outputs, error messages
-4. **Break complex tasks into steps** - Don't ask for entire analysis at once
-5. **Always validate outputs** - Check results against known answers
-:::
-
-**📖 Comprehensive guide**: Chapter 8 for coding best practices
+1. **Use advanced models** - Claude for coding, worth the $20/month
+2. **Provide complete context** - Data structure, expected output
+3. **Work iteratively** - Build step by step, test each part
+4. **Include your preferences** - "Use tidyverse style with base R pipe"
+5. **Always validate** - Check against known results
 
 ---
 
-## R Tidyverse Example {background-color="#e8f4f8"}
-
-**Prompt for data analysis:**
+## Effective Coding Prompts {background-color="#e8f4f8"}
 
 ```markdown
-I'm analyzing survey data on household income and education. 
-I have columns: household_id, income, education, region, year.
+[Your context including preferred languages/packages]
 
-Using R tidyverse style with the base R pipe |>, help me:
-1. Calculate median income by region and education level
-2. Create a summary table showing trends over time
-3. Generate a clean visualization for publication
+I have survey data with columns: household_id, income, education, 
+region, year. The data has some missing values.
 
-Please include comments and use the tidyverse style guide.
+Using R with tidyverse style and base R pipe |>, please:
+1. Create a script to calculate and visualize median income by region and education
+2. Create plots to help me understand  how to handle missing data appropriately  
+4. Include comments explaining each step
+
+Note: I prefer functional programming (purrr) over loops.
 ```
 
-**Result**: AI generates clean, documented code following your preferences
-
 ---
 
-## When AI Coding Shines {background-color="#f8f9fa"}
+## Advanced Coding Tools {background-color="#f8f9fa"}
 
-**Dramatic speed improvements for:**
+**When you're ready for more:**
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Routine Tasks**
+**Cursor** 
 
-- Data cleaning and transformation
-- Standard statistical analyses
-- Creating visualizations
-- Writing documentation
-:::
-
-::: {.column width="50%"}
-**Learning Acceleration**
-
-- Explaining unfamiliar code
-- Bridging between languages
-- Discovering best practices
-- Understanding error messages
-:::
-:::
-
-**Real value**: Frees you from syntax struggles to focus on research questions
-
----
-
-## Moving Beyond Web Interfaces {background-color="#e8f4f8"}
-
-**Advanced coding environments:**
-
-::: {.columns}
-::: {.column width="50%"}
-**Cursor IDE**
-
-- AI-native code editor
-- Understands entire project context
+- AI-native IDE
 - Edits code in place
-- Runs and iterates based on results
+- Understands whole project
 :::
 
 ::: {.column width="50%"}
 **GitHub Copilot**
 
-- Autocomplete suggestions
-- Works in existing IDEs
-- Learns from your coding patterns
-- Integrates with development workflow
+- Autocomplete on steroids
+- Works in your IDE
+- Learns your patterns
 :::
 :::
 
-**When you're ready**: These tools enable more sophisticated AI-assisted development
+**Start with chat interfaces, graduate to these when ready**
 
 ---
 
-## Validation Strategies for AI Code {background-color="#fff3cd"}
+## Signpost: From Tools to Scale {.center background-color="#4a90b8"}
 
-**Essential practices:**
+### You now have:
 
-::: {.incremental}
-1. **Test with known data** - Use datasets where you know expected results
-2. **Start small** - Test functions with simple examples first
-3. **Manual verification** - Check AI calculations against hand calculations
-4. **Cross-platform validation** - Compare results across different tools
-5. **Peer review** - Have colleagues examine AI-generated code
-:::
+✓ Mental model (jagged frontier)  
+✓ Three practical tools  
+✓ Understanding of low-hanging fruit
 
-**Remember**: AI is a coding co-pilot, not an autopilot
+### Next: What becomes possible at scale
 
 ---
 
-## What You've Built Throughout Part 2 {background-color="#d4edda"}
+# Part 3: Scaling Up {background-color="#1e4a5f"}
+
+## From Web Interfaces to APIs
+
+**What we're exploring**: How these tools enable ambitious research
+
+---
+
+## Back to China: The Full Challenge {background-color="#f8f9fa"}
+
+**Research question**: Given policy chatter about the "Green Belt & Road," what do we know about China's role in funding the energy transition in developing countries?
+
+**The data**: 18,000 lending projects needing classification
+
+- 🟢 Green: Solar, wind, hydro, nuclear
+- 🟫 Brown: Coal, oil, fossil fuels  
+- 🔘 Grey: Mixed/indirect (transmission lines)
+- ⚪ Neutral: Non-energy
+
+**The constraint**: Ambitious project, limited budget
+
+---
+
+## Web Interface vs API Approach {background-color="#e8f4f8"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Foundations**: Mental model + strategic tool selection
+**What you've learned** 🖥️
 
-**Practical Skills**:
-
-- Professional context for all AI interactions
-- Enhanced prompting techniques
-- Literature review enhancement workflow
-- Custom research assistant (Gem)
+- Manual chat interface
+- One document at a time
+- Great for exploration
+- No coding required
 :::
 
 ::: {.column width="50%"}
-**Areas of Low-Hanging Fruit**:
+**What we used** 🔧
 
-- **Text summarization**: AI excels at processing and organizing information
-- **Coding assistance**: Dramatically faster for routine programming tasks
-- **Translation**: Both linguistic and cross-disciplinary
-- **First-draft generation**: Starting points for refinement
+- Programmatic API
+- Thousands automatically
+- Systematic processing
+- Required Python or R 
 :::
 :::
 
-**Next**: Case study showing what becomes possible when you scale up
+**Same AI, different access method**
 
 ---
 
-# Part 3: Advanced Possibilities {background-color="#1e4a5f"}
+## The Scale Mathematics {.center background-color="#4a90b8"}
 
-## Case Study: Using LLMs at Scale
+### Manual Classification
+**1,500 hours** × **$15/hour** = **$22,500**
 
-**What we're exploring**: How AI enables policy-relevant research at scale
+### Our API Approach  
+**15 hours** × **$0.11/hour** = **$1.58**
 
----
-
-## The Policy Challenge {background-color="#f8f9fa"}
-
-**Understanding China's Role in Financing the Energy Transition**
-
-::: {.incremental}
-- China: Key source of lending to developing countries
-- Policy pronouncements about "Green Belt and Road Initiative"
-- Emphasis on "small and beautiful" projects
-- Shift from policy banks to commercial co-financing
-:::
-
-**Critical questions**: Was China actually supporting green transition? Who was participating? What scale?
+### 100x faster, 14,000x cheaper
 
 ---
 
-## The Classification Challenge {background-color="#f8f9fa"}
+## Why Context Beat Keywords {background-color="#f8f9fa"}
 
-**18,000 Chinese overseas lending projects** from AidData's database
+**Real example**: "500MW solar power plant with backup diesel generator"
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Categories needed**:
+**Keyword approach** ❌
 
-- 🟢 **Green**: Solar, wind, hydro, nuclear
-- 🟫 **Brown**: Coal, oil, fossil fuels
-- 🔘 **Grey**: Indirect impacts (transmission)
-- ⚪ **Neutral**: Non-energy projects
-:::
-
-::: {.column width="50%"}
-**Traditional approach**:
-
-- 1,500 hours of work
-- $22,500 in research costs
-- Large grant funding required
-:::
-:::
-
-**Our result**: Completed in 15 hours for $1.58
-
----
-
-## The Reality of Human vs. LLM Classification {background-color="#e8f4f8"}
-
-**Let's be honest about manual classification at scale:**
-
-::: {.incremental}
-- After a few hours, your eyes glaze over
-- Are you applying criteria consistently?
-- Are you coding the same way as yesterday? Last week?
-- Research assistants face the same challenges
-:::
-
-**LLMs bring endless patience and consistency**
-
-- Apply same criteria to project 17,000 as to project 1
-- No fatigue, no drift in standards, no bad days
-- Your LLM didn't stay out partying until 4 AM
-
-**Key insight**: Not about perfection, but about good-enough accuracy with perfect consistency
-
----
-
-## Why Keywords Failed, Context Succeeded {background-color="#f8f9fa"}
-
-**Example project**: *"Development of 500MW solar power plant with backup diesel generator"*
-
-::: {.columns}
-::: {.column width="50%"}
-**❌ Keyword Search**
-
-- Sees "diesel" 
+- Searches for "diesel"
 - Classifies as brown
 - Misses primary purpose
 :::
 
 ::: {.column width="50%"}
-**✅ LLM Context Understanding**
+**LLM approach** ✅
 
-- Reads entire description
-- Understands primary purpose
-- Recognizes backup as auxiliary
-- Correctly classifies as green
+- Reads full description
+- Understands context
+- Correctly identifies as green
 :::
 :::
 
-**The advantage**: LLMs understand context that keyword searches miss entirely
+**This is the jagged frontier in action**
 
 ---
 
-## Our Development Journey {background-color="#f8f9fa"}
+## Our Development Journey {background-color="#e8f4f8"}
 
-**Phase 1: Getting Started** *(5-10 examples)*
+```{mermaid}
+graph LR
+    A[10 examples<br/>Test concept] --> B[100 examples<br/>Refine approach]
+    B --> C[300 examples<br/>Validate]
+    C --> D[18,000 projects<br/>Full scale]
+```
 
-- Test basic concepts
-- Refine classification framework
-
-**Phase 2: Working Out Kinks** *(~30 examples)*
-
-- Handle edge cases and mixed projects
-- Develop nuanced reasoning
-
-**Phase 3: Infrastructure Testing** *(100 projects)*
-
-- Test API calls and error handling
-- Build processing pipelines
-
-**Phase 4: Validation Strategy** *(300 projects)*
-
-- Test multiple models against human judgment
-- Measure reliability and accuracy
-
-**Phase 5: Full Implementation** *(18,000 projects)*
-
-- Process complete dataset with confidence
+**Key insight**: Start small, validate early, scale confidently
 
 ---
 
-## What Made Our Approach Work {background-color="#e8f4f8"}
+## Validation: The Critical Step {background-color="#f8f9fa"}
 
-**Multi-shot prompting**: Showed AI how to reason through complex cases
+::: {.columns}
+::: {.column width="50%"}
+![Model agreement analysis](images/llm_agreement_analysis.png){width="400px"}
+:::
 
-**Structured output**: Required JSON format with confidence levels
+::: {.column width="50%"}
+**Our approach:**
 
-**Confidence calibration**: AI assessed its own certainty
+- Test multiple models
+- Human validation sample
+- **91.8% agreement**
+- Full methodology published
+:::
+:::
 
-- **HIGH**: Clear alignment with categories
-- **MEDIUM**: Some ambiguity but reasonable certainty
-- **LOW**: Significant uncertainty - flag for human review
-
-**Key insight**: When AI said it was uncertain, it usually was
-
----
-
-## Validation Strategy {background-color="#f8f9fa"}
-
-**Step 1: Inter-Model Agreement**
-
-- Tested different LLMs on same projects
-- High agreement (85-95%) on most categories
-- Deepseek v3 emerged as best performer
-
-**Step 2: Human Validation Benchmark**
-
-- 300 projects manually classified by experts
-- **91.8% agreement** with human ratings
-- **95.5% accuracy** on green projects specifically
-
-![LLM Agreement Analysis](images/llm_agreement_analysis.png){width="600px"}
-
----
-
-## The Unexpected Challenge {background-color="#fff3cd"}
-
-All LLM providers do some type of content moderation. 
-
-Using Deepseek (an LLM from a Chinese AI lab) required "Non Traditional Debugging" to sanitize politically sensitive names.
-
-![Non-traditional debugging approach](images/non_traditional_debugging.png){width="300px"}
+**Transparency enables trust and progress**
 
 ---
 
 ## What We Discovered {background-color="#f8f9fa"}
 
-![Trends in Chinese overseas lending by project type](images/odi_green_lending_trends.png){width="800px"}
+![China's green lending: mostly hydro, minimal solar/wind](images/odi_green_lending_trends.png)
 
-**Key findings challenged conventional wisdom**:
-
-- Only **$86.5 billion in green investments** (5.8% of total)
-- **No green surge over time** despite policy rhetoric
-- **Bifurcated co-financing networks** - green and commercial financing remain separate
+**Only possible through scale** - patterns invisible in small samples
 
 ---
 
-## The Transformation of Research Possibilities {background-color="#e8f4f8"}
+## Lessons for Your Research {background-color="#e8f4f8"}
 
-**This wasn't about doing the impossible**
-
-- Large teams could have done this manually
-- It would have required major grant funding
-
-**This was about democratizing ambitious research**
-
-**Key insight**: AI handles mechanical tasks while humans focus on research design, validation, and interpretation
+1. **Start where you are** - Web interfaces are powerful enough for most tasks
+2. **Think about scale** - What questions could you ask with unlimited processing?
+3. **Validation is everything** - Build it in from the start
+4. **Share your methods** - We all benefit from transparency
+5. **Perfect < Good enough** - 92% accurate on 18,000 beats 100% on 100
 
 ---
 
-## Essential Lessons for Other Researchers {background-color="#f8f9fa"}
+## When to Consider APIs {background-color="#f8f9fa"}
 
-**1. Start Simple, Build Complexity Gradually**
+**Stay with web interfaces when:**
 
-- Get basic cases working first
-- Add examples iteratively
-- Test infrastructure early
-- Plan validation upfront
+- Exploring and learning
+- Need flexibility
+- Not a confident R or Python programmer
 
-**2. Validation Is Everything**
+**Consider APIs when:**
 
-- Test models against each other
-- Verify with human judgment
-- Always preserve original data
-- Document your methodology
+- Processing a large number of items
+- Repeating same analysis
+- Need systematic approach
+- Have strong coding skills or coding support
 
-**3. Transparency Enables Progress**
-
-- Share methods, code, and validation data
-- Others can build on your work
-- Contribute to methodological development
-
-**📖 Full methodology**: [27-page appendix](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/) + [GitHub repository](https://github.com/Teal-Insights/odi_china_lending_llm_classification)
+**Most research stays in the first category**
 
 ---
 
-## The Bigger Picture {background-color="#4a90b8"}
+## The Bigger Opportunity {.center background-color="#4a90b8"}
 
-### Democratizing Ambitious Research {.text-light}
+### Not about technology
 
-- **We face urgent policy challenges**
+### About democratizing ambitious research
 
-**Tools that enable more researchers to tackle these questions at scale**:
+### About freeing you for high-value thinking
 
-- While maintaining academic rigor
-- With transparent methodology
-- Building on each other's work
-
-**The promise**: Not replacing expertise, but amplifying it to address urgent global challenges
+**You now have the tools**
 
 ---
 
-## What This Means for Your Research {background-color="#e8f4f8"}
+# Your Next Steps {background-color="#1e4a5f"}
 
-**When you're ready to scale up**:
-
-::: {.incremental}
-- **Web tools → API development** - What you've learned applies to programmatic approaches
-- **Small samples → Large datasets** - Tackle questions requiring comprehensive analysis
-- **Individual papers → Pattern recognition** - Find insights across hundreds of documents
-- **Limited scope → Ambitious projects** - Questions you couldn't previously afford to pursue
-:::
-
-**The path forward**: Build comfort with web interfaces, then consider scaling when your research questions demand it
+## From Workshop to Practice
 
 ---
 
-## Looking Forward {background-color="#f8f9fa"}
-
-**Methodological challenges we all face**:
-
-::: {.incremental}
-- **Validation strategies** for LLM-generated analysis
-- **Transparency requirements** for AI-assisted research
-- **Best practices** for handling provider constraints
-- **Training programs** for responsible AI use
-:::
-
-**This case study represents one approach** - not perfect, but a contribution toward responsible, effective AI use in policy research
-
-**The conversation is just beginning** - your research and methods will help shape how these tools evolve
-
----
-
-# Wrap-Up: Your Next Steps {background-color="#1e4a5f"}
-
-## Action Planning & Sustained Engagement
-
-**What we're doing**: Consolidating learning and planning your continued exploration
-
----
-
-## Learning Objectives Check {background-color="#d4edda"}
-
-### What You Built Today ✅
+## What You Built Today {background-color="#d4edda"}
 
 ::: {.columns}
 ::: {.column width="50%"}
-**🧠 Mental Model**
-- Jagged frontier understanding
-- Collaborative approach to AI
-- Strategic tool selection
+**✅ Mental Models**
 
-**🔧 Practical Tools**
-- Professional context template
-- Enhanced prompting techniques
-- Literature review workflow
-- Custom research assistant (Gem)
+- Jagged frontier
+- Collaborative approach
+- Low-hanging fruit identification
 :::
 
 ::: {.column width="50%"}
-**📚 Understanding**
-- Where AI excels vs. struggles
-- Validation strategies
-- Advanced possibilities
-- Scaling considerations
+**✅ Three Tools**
 
-**🎯 Strategic Approach**
-- When to use web tools vs. APIs
-- How to maintain research integrity
-- Building on others' methodological work
+1. Professional context
+2. Enhanced prompting
+3. Literature review Gem
+
+**✅ Understanding of scale**
 :::
 :::
 
-**Achievement**: You're no longer starting from zero with AI tools
+**You're ready to start integrating AI into your research**
 
 ---
 
-## Your Action Plan for This Week {background-color="#e8f4f8"}
+## This Week's Action Plan {background-color="#e8f4f8"}
 
-**Immediate next steps** *(choose 2-3 that fit your current work)*:
+**Choose 2-3 that fit your current work:**
 
-::: {.incremental}
-1. **Refine your Professional Context** - Test with 3-5 different research questions
-2. **Create 1-2 additional Gems** - For tasks you do regularly (grant writing, email analysis)
-3. **Test literature enhancement** - Try with 5-10 papers in your field
-4. **Explore advanced tools** - Upload document collection to NotebookLM
-5. **Try coding assistance** - If you use R/Python/Stata, test with current project
-6. **Share with colleagues** - Discuss one useful application you discovered
-:::
+1. **Test your Literature Gem** on 5-10 papers
+2. **Create a second Gem** for grant writing or another task
+3. **Try coding assistance** if you use R/Python/Stata
+4. **Upload a document collection** to NotebookLM
+5. **Share one success** with a colleague
 
-**💬 Chat**: *Which 2-3 actions are you most likely to try this week?*
+**💬 Chat**: *Which actions match your immediate needs?*
 
 ---
 
-## When You're Ready for More {background-color="#f8f9fa"}
+## Going Deeper: Resources {background-color="#f8f9fa"}
 
-**📖 Your Reference Book**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
-
----
-
-## Resources for Continued Learning {background-color="#f8f9fa"}
+**Your reference book**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
 
 **Essential reading**:
 
-- [Ethan Mollick's "One Useful Thing"](https://www.oneusefulthing.org/) - Best practical AI guidance
-- [*Co-Intelligence*](https://www.penguinrandomhouse.com/books/741805/co-intelligence-by-ethan-mollick/) - Deeper dive into human-AI collaboration
+- [Ethan Mollick's "One Useful Thing"](https://www.oneusefulthing.org/) - I've found Mollick's book, blog, and papers helpful
+- [Our ODI methodology](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/) - Detailed validation approach
 
-**Technical resources**:
+**Stay connected**:
 
-- [Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-- [Vellum's LLM Leaderboard](https://www.vellum.ai/llm-leaderboard) - Track model performance
-
-**Methodological development**:
-
-- Our [ODI methodology appendix](https://odi.org/en/publications/greener-on-the-other-side-mapping-chinas-overseas-co-financing-and-financial-innovation/)
-- [GitHub repository](https://github.com/Teal-Insights/odi_china_lending_llm_classification) - Code and validation data
+- Email: lte at tealinsights.com
+- Share what works (and what doesn't)
 
 ---
 
-## Contact & Questions {background-color="#f8f9fa"}
+## Final Thoughts {background-color="#e8f4f8"}
 
-**Teal Emery**
+**Remember:**
 
-- **Email**: lte at tealinsights.com
-- **Website**: [tealemery.com](https://www.tealemery.com)
-- **Workshop materials**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
+- Start small, validate always
+- Use AI for routine tasks
+- Keep your critical thinking
+- Share your learnings
 
-**I'm interested in your experiences**:
+**The opportunity**: More ambitious research while maintaining rigor
 
-- What works well for your research?
-- What challenges do you encounter?
-- What methodological questions arise?
-
-**Building better practices together** 
-
-- share your insights and questions
-
----
-
-## Final Reflections {background-color="#e8f4f8"}
-
-**What we've explored today**:
-
-::: {.incremental}
-- **Realistic assessment** of AI's capabilities and limitations
-- **Practical tools** you can use immediately
-- **Validation strategies** to maintain research integrity
-- **Scaling possibilities** for ambitious projects
-:::
-
-**The bigger picture**: Tools that enable more researchers to tackle urgent policy questions while maintaining academic rigor
-
-**Your contribution**: As you experiment with these tools, you're helping shape responsible AI use in scholarship
-
----
-
-## Questions & Discussion {background-color="#4a90b8"}
-
-### Open Floor for Q&A {.text-light}
-
-**Share your thoughts**:
-
-- What applications seem most promising for your work?
-- What concerns or challenges do you anticipate?
-- How might these tools change your research approach?
-
-**💬 Chat**: *Any final questions or insights you'd like to share?*
+**The tools**: You now have them
 
 ---
 
 ## Thank You {background-color="#1e4a5f"}
 
-### AI for the Skeptical Scholar {.text-light}
+### Your skepticism is an asset—keep it
 
-**Your skepticism is valuable** 
+### Your expertise is irreplaceable—amplify it  
 
-- maintain it while exploring possibilities
+### Your research matters—let AI help you do more
 
-**Your expertise is irreplaceable** 
+**Questions & Discussion**
 
-- AI amplifies what you already know
-
-**Your research matters** 
-
-- these tools can help you tackle more ambitious questions
-
-**Keep exploring, keep questioning, keep building**
-
----
-
-**All materials**: [teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)
-
-**Contact**: lte at tealinsights.com
+[teal-insights.github.io/soas_llm_training](https://teal-insights.github.io/soas_llm_training)

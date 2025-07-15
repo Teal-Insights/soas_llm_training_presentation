@@ -1,625 +1,457 @@
 [
   {
-    "objectID": "slides.html#how-i-got-here",
-    "href": "slides.html#how-i-got-here",
+    "objectID": "slides.html#practical-strategies-for-using-llms-in-research",
+    "href": "slides.html#practical-strategies-for-using-llms-in-research",
     "title": "AI for the Skeptical Scholar",
-    "section": "How I Got Here",
-    "text": "How I Got Here\n\n\n\n\n\nGreener on the Other Side - ODI Global Report\n\n\n\nApril 2025: Published “Greener on the other side?” using AI to classify 18,000 Chinese lending projects\nAfter publication: Professor Carlos Oya reached out\nToday: First time teaching a workshop on LLMs, but figured it was a great way to gather my thoughts on something I’ve been thinking about a lot"
+    "section": "Practical Strategies for Using LLMs in Research",
+    "text": "Practical Strategies for Using LLMs in Research\nTeal Emery | July 15, 2025"
+  },
+  {
+    "objectID": "slides.html#my-china-project-story",
+    "href": "slides.html#my-china-project-story",
+    "title": "AI for the Skeptical Scholar",
+    "section": "My China Project Story",
+    "text": "My China Project Story\n\n\n\n\n\n18,000 projects classified\n\n\n\nApril 2025: Published “Greener on the other side?”\nThe challenge: Classify 18,000 Chinese lending projects - 🟢 Green | 🟫 Brown | 🔘 Grey | ⚪ Neutral\nTraditional: 1,500 hours, $22,500\nOur result: 15 hours, $1.58\nWhy I’m here: Share practical lessons learned"
   },
   {
     "objectID": "slides.html#chinas-green-lending-reality",
     "href": "slides.html#chinas-green-lending-reality",
     "title": "AI for the Skeptical Scholar",
     "section": "China’s Green Lending Reality",
-    "text": "China’s Green Lending Reality\n\nTrends in Chinese overseas lending by project typeWhat we discovered: Despite “Green Belt and Road” rhetoric, minimal actual renewable energy financing\nLLM Best Practices: No established best practices. We are trying to start that conversation"
+    "text": "China’s Green Lending Reality\n\nDespite “Green Belt and Road” rhetoric, minimal renewable energy financingKey finding: Only 5.8% of Chinese lending went to green projects\nThe point: This analysis was only possible because LLMs handled the routine classification"
   },
   {
-    "objectID": "slides.html#my-take-on-ai",
-    "href": "slides.html#my-take-on-ai",
+    "objectID": "slides.html#who-am-i",
+    "href": "slides.html#who-am-i",
     "title": "AI for the Skeptical Scholar",
-    "section": "My Take on AI",
-    "text": "My Take on AI\n\n\nThere are real problems with AI ⚠️\n\nBias and training data issues\nHallucinations and false confidence\nSerious social & ethical issues\n\n\nDespite this… 💡\n\nI believe AI can be a powerful tool for those of us who want to make the world a better place\n\nValue I can add:\n\nI’ve spent a lot of time figuring out what works and what doesn’t. I can share my practical experience with you."
+    "section": "Who Am I?",
+    "text": "Who Am I?\nCurrent roles:\n\nFounder, Teal Insights (sovereign debt & climate finance)\nResearch Consultant, AidData\nFellow, Energy for Growth Hub\nAdjunct Lecturer, Johns Hopkins SAIS\n\nRelevant experience:\n\n7 years as EM sovereign analyst, Morgan Stanley\nUsing AI tools daily for research & code development\nBuilding LLM products for finance ministries\n\nPhilosophy: Build in the open, amplify expertise"
   },
   {
-    "objectID": "slides.html#my-relevant-ai-experience",
-    "href": "slides.html#my-relevant-ai-experience",
+    "objectID": "slides.html#real-problems-real-value",
+    "href": "slides.html#real-problems-real-value",
     "title": "AI for the Skeptical Scholar",
-    "section": "My Relevant AI Experience",
-    "text": "My Relevant AI Experience\n\n\nODI research project: 18,000 project classification in 15 hours vs. 1,500 hours manually for cost of $1.58.\nDay job: Running Teal Insights, where we help Global South finance ministries navigate complex debt sustainability and climate investment challenges.\nOur approach: Small team (US, Nigeria, Kenya) using AI tools heavily to amplify our impact in research and code development.\nBuilding LLM products: To facilitate our research process and help countries avoid expensive consulting fees"
+    "section": "Real Problems, Real Value",
+    "text": "Real Problems, Real Value\n\n\nYes, there are problems ⚠\n\nTraining data bias\nHallucinations\nEthical concerns\nMissing context\n\n\nDespite this… 💡\n\nPowerful amplifier for good\nDemocratizes research capacity\nFrees time for deep thinking\nEnables ambitious projects\n\n\nMy value add: Practical experience on what works (and what doesn’t)"
   },
   {
-    "objectID": "slides.html#other-relevant-experience",
-    "href": "slides.html#other-relevant-experience",
+    "objectID": "slides.html#what-youll-build-today",
+    "href": "slides.html#what-youll-build-today",
     "title": "AI for the Skeptical Scholar",
-    "section": "Other Relevant Experience",
-    "text": "Other Relevant Experience\n\n\nEM sovereign debt research analyst, Morgan Stanley Investment Management\nAdjunct Lecturer, Johns Hopkins SAIS (teaching students to do real-world data analysis on financial and sustainability data)\nThought leadership on sovereign debt + sustainability, World Bank\nChinese debt restructuring & flows research, AidData\nBig nerd 🤓"
+    "section": "What You’ll Build Today",
+    "text": "What You’ll Build Today\nThree Cumulative Tools\n\n\nProfessional Context → Foundation for everything\nEnhanced Prompting → Uses context for better results\nLiterature Review Gem → Combines both into reusable system\n\n\nEach builds on the last"
   },
   {
-    "objectID": "slides.html#who-this-workshop-is-for",
-    "href": "slides.html#who-this-workshop-is-for",
+    "objectID": "slides.html#roadmap-for-our-journey",
+    "href": "slides.html#roadmap-for-our-journey",
     "title": "AI for the Skeptical Scholar",
-    "section": "Who This Workshop Is For",
-    "text": "Who This Workshop Is For\nExperienced researchers who want to explore how LLMs might enhance their work\n\n\nDeep expertise in your research domain\n\nHealthy skepticism about new technologies and their promises\nNo prior LLM knowledge or coding experience required\nInterest in practical tools that could streamline routine research tasks\nYour skepticism is justified—LLMs have real limitations we’ll address directly"
+    "section": "Roadmap for Our Journey",
+    "text": "Roadmap for Our Journey\nPart 1: Mental Model (20 min)\nWhy AI works this way + strategic thinking\nPart 2: Three Cumulative Tools (70 min)\nHands-on practice with immediate applications\nPart 3: Scaling Up (15 min)\nFrom web interfaces to APIs - the China case study\nYour Next Steps (15 min)\nAction planning & Q&A"
   },
   {
-    "objectID": "slides.html#this-workshops-goal",
-    "href": "slides.html#this-workshops-goal",
+    "objectID": "slides.html#your-reference-book",
+    "href": "slides.html#your-reference-book",
     "title": "AI for the Skeptical Scholar",
-    "section": "This Workshop’s Goal",
-    "text": "This Workshop’s Goal\n\nYou can’t learn everything about AI in 2 hours.\nThis workshop aims to give you the mental, practical tools, and inspiration to get started"
+    "section": "Your Reference Book",
+    "text": "Your Reference Book\n\n\nToday’s Workshop\n\nCore concepts\nHands-on activities\n\nInteractive discussion\n\n\nCompanion Book\n\nDetailed explanations\nExtended examples\nEverything we can’t cover\n\n\n📖 Full guide: teal-insights.github.io/soas_llm_training"
   },
   {
-    "objectID": "slides.html#what-youll-leave-with-today",
-    "href": "slides.html#what-youll-leave-with-today",
+    "objectID": "slides.html#understanding-how-to-work-with-ai-effectively",
+    "href": "slides.html#understanding-how-to-work-with-ai-effectively",
     "title": "AI for the Skeptical Scholar",
-    "section": "What You’ll Leave With Today",
-    "text": "What You’ll Leave With Today\nThree Practical Tools\n\n\nA mental model for how to us AI effectively and responsibly\nWorking prompts and systems you can use immediately\n\nValidation strategies to maintain research integrity"
+    "section": "Understanding How To Work With AI Effectively",
+    "text": "Understanding How To Work With AI Effectively\nWhat we’re building: Strategic thinking about AI capabilities"
   },
   {
-    "objectID": "slides.html#our-flipped-approach",
-    "href": "slides.html#our-flipped-approach",
+    "objectID": "slides.html#the-research-reality",
+    "href": "slides.html#the-research-reality",
     "title": "AI for the Skeptical Scholar",
-    "section": "Our “Flipped” Approach",
-    "text": "Our “Flipped” Approach\n\n\nLive Session\n\nConcept exploration & discussion\nHands-on activities in Part 2\nProblem-solving together\nLearning from each other\n\n\nYour Reference Book\n\nDetailed explanations\nExtended examples\nEnables live session to be more interactive\n\n\nAll details at: teal-insights.github.io/soas_llm_training"
+    "section": "The Research Reality",
+    "text": "The Research Reality\nInformation overload is real:\n\nToo many papers to read\nCross-disciplinary insights trapped in jargon\nImportant work in other languages\nRoutine tasks eating research time\n\n💬 Chat: Share one routine task that consumes too much of your time\nThe opportunity: What if AI could handle the routine so you focus on insight?"
   },
   {
-    "objectID": "slides.html#our-journey-together",
-    "href": "slides.html#our-journey-together",
+    "objectID": "slides.html#two-ways-to-access-ai",
+    "href": "slides.html#two-ways-to-access-ai",
     "title": "AI for the Skeptical Scholar",
-    "section": "Our Journey Together",
-    "text": "Our Journey Together\nPart 1: Foundations (20 min)\nUnderstanding the research reality & building your mental model\nPart 2: Practical Applications (70 min)\nHands-on tools & techniques with 3 activities\nPart 3: Advanced Possibilities (15 min)\nCase study & scaling considerations\nWrap-Up: Your Next Steps (15 min)\nAction planning & Q&A"
+    "section": "Two Ways to Access AI",
+    "text": "Two Ways to Access AI\n\n\nWeb Interfaces (Our focus)\n\nBrowser-based (ChatGPT, Claude, Gemini)\nNo coding required\nInteractive conversation\nBest for: Exploration, individual tasks\n\n\nAPIs (Advanced)\n\nProgrammatic access\nRequires coding\nAutomated workflows\nBest for: Large-scale projects\n\n\nToday: Web interfaces | Case study: How APIs enabled our China project"
   },
   {
-    "objectID": "slides.html#understanding-the-research-reality",
-    "href": "slides.html#understanding-the-research-reality",
+    "objectID": "slides.html#the-jagged-frontier",
+    "href": "slides.html#the-jagged-frontier",
     "title": "AI for the Skeptical Scholar",
-    "section": "Understanding the Research Reality",
-    "text": "Understanding the Research Reality\nWhat we’re exploring: Why this matters & how to think about AI strategically"
+    "section": "The Jagged Frontier",
+    "text": "The Jagged Frontier\n\nAI capabilities form an irregular, unpredictable boundaryKey insight from Ethan Mollick’s research:\n\nTasks inside frontier: AI excels\nTasks outside: AI struggles\nThe boundary is invisible and shifts"
   },
   {
-    "objectID": "slides.html#the-scale-problem-we-all-face",
-    "href": "slides.html#the-scale-problem-we-all-face",
+    "objectID": "slides.html#jagged-frontier-in-action",
+    "href": "slides.html#jagged-frontier-in-action",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Scale Problem We All Face",
-    "text": "The Scale Problem We All Face\nThe literature explosion\n\nToo much to read, too little time\n\nYour reality\n\nDeep expertise, but finite time\nJob, family, life outside research\nCan’t read everything that looks relevant\n\n💬 Chat: Share one research task you find tedious"
+    "section": "Jagged Frontier in Action",
+    "text": "Jagged Frontier in Action\n\n\n“Paint a dumpster fire in Monet’s style”\n\n\n\nPerfect in seconds\n\n\n\n“Make a better jagged frontier diagram”\n\n\n\nFailed after an hour\n\n\n\nThe lesson: You must explore the frontier for YOUR tasks"
   },
   {
-    "objectID": "slides.html#approach-to-ai",
-    "href": "slides.html#approach-to-ai",
+    "objectID": "slides.html#low-hanging-fruit",
+    "href": "slides.html#low-hanging-fruit",
     "title": "AI for the Skeptical Scholar",
-    "section": "Approach to AI",
-    "text": "Approach to AI\n\n\n❌ Avoiding\n\nReplacing your critical thinking\nTrusting AI without verification\n\nIgnoring bias and limitations\nDisplacing human expertise\n\n\n✅ Amplifying\n\nYour domain knowledge\nYour analytical capabilities\n\nYour research capacity\nYour time for deep thinking\n\n\nKey insight: AI handles routine so you focus on remarkable"
+    "section": "Low-Hanging Fruit",
+    "text": "Low-Hanging Fruit\nWhere AI consistently saves researchers time:\n\n\nLiterature Tasks 📚\n\nSummarizing papers\nFinding patterns\nTranslation (language & jargon)\nInitial categorization\n\n\nCoding Tasks 💻\n\nData cleaning scripts\nStatistical analysis\nDebugging errors\nDocumentation\n\n\nThese are INSIDE the frontier - reliable time-savers"
   },
   {
-    "objectID": "slides.html#mental-model-the-jagged-frontier",
-    "href": "slides.html#mental-model-the-jagged-frontier",
+    "objectID": "slides.html#why-collaborative",
+    "href": "slides.html#why-collaborative",
     "title": "AI for the Skeptical Scholar",
-    "section": "Mental Model: The “Jagged Frontier”",
-    "text": "Mental Model: The “Jagged Frontier”\n\nWhat is AI good at?From Dell’Acqua et al 2023\nInside the frontier: AI excels\nOutside the frontier: AI struggles\nThe challenge: The boundary is invisible, unpredictable, and moving quickly"
+    "section": "Why Collaborative?",
+    "text": "Why Collaborative?\nThink of AI as an infinitely patient research assistant\n\n\nYou Provide\n\nDomain expertise\nResearch questions\nQuality judgment\nEthical framework\n\n\nAI Provides\n\nProcessing speed\nPattern recognition\nMultiple drafts\nTireless consistency\n\n\nKey principle: AI amplifies expertise, doesn’t replace it"
   },
   {
-    "objectID": "slides.html#the-jagged-frontier-in-action",
-    "href": "slides.html#the-jagged-frontier-in-action",
+    "objectID": "slides.html#tool-selection-why-gemini-today",
+    "href": "slides.html#tool-selection-why-gemini-today",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Jagged Frontier in Action",
-    "text": "The Jagged Frontier in Action\n\n\nSingle prompt: “Make a painting of a dumpster fire in the style of Monet”\n\n\n\nMade by ChatGPT in seconds\n\n\n\nOne hour of prompting: “Make a better jagged frontier visualization”\n\n\n\nNon-sensical output after countless attempts\n\n\n\nThis is the jagged frontier: Seemingly similar tasks with wildly different AI performance"
+    "section": "Tool Selection: Why Gemini Today",
+    "text": "Tool Selection: Why Gemini Today\nThree major providers, each with strengths:\n\nOpenAI (ChatGPT): Best “Deep Research” tool\nAnthropic (Claude): Excellent for coding\nGoogle (Gemini): Largest context window\n\nContext window = Working memory\n\nGemini: ~750,000 words (15 papers)\nOthers: ~150,000 words (3 papers)\n\nFor academic work: Gemini’s massive context + citations = best choice"
   },
   {
-    "objectID": "slides.html#understanding-the-frontier",
-    "href": "slides.html#understanding-the-frontier",
+    "objectID": "slides.html#what-makes-ai-different",
+    "href": "slides.html#what-makes-ai-different",
     "title": "AI for the Skeptical Scholar",
-    "section": "Understanding the Frontier",
-    "text": "Understanding the Frontier\n\n\nInside (AI excels)\n\nSummarizing complex texts quickly\nPattern recognition across documents\nFirst-draft generation\nCode generation\n\n\nOutside (AI struggles)\n\nUnderstanding implicit context\nMaking ethical judgments\nRecognizing what’s missing\nCultural and political subtext\n\n\nOnly YOU can find the “jagged frontier” for tasks that matter to you"
+    "section": "What Makes AI Different",
+    "text": "What Makes AI Different\nTraditional software: Predictable rules, consistent outputs\nLLMs: More like a knowledgeable but quirky colleague\n\nSometimes brilliant insights\nSometimes confident nonsense\nAlways needs verification\nSuccess depends on how you communicate\n\nThis is why prompting matters - it’s how you communicate effectively"
   },
   {
-    "objectID": "slides.html#the-collaborative-model",
-    "href": "slides.html#the-collaborative-model",
+    "objectID": "slides.html#signpost-from-theory-to-practice",
+    "href": "slides.html#signpost-from-theory-to-practice",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Collaborative Model",
-    "text": "The Collaborative Model\nThink of LLMs as sophisticated research assistants with unique strengths and blind spots\n\n\nYour Unique Value\n\nDomain expertise & contextual understanding\nCritical analysis & theoretical frameworks\nEthical judgment & interpretation\n\n\nAI’s Unique Value\n\nProcessing large volumes quickly\nGenerating first drafts\nHandling routine tasks\nProviding different perspectives\n\n\nThe goal: AI amplifies your expertise, doesn’t replace it"
+    "section": "Signpost: From Theory to Practice",
+    "text": "Signpost: From Theory to Practice\nYou now understand:\n✓ Jagged frontier concept\n✓ Where AI excels (literature, coding)\n✓ Why collaboration works\n✓ Tool options\nNext: Build your toolkit with three cumulative activities"
   },
   {
-    "objectID": "slides.html#finding-your-frontier",
-    "href": "slides.html#finding-your-frontier",
+    "objectID": "slides.html#building-your-ai-research-toolkit",
+    "href": "slides.html#building-your-ai-research-toolkit",
     "title": "AI for the Skeptical Scholar",
-    "section": "Finding Your Frontier",
-    "text": "Finding Your Frontier\nHow to discover what works for your research:\n\n\nStart with your own work: Test AI on papers you know intimately\nBegin with low-stakes tasks: Where errors won’t matter much\nTest systematically: Try similar but different tasks to map boundaries\nStay updated: The frontier is expanding rapidly but unevenly\n\n\nKey principle: Which tasks in your workflow are slow, repetitive, or cognitively exhausting?\nTry them with an LLM. Does it help or hinder?"
+    "section": "Building Your AI Research Toolkit",
+    "text": "Building Your AI Research Toolkit\nWhat we’re building: Practical tools you’ll use immediately"
   },
   {
-    "objectID": "slides.html#why-this-matters-democratizing-ambitious-research",
-    "href": "slides.html#why-this-matters-democratizing-ambitious-research",
+    "objectID": "slides.html#the-foundation-why-prompting-matters",
+    "href": "slides.html#the-foundation-why-prompting-matters",
     "title": "AI for the Skeptical Scholar",
-    "section": "Why This Matters: Democratizing Ambitious Research",
-    "text": "Why This Matters: Democratizing Ambitious Research\nThe bigger picture: Tools that enable more researchers to tackle urgent questions at scale\n\n\nPreviously required: Large research grants, teams of research assistants, months of work\nNow possible: Two policy researchers with minimal budget accomplished analysis that traditionally required large, well-funded teams\nWhat this enables: More ambitious, policy-relevant research while maintaining academic rigor\nThe promise: Not replacing researchers, but enabling more transparent and impactful research\n\n\nWe face urgent policy challenges around climate finance, development effectiveness, and global economic transitions"
-  },
-  {
-    "objectID": "slides.html#two-ways-to-use-ai",
-    "href": "slides.html#two-ways-to-use-ai",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Two Ways to Use AI",
-    "text": "Two Ways to Use AI\n\n\nWeb Interfaces (Our Focus)\n\nType questions, get answers\nNo coding required\nBest for: Individual papers, exploration\n\n\nAPIs (Advanced)\n\nRequires coding skills\nProcess thousands automatically\nBest for: Large-scale projects\n\n\nFor most researchers starting with LLMs: Web interfaces are the better choice"
-  },
-  {
-    "objectID": "slides.html#the-big-three-ai-providers",
-    "href": "slides.html#the-big-three-ai-providers",
-    "title": "AI for the Skeptical Scholar",
-    "section": "The Big Three AI Providers",
-    "text": "The Big Three AI Providers\n\n\nOpenAI (ChatGPT): Deep Research tool, strong reasoning\nAnthropic (Claude): Excellent for coding, high-quality writing\n\nGoogle (Gemini): Massive context window, built-in citations\nReality check: I pay for all three (~$20/month each). Each has unique strengths.\nThis landscape changes rapidly - what’s best today may not be tomorrow"
-  },
-  {
-    "objectID": "slides.html#why-gemini-for-today",
-    "href": "slides.html#why-gemini-for-today",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Why Gemini for Today",
-    "text": "Why Gemini for Today\nContext Window: How much text AI can process at once\n\n\nGemini: ~750,000 words (10-15 academic papers)\nOthers: ~150,000 words (2-3 papers)\nBuilt-in citations: Automatic source references\nPerfect for: Academic workflows with large documents\n\n\nWe’ll explore other tools briefly, but Gemini is our main focus"
-  },
-  {
-    "objectID": "slides.html#key-takeaways-from-foundations",
-    "href": "slides.html#key-takeaways-from-foundations",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Key Takeaways from Foundations",
-    "text": "Key Takeaways from Foundations\n\n\nThe Challenge\n\nInformation overload in academic research\nLimited time for comprehensive literature review\nNeed for strategic filtering and prioritization\n\n\nYour Strategic Advantage\n\nUnderstanding the jagged frontier\nCollaborative approach: AI handles scale, you provide judgment\nTool selection based on your specific needs\n\n\nNext: We’ll put this into practice with hands-on tools and techniques"
-  },
-  {
-    "objectID": "slides.html#building-your-research-toolkit",
-    "href": "slides.html#building-your-research-toolkit",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Building Your Research Toolkit",
-    "text": "Building Your Research Toolkit\nWhat we’re building: Working prompts, custom assistants, and literature enhancement tools"
-  },
-  {
-    "objectID": "slides.html#your-learning-journey",
-    "href": "slides.html#your-learning-journey",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Your Learning Journey",
-    "text": "Your Learning Journey\n🔧 Activity 1: Professional Context (8 min)\nBuild foundation for all AI interactions\n🔧 Activity 2: Enhanced Prompting (10 min)\nTransform vague requests into powerful prompts\n🔧 Activity 3: Literature Review Assistant (25 min)\nCreate reusable research assistant using a Gemini Gem\n📖 Book chapters: 4-6 provide provide more detail"
-  },
-  {
-    "objectID": "slides.html#the-power-and-the-problem",
-    "href": "slides.html#the-power-and-the-problem",
-    "title": "AI for the Skeptical Scholar",
-    "section": "The Power and the Problem",
-    "text": "The Power and the Problem\nLarge Language Models are powerful but not clairvoyant\n\n\nPowerful: Can handle complex tasks that take humans hours or days\nNot clairvoyant: Can’t read your mind or guess what you really need\nNeed sufficient information: The more context you provide, the better the output\nKey insight: Quality of output depends heavily on quality of input"
-  },
-  {
-    "objectID": "slides.html#from-google-to-collaborative-partner",
-    "href": "slides.html#from-google-to-collaborative-partner",
-    "title": "AI for the Skeptical Scholar",
-    "section": "From Google to Collaborative Partner",
-    "text": "From Google to Collaborative Partner\n\n\n❌ Google Search Approach\n\nFew keywords\nBrowse results\nFind what you need\n\n\n✅ AI Collaboration Approach\n\nDetailed context\nSpecific instructions\nIterative refinement\n\n\nThink of AI as a knowledgeable colleague who needs clear direction"
+    "section": "The Foundation: Why Prompting Matters",
+    "text": "The Foundation: Why Prompting Matters\nLLMs are powerful but not clairvoyant\nThey need:\n\nContext: Who you are, what you’re working on\nClear instructions: Specific tasks, not vague requests\nOutput format: How you want results structured\nQuality controls: Ways to verify accuracy\n\nAnalogy: Like briefing a new research assistant who’s brilliant but knows nothing about your work"
   },
   {
     "objectID": "slides.html#anatomy-of-effective-prompts",
     "href": "slides.html#anatomy-of-effective-prompts",
     "title": "AI for the Skeptical Scholar",
     "section": "Anatomy of Effective Prompts",
-    "text": "Anatomy of Effective Prompts\nEssential components for research-quality outputs:\n\n\nContext: Who you are, what you’re working on\nTask: What specifically you want the AI to do\nFormat: How you want the output structured\nConstraints: Limitations, requirements, things to avoid\nExamples: Sample inputs/outputs when helpful\n\n\n📖 Detailed templates: Chapter 4"
+    "text": "Anatomy of Effective Prompts\nCONTEXT: Background information, your expertise, project details\n\nTASK: Specific request with clear action verbs\n\nFORMAT: Structure, length, style preferences  \n\nCONSTRAINTS: What to avoid, limitations, requirements\n\nQUALITY CONTROLS: \"Ask clarifying questions\", \"Tell me when unsure\"\nEach element improves output quality"
   },
   {
-    "objectID": "slides.html#activity-1-create-your-professional-context",
-    "href": "slides.html#activity-1-create-your-professional-context",
+    "objectID": "slides.html#tool-1-professional-context",
+    "href": "slides.html#tool-1-professional-context",
     "title": "AI for the Skeptical Scholar",
-    "section": "🔧 Activity 1: Create Your Professional Context",
-    "text": "🔧 Activity 1: Create Your Professional Context\nBuild Your AI Research Foundation (8 minutes)\nWhat you’ll do: 1. Go to gemini.google.com 2. Upload your CV, LinkedIn profile, or faculty bio 3. Use the prompt template (next slide) 4. Create reusable professional context\nWhy this matters: This becomes the foundation for all your AI interactions"
+    "section": "Tool 1: Professional Context",
+    "text": "Tool 1: Professional Context\nThe problem: Starting from scratch every conversation\nThe solution: Reusable professional context that captures:\n\nYour expertise and background\nResearch focus areas\nCommunication style\nMethodological preferences\n\nWhy this matters: Foundation for all future AI interactions"
   },
   {
-    "objectID": "slides.html#professional-context-prompt-template",
-    "href": "slides.html#professional-context-prompt-template",
+    "objectID": "slides.html#activity-1-create-your-context",
+    "href": "slides.html#activity-1-create-your-context",
     "title": "AI for the Skeptical Scholar",
-    "section": "Professional Context Prompt Template",
-    "text": "Professional Context Prompt Template\nPlease analyze my professional background and help me create a \nprofessional context for AI interactions. Based on my CV/profile, \ncreate a summary that includes:\n\n## Domain Expertise & Background\n[My main research areas, methodology preferences, key expertise]\n\n## Current Roles & Affiliations  \n[Current positions, institutional affiliations, responsibilities]\n\n## Research Focus Areas\n[Main research interests, current projects, regional expertise]\n\n## Communication Style & Audience\n[Who I typically write for, how I prefer to communicate findings]\n\n## Technical Approach\n[Specific tools, methods, analytical approaches I use]\n\nMake this professional but concise - about 200-300 words total."
+    "section": "🔧 Activity 1: Create Your Context",
+    "text": "🔧 Activity 1: Create Your Context\nBuild Your AI Foundation (8 minutes)\n\nGo to gemini.google.com\nUpload your CV, bio, or LinkedIn profile\nUse this prompt:\n\nAnalyze my professional background and create a 200-300 word \nprofessional context for AI interactions including:\n\n- Domain expertise & background\n- Current roles & affiliations  \n- Research focus areas\n- Communication style & audience\n- Technical approaches I use\n\nMake it professional but conversational."
   },
   {
-    "objectID": "slides.html#activity-1-instructions",
-    "href": "slides.html#activity-1-instructions",
+    "objectID": "slides.html#activity-1-walkthrough",
+    "href": "slides.html#activity-1-walkthrough",
     "title": "AI for the Skeptical Scholar",
-    "section": "Activity 1: Instructions",
-    "text": "Activity 1: Instructions\n\n\nUpload your document: CV, LinkedIn, or faculty bio to Gemini\nPaste the template: Copy the prompt from the previous slide\nReview the output: Does it capture your expertise accurately?\nRefine if needed: Ask for adjustments to better reflect your work\nSave the result: You’ll use this in our next activities\n\n\n\n⏱️ 8 minutes"
+    "section": "Activity 1 Walkthrough",
+    "text": "Activity 1 Walkthrough\nStep by step:\n\nUpload → CV or professional bio\nPaste prompt → Exactly as shown\nReview → Does it capture your expertise?\nRefine → “Make it more concise” or “Add my regional expertise”\nSave → Copy to a document for reuse\n\nSuccess indicator: AI understands your research domain and communication needs\n\n⏱️ 8 minutes"
   },
   {
-    "objectID": "slides.html#the-difference-context-makes",
-    "href": "slides.html#the-difference-context-makes",
+    "objectID": "slides.html#checkpoint-what-you-built",
+    "href": "slides.html#checkpoint-what-you-built",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Difference Context Makes",
-    "text": "The Difference Context Makes\nWithout context: Generic, surface-level responses\nWith context: Targeted, sophisticated assistance"
+    "section": "Checkpoint: What You Built",
+    "text": "Checkpoint: What You Built\n✅ Professional context that:\n\nIntroduces you to any AI system\nCaptures your unique expertise\nSets appropriate communication style\nEliminates repetitive explanations\n\nThis becomes part of EVERY future prompt"
   },
   {
-    "objectID": "slides.html#two-powerful-prompt-enhancers",
-    "href": "slides.html#two-powerful-prompt-enhancers",
+    "objectID": "slides.html#tool-2-enhanced-prompting",
+    "href": "slides.html#tool-2-enhanced-prompting",
     "title": "AI for the Skeptical Scholar",
-    "section": "Two Powerful Prompt Enhancers",
-    "text": "Two Powerful Prompt Enhancers\nAdd these to any prompt for better results:\n\n\n“Please ask me clarifying questions” - Encourages AI to seek additional information rather than make assumptions\n“Tell me when you’re unsure about something” - Reduces hallucinations by encouraging admission of uncertainty\n\n\nThese simple additions can save you from misleading responses"
+    "section": "Tool 2: Enhanced Prompting",
+    "text": "Tool 2: Enhanced Prompting\nNow we combine context with structured requests\n\n\nWithout structure ❌ “Help with literature review”\nVague → Generic output\n\nWith structure ✅ Context + Task + Format\nSpecific → Useful output\n\nThe magic: Your context + clear structure = targeted assistance"
   },
   {
-    "objectID": "slides.html#common-prompting-mistakes",
-    "href": "slides.html#common-prompting-mistakes",
+    "objectID": "slides.html#why-structure-works",
+    "href": "slides.html#why-structure-works",
     "title": "AI for the Skeptical Scholar",
-    "section": "Common Prompting Mistakes",
-    "text": "Common Prompting Mistakes\n\n\n❌ What Doesn’t Work\n\nTreating AI like Google\nVague requests: “Help me with X”\nNo quality control\nOverwhelming with too much at once\n\n\n✅ What Works\n\nProvide documents + ask for analysis\nSpecific tasks + output format\nAsk for sources and reasoning\nBreak complex tasks into steps"
+    "section": "Why Structure Works",
+    "text": "Why Structure Works\nTwo powerful additions to any prompt:\n\n“Ask me clarifying questions”\n\nAI seeks missing information\nPrevents assumptions\n\n“Tell me when you’re unsure”\n\nReduces hallucinations\nFlags uncertainty\n\n\nThese simple phrases dramatically improve reliability"
   },
   {
-    "objectID": "slides.html#activity-2-enhanced-prompting-practice",
-    "href": "slides.html#activity-2-enhanced-prompting-practice",
+    "objectID": "slides.html#activity-2-enhanced-prompting",
+    "href": "slides.html#activity-2-enhanced-prompting",
     "title": "AI for the Skeptical Scholar",
-    "section": "🔧 Activity 2: Enhanced Prompting Practice",
-    "text": "🔧 Activity 2: Enhanced Prompting Practice\nFrom Vague to Powerful (10 minutes)\nWhat you’ll do:\n\nTake your professional context from Activity 1\nChoose a current research question you’re working on\nCreate a structured prompt using the template\nTest it and refine\n\nGoal: Experience the difference between generic and contextualized AI assistance"
+    "section": "🔧 Activity 2: Enhanced Prompting",
+    "text": "🔧 Activity 2: Enhanced Prompting\nTransform Vague to Powerful (10 minutes)\nBuild on Activity 1 by adding structure:\n[Your professional context from Activity 1]\n\nI'm working on [specific research question/paper/project].\n\nPlease help me [specific task]:\n- [What you want]\n- [How it should be formatted]\n- [Any constraints]\n\nAsk clarifying questions if needed.\nTell me when you're unsure about something."
   },
   {
-    "objectID": "slides.html#enhanced-prompting-template",
-    "href": "slides.html#enhanced-prompting-template",
+    "objectID": "slides.html#activity-2-practice",
+    "href": "slides.html#activity-2-practice",
     "title": "AI for the Skeptical Scholar",
-    "section": "Enhanced Prompting Template",
-    "text": "Enhanced Prompting Template\n[Paste your professional context from Activity 1]\n\n## Current Research Question\n[Describe what you're working on - paper, project, grant, etc.]\n\n## Specific Request\nI need help with [specific task]. Please:\n- [What you want the AI to do]\n- [How you want it formatted]\n- [Any constraints or requirements]\n\n## Additional Context\n[Any relevant background, documents, or constraints]\n\nPlease ask me clarifying questions if you need more information, \nand tell me when you're unsure about something."
+    "section": "Activity 2 Practice",
+    "text": "Activity 2 Practice\nTry it with a real research need:\n\nPaste your context (from Activity 1)\nAdd current research - Be specific, add context, upload documents\nStructure your request - Task, format, constraints\nInclude quality controls - Questions and uncertainty\nCompare results - How does this differ from a vague request?\n\n💬 Chat: What surprised you about the enhanced response?\n\n⏱️ 10 minutes"
   },
   {
-    "objectID": "slides.html#activity-2-step-by-step",
-    "href": "slides.html#activity-2-step-by-step",
+    "objectID": "slides.html#the-compounding-effect",
+    "href": "slides.html#the-compounding-effect",
     "title": "AI for the Skeptical Scholar",
-    "section": "Activity 2: Step-by-Step",
-    "text": "Activity 2: Step-by-Step\n\n\nStart with your context: Use the professional summary from Activity 1\nChoose your research question: Something you’re currently working on\nBe specific: What exactly do you want help with?\nAdd the enhancers: Ask for clarifying questions and uncertainty flags\nTest and refine: Try it, see what happens, adjust as needed\n\n\n\n⏱️ 10 minutes\n\n💬 Chat: Share your biggest “aha” moment from improved prompting"
+    "section": "The Compounding Effect",
+    "text": "The Compounding Effect\n✅ What you’ve discovered:\n\nContext → No more generic responses\nStructure → Clear, actionable outputs\nQuality controls → Reduced errors\nTogether → AI that understands YOUR research needs\n\nNext: Apply this to your biggest time sink - literature review"
   },
   {
-    "objectID": "slides.html#the-art-of-iterative-prompting",
-    "href": "slides.html#the-art-of-iterative-prompting",
+    "objectID": "slides.html#tool-3-literature-review-enhancement",
+    "href": "slides.html#tool-3-literature-review-enhancement",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Art of Iterative Prompting",
-    "text": "The Art of Iterative Prompting\nAI works best through conversation, not one-shot requests\n\n\nStart broad: Get initial direction and framework\nDrill down: Ask for specifics on the most interesting parts\nRefine: Request adjustments to tone, format, or focus\nVerify: Ask for sources, evidence, or reasoning\n\n\nExample flow: Research question → Initial analysis → Specific methodology → Alternative approaches → Validation strategy"
+    "section": "Tool 3: Literature Review Enhancement",
+    "text": "Tool 3: Literature Review Enhancement\nThe universal research challenge:\n\nExplosion of publications\nRelevant work in other languages\nInsights trapped in other disciplines\nNo time to read everything\n\nInitial literature review is prime “low-hanging fruit” - squarely inside AI’s capabilities"
   },
   {
-    "objectID": "slides.html#prompt-chaining-for-complex-tasks",
-    "href": "slides.html#prompt-chaining-for-complex-tasks",
+    "objectID": "slides.html#my-personal-workflow",
+    "href": "slides.html#my-personal-workflow",
     "title": "AI for the Skeptical Scholar",
-    "section": "Prompt Chaining for Complex Tasks",
-    "text": "Prompt Chaining for Complex Tasks\nBreak complex requests into sequential steps:\n\n\n❌ All at once\n“Analyze this email thread, identify key issues, and draft a response”\n\n✅ Step by step\n\nFirst: Analyze and clarify\nThen: Draft based on analysis\n\n\nWhy this works: Each step can be optimized, you maintain quality control, AI has clearer focus"
+    "section": "My Personal Workflow",
+    "text": "My Personal Workflow\nFor every potentially relevant paper:\n[Professional context]\n\nPlease provide the full citation information for this document at the top, then create a detailed structured summary of this entire document, including any appendices.\n\nI need to understand:\n- The main argument or purpose\n- Key findings or conclusions\n- Important data, evidence, or examples\n- Any policy implications or practical applications\n- Who the intended audience appears to be\n\nFormat this as a structured summary with clear headings.\nResult: 5% merit deep reading, 95% the summary is sufficient"
   },
   {
-    "objectID": "slides.html#building-your-prompt-library",
-    "href": "slides.html#building-your-prompt-library",
+    "objectID": "slides.html#two-translation-superpowers",
+    "href": "slides.html#two-translation-superpowers",
     "title": "AI for the Skeptical Scholar",
-    "section": "Building Your Prompt Library",
-    "text": "Building Your Prompt Library\nAs you develop effective prompts, save them:\n\n\nLiterature analysis: Templates for paper summaries\nResearch brainstorming: Question generation prompts\nWriting enhancement: Revision and feedback requests\nEmail threads: Complex communication analysis\nGrant applications: Proposal development assistance\n\n\n📖 Ready-to-use templates: Chapter 4 provides tested prompts for common research tasks"
+    "section": "Two Translation Superpowers",
+    "text": "Two Translation Superpowers\n\n\nLanguage Translation 🌍\n\nSpanish economics paper → English\nChinese policy document → English\nInitial assessment of relevance\n\n\nJargon Translation 🔄\n\nEconomics → Plain English\nComputer science → Social science\nTechnical → Policymaker-friendly\n\n\nBoth expand your research scope dramatically"
   },
   {
-    "objectID": "slides.html#what-youve-built-so-far",
-    "href": "slides.html#what-youve-built-so-far",
+    "objectID": "slides.html#cross-disciplinary-example",
+    "href": "slides.html#cross-disciplinary-example",
     "title": "AI for the Skeptical Scholar",
-    "section": "What You’ve Built So Far",
-    "text": "What You’ve Built So Far\n\n\nTool 1: Professional Context\n\nReusable foundation for all AI interactions\nCaptures your expertise and communication style\nEnables targeted, sophisticated assistance\n\n\nTool 2: Enhanced Prompting\n\nStructured approach to AI requests\nQuality control through verification\nIterative refinement process\n\n\nNext: We’ll enhance your literature review capabilities, then build specialized research assistants"
+    "section": "Cross-Disciplinary Example",
+    "text": "Cross-Disciplinary Example\n[Your context]\n\nThis computer science paper uses unfamiliar technical terminology. \nPlease:\n1. Identify the main contribution in plain language\n2. Explain how their methods might apply to social science research  \n3. Highlight any useful techniques for [your research area]\n\nFocus on practical applications, not technical details.\nUnlock insights from other fields"
   },
   {
-    "objectID": "slides.html#literature-review-enhancement",
-    "href": "slides.html#literature-review-enhancement",
+    "objectID": "slides.html#gems-your-reusable-assistants",
+    "href": "slides.html#gems-your-reusable-assistants",
     "title": "AI for the Skeptical Scholar",
-    "section": "Literature Review Enhancement",
-    "text": "Literature Review Enhancement\nThe information deluge problem we all face\n\n\nExplosion of research: Even narrow subfields are impossible to keep up with\nYour reality: Job, family, life outside research - finite time\nThe challenge: Can’t read everything, can’t afford to miss important work\n\n\nAI as intelligent filter: Help identify what deserves your limited attention"
+    "section": "Gems: Your Reusable Assistants",
+    "text": "Gems: Your Reusable Assistants\nWhat are Gems?\n\nSaved AI configurations with your instructions\nReusable across conversations\nNo need to re-enter context\nContinuously improvable\n\nThink of it as: Training a specialized research assistant who remembers your preferences"
   },
   {
-    "objectID": "slides.html#the-scale-advantage",
-    "href": "slides.html#the-scale-advantage",
+    "objectID": "slides.html#activity-3-build-literature-gem",
+    "href": "slides.html#activity-3-build-literature-gem",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Scale Advantage",
-    "text": "The Scale Advantage\nTime mathematics for literature processing:\n\n\nTraditional Reading\n\nAcademic paper: 40-80 minutes\n100-page report: 3-5 hours\nWeekly literature (10 papers): 7-13 hours\n\n\nAI Processing\n\nPaper summary: 30-60 seconds\n100-page report analysis: 2-3 minutes\n10-paper pattern analysis: 5-10 minutes\n\n\nThis isn’t about replacing careful reading—it’s about deciding what merits it"
+    "section": "🔧 Activity 3: Build Literature Gem",
+    "text": "🔧 Activity 3: Build Literature Gem\nCreate Your Research Assistant (25 minutes)\nPart A: Test & Refine (10 min)\n\nUpload a paper\nApply context + literature prompt\nIdentify what to improve\n\nPart B: Create Gem (15 min)\n\nCombine all your learning\nSave as reusable tool\nTest on new paper\n\nThis combines everything you’ve learned"
   },
   {
-    "objectID": "slides.html#my-personal-literature-workflow",
-    "href": "slides.html#my-personal-literature-workflow",
+    "objectID": "slides.html#literature-gem-template",
+    "href": "slides.html#literature-gem-template",
     "title": "AI for the Skeptical Scholar",
-    "section": "My Personal Literature Workflow",
-    "text": "My Personal Literature Workflow\nStep 1: Initial Filtering\n[Add your professional context]\n\nPlease provide full citation information, then create a detailed \nstructured summary including:\n- Main argument or purpose\n- Key findings or conclusions\n- Important data, evidence, or examples\n- Policy implications or practical applications\n- Intended audience\n\nFormat as structured summary with clear headings.\nResult: 95% of documents - summary gives me what I need. 5% - worth reading in detail"
-  },
-  {
-    "objectID": "slides.html#two-types-of-translation",
-    "href": "slides.html#two-types-of-translation",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Two Types of Translation",
-    "text": "Two Types of Translation\nAI excels at bridging barriers:\n\n\n1. Language Translation\n\nAccess research in other languages\nInitial translations for relevance assessment\nProfessional translation for key sources\n\n\n2. Cross-Disciplinary Translation\n\nBridge academic jargon differences\nAccess insights from related fields\nTranslate complex concepts to plain language\n\n\nBoth expand your research scope dramatically"
-  },
-  {
-    "objectID": "slides.html#cross-disciplinary-translation-example",
-    "href": "slides.html#cross-disciplinary-translation-example",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Cross-Disciplinary Translation Example",
-    "text": "Cross-Disciplinary Translation Example\nPrompt for bridging disciplines:\n[Your professional context]\n\nThis paper is written for [source discipline] using terminology \nunfamiliar to [target discipline] researchers. Please:\n\n1. Identify key concepts and findings\n2. Explain them in plain language  \n3. Suggest how insights might apply to [target discipline]\n4. Highlight adaptable methodological approaches\n\nFocus on practical applications, avoid oversimplification.\nReal value: Access methodologies and insights trapped in other fields"
-  },
-  {
-    "objectID": "slides.html#activity-3-literature-enhancement-practice",
-    "href": "slides.html#activity-3-literature-enhancement-practice",
-    "title": "AI for the Skeptical Scholar",
-    "section": "🔧 Activity 3: Literature Enhancement Practice",
-    "text": "🔧 Activity 3: Literature Enhancement Practice\nTest Your Literature Workflow (15 minutes)\nWhat you’ll do:\n\nChoose a paper from your field (or upload one)\nUse your professional context + literature summary prompt\nTest cross-disciplinary translation: Try translating it into plain language understandable to someone outside your field.\nEvaluate: Does this save time while maintaining quality?\n\nGoal: Experience AI as literature processing amplifier"
+    "section": "Literature Gem Template",
+    "text": "Literature Gem Template\n# Literature Review Assistant - [Your Name]\n\n[Your professional context from Activity 1]\n\n## Your Role\nHelp me efficiently analyze papers in [your field], identifying \ninsights relevant to [your research focus].\n\n## For every document:\n- Full citation\n- Main argument + theoretical framework\n- Methods and evidence  \n- Key findings with page numbers\n- Implications for [your specific interests]\n- Connections to other disciplines\n\n## Quality Standards\n- Distinguish claims from evidence\n- Note limitations and biases\n- Flag surprising or controversial points\n- Suggest related papers if mentioned"
   },
   {
     "objectID": "slides.html#activity-3-step-by-step",
     "href": "slides.html#activity-3-step-by-step",
     "title": "AI for the Skeptical Scholar",
-    "section": "Activity 3: Step-by-Step",
-    "text": "Activity 3: Step-by-Step\n\n\nUpload a paper: Something recent in your field\nUse structured prompt: Professional context + literature summary template\nEvaluate output: Does it capture what you need?\nTest boundaries: Try with a paper from a related discipline\nRefine approach: Adjust prompts based on what you learn\n\n\n\n⏱️ 15 minutes\n\n💬 Chat: Share one insight AI helped you discover that you might have missed"
+    "section": "Activity 3 Step-by-Step",
+    "text": "Activity 3 Step-by-Step\nPart A: Test the workflow\n\nUpload paper to Gemini\nUse context + summary prompt\nEvaluate: What’s missing? Too detailed? Just right?\n\nPart B: Create your Gem\n\nGo to Gemini → Explore Gems → New Gem\nName clearly: “Literature Review - [Your Field]”\nPaste refined instructions\nSave and test with different paper\n\n\n⏱️ 25 minutes"
   },
   {
-    "objectID": "slides.html#critical-validation-strategies",
-    "href": "slides.html#critical-validation-strategies",
+    "objectID": "slides.html#the-cumulative-power",
+    "href": "slides.html#the-cumulative-power",
     "title": "AI for the Skeptical Scholar",
-    "section": "Critical Validation Strategies",
-    "text": "Critical Validation Strategies\nEssential practices for literature AI:\n\n\nAlways verify key claims: Especially quantitative findings\nCheck citations: Ensure quotes aren’t taken out of context\nUse for exploration: Identify promising papers, then read sections carefully\nCross-reference: Compare AI summaries with abstracts and conclusions\nProfessional translation: For sources central to your argument\n\n\nRemember: AI helps you cast a wider net, human judgment determines what to keep"
+    "section": "The Cumulative Power",
+    "text": "The Cumulative Power\n✅ You’ve built a complete system:\n\nContext → AI understands you\nStructure → Clear, useful outputs\n\nGem → Reusable, improving tool\n\nEach element reinforces the others\nYou now have a literature review assistant tailored to YOUR research"
   },
   {
-    "objectID": "slides.html#what-are-gems",
-    "href": "slides.html#what-are-gems",
+    "objectID": "slides.html#signpost-literature-to-coding",
+    "href": "slides.html#signpost-literature-to-coding",
     "title": "AI for the Skeptical Scholar",
-    "section": "What Are Gems?",
-    "text": "What Are Gems?\nNow that you understand literature enhancement, let’s save this approach\n\n\nThink of Gems as specialized research assistants\n\nGoogle Gemini: Gems\nClaude: Projects\n\nChatGPT: Custom GPTs\nSame concept: Saved instructions for specific tasks\n\n\nBenefits for literature work\n\nConsistent approach across papers\nNo re-entering context each time\nSpecialized for your research needs\nCan share with colleagues"
+    "section": "Signpost: Literature to Coding",
+    "text": "Signpost: Literature to Coding\nLiterature review = Low-hanging fruit #1\nCoding assistance = Low-hanging fruit #2\nBoth save massive time on routine tasks"
   },
   {
-    "objectID": "slides.html#activity-4-create-your-literature-review-gem",
-    "href": "slides.html#activity-4-create-your-literature-review-gem",
+    "objectID": "slides.html#coding-the-other-major-time-saver",
+    "href": "slides.html#coding-the-other-major-time-saver",
     "title": "AI for the Skeptical Scholar",
-    "section": "🔧 Activity 4: Create Your Literature Review Gem",
-    "text": "🔧 Activity 4: Create Your Literature Review Gem\nBuild Your Specialized Research Assistant (10 minutes)\nWhat you’ll do:\n\nCreate a new Gem in Gemini\nUse your professional context from Activity 1\nAdd your refined literature review approach from Activity 3\nTest it with a new paper\nSave for future use\n\nGoal: Reusable literature processing system"
-  },
-  {
-    "objectID": "slides.html#literature-review-gem-template",
-    "href": "slides.html#literature-review-gem-template",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Literature Review Gem Template",
-    "text": "Literature Review Gem Template\n# Literature Review Specialist - [Your Name]\n\n[Your professional context from Activity 1]\n\n## Your Role\nHelp me efficiently analyze academic papers, identify patterns, \nfind research gaps, and synthesize findings.\n\n## Analysis Approach\n[Add your refined approach from Activity 3]\n\n## Output Format\n- Clear section headers with full citation\n- Page numbers for key findings\n- Methodological details when relevant\n- Cross-disciplinary connections where applicable\n\n## Quality Standards\n- Maintain academic rigor\n- Distinguish claims from empirical findings\n- Note limitations and methodological concerns"
-  },
-  {
-    "objectID": "slides.html#what-youve-built-now",
-    "href": "slides.html#what-youve-built-now",
-    "title": "AI for the Skeptical Scholar",
-    "section": "What You’ve Built Now",
-    "text": "What You’ve Built Now\n\n\nTool 3: Literature Enhancement Workflow\n\nStructured approach to paper processing\nCross-disciplinary translation capabilities\nTime-saving while maintaining quality\n\n\nTool 4: Literature Review Gem\n\nReusable specialist assistant\nConsistent high-quality analysis\nSaves your refined approach\n\n\nNext: Advanced tools and coding assistance"
-  },
-  {
-    "objectID": "slides.html#advanced-tools-beyond-basic-chat",
-    "href": "slides.html#advanced-tools-beyond-basic-chat",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Advanced Tools: Beyond Basic Chat",
-    "text": "Advanced Tools: Beyond Basic Chat\nFor when you need to analyze large document collections:\n\n\nNotebookLM\n\nUpload up to 300 documents\nAsk questions across entire corpus\nExact citations to source material\nPerfect for exploratory analysis\n\n\nDeep Research Tools\n\nAI conducts 15-20 minute research projects\nProduces detailed 15-30 page reports\nAvailable in ChatGPT, Claude, Perplexity\nGood for initial topic exploration\n\n\n📖 Detailed guide: Chapter 7 for advanced tools"
-  },
-  {
-    "objectID": "slides.html#notebooklm-in-action",
-    "href": "slides.html#notebooklm-in-action",
-    "title": "AI for the Skeptical Scholar",
-    "section": "NotebookLM in Action",
-    "text": "NotebookLM in Action\n\n\n\n\n\nNotebookLM analyzing Chinese policy bank annual reports\n\n\n\nReal example:\n\nFinancial analysis revealed China ExIM losses in 2017\nAsked: “What caused the losses?”\nFound exchange rate explanation with exact citations\n\n\nKey insight: Use for exploration, verify with original sources"
-  },
-  {
-    "objectID": "slides.html#deep-research-reality-check",
-    "href": "slides.html#deep-research-reality-check",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Deep Research Reality Check",
-    "text": "Deep Research Reality Check\nWhat they do well:\n\nComprehensive coverage of complex topics\nSynthesis across multiple sources\nQuality equivalent to skilled research assistant after a week\n\nImportant limitations:\n\nCan be confidently wrong about specific facts\nLimited access to academic databases\nMay miss recent developments\nAlways verify important claims\n\nBest approach: Use for initial exploration, follow up with domain expertise"
-  },
-  {
-    "objectID": "slides.html#coding-assistance-the-bigger-opportunity",
-    "href": "slides.html#coding-assistance-the-bigger-opportunity",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Coding Assistance: The Bigger Opportunity",
-    "text": "Coding Assistance: The Bigger Opportunity\nMany researchers work with data analysis code:\n\n\nR, Python, Stata, SPSS, MATLAB\nWhether you code yourself or supervise others\nWish you could move from Excel to more reproducible workflows\nFace time-consuming debugging and learning curves\n\n\nAI coding assistance can dramatically reduce time on routine tasks"
+    "section": "Coding: The Other Major Time-Saver",
+    "text": "Coding: The Other Major Time-Saver\nWho this helps:\n\nResearchers who code (R, Python, Stata, SPSS)\nThose who supervise coders\nExcel users wanting reproducible workflows\n\nThe opportunity: AI as infinitely patient coding tutor and assistant"
   },
   {
     "objectID": "slides.html#the-coding-jagged-frontier",
     "href": "slides.html#the-coding-jagged-frontier",
     "title": "AI for the Skeptical Scholar",
     "section": "The Coding Jagged Frontier",
-    "text": "The Coding Jagged Frontier\n\n\nInside (AI excels)\n\nStandard data manipulation\nStatistical analysis code\nExplaining existing code\nGenerating documentation\nDebugging common errors\nTranslating between languages\n\n\nOutside (AI struggles)\n\nYour specific research context\nDomain-specific packages\nComplex multi-step analyses\nPerformance optimization\nStatistical method selection\n\n\nThe key: AI handles syntax, you provide the research logic"
+    "text": "The Coding Jagged Frontier\n\n\nAI Excels At ✅\n\nData cleaning code\nStandard analyses\nDebugging errors\nWriting documentation\nTranslation between languages\n\n\nAI Struggles With ❌\n\nYour specific data quirks\nComplex architecture\nDomain-specific packages\nPerformance optimization\nStatistical method selection\n\n\nSuccess key: You provide research logic and context, AI handles syntax"
   },
   {
-    "objectID": "slides.html#the-vibe-coding-problem",
-    "href": "slides.html#the-vibe-coding-problem",
+    "objectID": "slides.html#the-promise-and-the-peril",
+    "href": "slides.html#the-promise-and-the-peril",
     "title": "AI for the Skeptical Scholar",
-    "section": "The “Vibe Coding” Problem",
-    "text": "The “Vibe Coding” Problem\nWhat is “vibe coding”?\nAI generates code that looks professional and runs without errors, but:\n\n\nProduces incorrect results\nUses functions that don’t exist\nMixes syntax from different languages\nWorks for simple cases but fails with real data\n\n\nThe 0-to-90% problem: AI quickly gets you 90% there, then you spend hours debugging the remaining 10%"
+    "section": "The Promise and The Peril",
+    "text": "The Promise and The Peril\n\n\nPromise 🚀\n\n10x faster for routine tasks\nLearn new languages quickly\nBetter documentation\nFewer silly errors\n\n\nPeril ⚠️\n\n“Vibe coding” - looks right, runs wrong\nHallucinated functions\nThe 0-to-90% problem\nOverconfidence in output\n\n\nCritical: You need to understand your code. Always validate results."
+  },
+  {
+    "objectID": "slides.html#what-is-vibe-coding",
+    "href": "slides.html#what-is-vibe-coding",
+    "title": "AI for the Skeptical Scholar",
+    "section": "What is “Vibe Coding”?",
+    "text": "What is “Vibe Coding”?\nThe dangerous phenomenon where:\n\nCode looks professional ✓\nRuns without errors ✓\n\nProduces wrong results ✗\n\nExample: Statistical test that always returns p &lt; 0.05\nProtection:\n\nTest with known data\nVerify calculations manually\nCheck package documentation"
   },
   {
     "objectID": "slides.html#best-practices-for-research-coding",
     "href": "slides.html#best-practices-for-research-coding",
     "title": "AI for the Skeptical Scholar",
     "section": "Best Practices for Research Coding",
-    "text": "Best Practices for Research Coding\nStrategic approach:\n\n\nUse most advanced models - Pay for premium access ($20/month is worth it)\nStart with your own expertise - Test AI on code you know well\nProvide complete context - Include data structure, expected outputs, error messages\nBreak complex tasks into steps - Don’t ask for entire analysis at once\nAlways validate outputs - Check results against known answers\n\n\n📖 Comprehensive guide: Chapter 8 for coding best practices"
+    "text": "Best Practices for Research Coding\n\nUse advanced models - Claude for coding, worth the $20/month\nProvide complete context - Data structure, expected output\nWork iteratively - Build step by step, test each part\nInclude your preferences - “Use tidyverse style with base R pipe”\nAlways validate - Check against known results"
   },
   {
-    "objectID": "slides.html#r-tidyverse-example",
-    "href": "slides.html#r-tidyverse-example",
+    "objectID": "slides.html#effective-coding-prompts",
+    "href": "slides.html#effective-coding-prompts",
     "title": "AI for the Skeptical Scholar",
-    "section": "R Tidyverse Example",
-    "text": "R Tidyverse Example\nPrompt for data analysis:\nI'm analyzing survey data on household income and education. \nI have columns: household_id, income, education, region, year.\n\nUsing R tidyverse style with the base R pipe |&gt;, help me:\n1. Calculate median income by region and education level\n2. Create a summary table showing trends over time\n3. Generate a clean visualization for publication\n\nPlease include comments and use the tidyverse style guide.\nResult: AI generates clean, documented code following your preferences"
+    "section": "Effective Coding Prompts",
+    "text": "Effective Coding Prompts\n[Your context including preferred languages/packages]\n\nI have survey data with columns: household_id, income, education, \nregion, year. The data has some missing values.\n\nUsing R with tidyverse style and base R pipe |&gt;, please:\n1. Create a script to calculate and visualize median income by region and education\n2. Create plots to help me understand  how to handle missing data appropriately  \n4. Include comments explaining each step\n\nNote: I prefer functional programming (purrr) over loops."
   },
   {
-    "objectID": "slides.html#when-ai-coding-shines",
-    "href": "slides.html#when-ai-coding-shines",
+    "objectID": "slides.html#advanced-coding-tools",
+    "href": "slides.html#advanced-coding-tools",
     "title": "AI for the Skeptical Scholar",
-    "section": "When AI Coding Shines",
-    "text": "When AI Coding Shines\nDramatic speed improvements for:\n\n\nRoutine Tasks\n\nData cleaning and transformation\nStandard statistical analyses\nCreating visualizations\nWriting documentation\n\n\nLearning Acceleration\n\nExplaining unfamiliar code\nBridging between languages\nDiscovering best practices\nUnderstanding error messages\n\n\nReal value: Frees you from syntax struggles to focus on research questions"
+    "section": "Advanced Coding Tools",
+    "text": "Advanced Coding Tools\nWhen you’re ready for more:\n\n\nCursor\n\nAI-native IDE\nEdits code in place\nUnderstands whole project\n\n\nGitHub Copilot\n\nAutocomplete on steroids\nWorks in your IDE\nLearns your patterns\n\n\nStart with chat interfaces, graduate to these when ready"
   },
   {
-    "objectID": "slides.html#moving-beyond-web-interfaces",
-    "href": "slides.html#moving-beyond-web-interfaces",
+    "objectID": "slides.html#signpost-from-tools-to-scale",
+    "href": "slides.html#signpost-from-tools-to-scale",
     "title": "AI for the Skeptical Scholar",
-    "section": "Moving Beyond Web Interfaces",
-    "text": "Moving Beyond Web Interfaces\nAdvanced coding environments:\n\n\nCursor IDE\n\nAI-native code editor\nUnderstands entire project context\nEdits code in place\nRuns and iterates based on results\n\n\nGitHub Copilot\n\nAutocomplete suggestions\nWorks in existing IDEs\nLearns from your coding patterns\nIntegrates with development workflow\n\n\nWhen you’re ready: These tools enable more sophisticated AI-assisted development"
+    "section": "Signpost: From Tools to Scale",
+    "text": "Signpost: From Tools to Scale\nYou now have:\n✓ Mental model (jagged frontier)\n✓ Three practical tools\n✓ Understanding of low-hanging fruit\nNext: What becomes possible at scale"
   },
   {
-    "objectID": "slides.html#validation-strategies-for-ai-code",
-    "href": "slides.html#validation-strategies-for-ai-code",
+    "objectID": "slides.html#from-web-interfaces-to-apis",
+    "href": "slides.html#from-web-interfaces-to-apis",
     "title": "AI for the Skeptical Scholar",
-    "section": "Validation Strategies for AI Code",
-    "text": "Validation Strategies for AI Code\nEssential practices:\n\n\nTest with known data - Use datasets where you know expected results\nStart small - Test functions with simple examples first\nManual verification - Check AI calculations against hand calculations\nCross-platform validation - Compare results across different tools\nPeer review - Have colleagues examine AI-generated code\n\n\nRemember: AI is a coding co-pilot, not an autopilot"
+    "section": "From Web Interfaces to APIs",
+    "text": "From Web Interfaces to APIs\nWhat we’re exploring: How these tools enable ambitious research"
   },
   {
-    "objectID": "slides.html#what-youve-built-throughout-part-2",
-    "href": "slides.html#what-youve-built-throughout-part-2",
+    "objectID": "slides.html#back-to-china-the-full-challenge",
+    "href": "slides.html#back-to-china-the-full-challenge",
     "title": "AI for the Skeptical Scholar",
-    "section": "What You’ve Built Throughout Part 2",
-    "text": "What You’ve Built Throughout Part 2\n\n\nFoundations: Mental model + strategic tool selection\nPractical Skills:\n\nProfessional context for all AI interactions\nEnhanced prompting techniques\nLiterature review enhancement workflow\nCustom research assistant (Gem)\n\n\nAreas of Low-Hanging Fruit:\n\nText summarization: AI excels at processing and organizing information\nCoding assistance: Dramatically faster for routine programming tasks\nTranslation: Both linguistic and cross-disciplinary\nFirst-draft generation: Starting points for refinement\n\n\nNext: Case study showing what becomes possible when you scale up"
+    "section": "Back to China: The Full Challenge",
+    "text": "Back to China: The Full Challenge\nResearch question: Given policy chatter about the “Green Belt & Road,” what do we know about China’s role in funding the energy transition in developing countries?\nThe data: 18,000 lending projects needing classification\n\n🟢 Green: Solar, wind, hydro, nuclear\n🟫 Brown: Coal, oil, fossil fuels\n\n🔘 Grey: Mixed/indirect (transmission lines)\n⚪ Neutral: Non-energy\n\nThe constraint: Ambitious project, limited budget"
   },
   {
-    "objectID": "slides.html#case-study-using-llms-at-scale",
-    "href": "slides.html#case-study-using-llms-at-scale",
+    "objectID": "slides.html#web-interface-vs-api-approach",
+    "href": "slides.html#web-interface-vs-api-approach",
     "title": "AI for the Skeptical Scholar",
-    "section": "Case Study: Using LLMs at Scale",
-    "text": "Case Study: Using LLMs at Scale\nWhat we’re exploring: How AI enables policy-relevant research at scale"
+    "section": "Web Interface vs API Approach",
+    "text": "Web Interface vs API Approach\n\n\nWhat you’ve learned 🖥️\n\nManual chat interface\nOne document at a time\nGreat for exploration\nNo coding required\n\n\nWhat we used 🔧\n\nProgrammatic API\nThousands automatically\nSystematic processing\nRequired Python or R\n\n\nSame AI, different access method"
   },
   {
-    "objectID": "slides.html#the-policy-challenge",
-    "href": "slides.html#the-policy-challenge",
+    "objectID": "slides.html#the-scale-mathematics",
+    "href": "slides.html#the-scale-mathematics",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Policy Challenge",
-    "text": "The Policy Challenge\nUnderstanding China’s Role in Financing the Energy Transition\n\n\nChina: Key source of lending to developing countries\nPolicy pronouncements about “Green Belt and Road Initiative”\nEmphasis on “small and beautiful” projects\nShift from policy banks to commercial co-financing\n\n\nCritical questions: Was China actually supporting green transition? Who was participating? What scale?"
+    "section": "The Scale Mathematics",
+    "text": "The Scale Mathematics\nManual Classification\n1,500 hours × $15/hour = $22,500\nOur API Approach\n15 hours × $0.11/hour = $1.58\n100x faster, 14,000x cheaper"
   },
   {
-    "objectID": "slides.html#the-classification-challenge",
-    "href": "slides.html#the-classification-challenge",
+    "objectID": "slides.html#why-context-beat-keywords",
+    "href": "slides.html#why-context-beat-keywords",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Classification Challenge",
-    "text": "The Classification Challenge\n18,000 Chinese overseas lending projects from AidData’s database\n\n\nCategories needed:\n\n🟢 Green: Solar, wind, hydro, nuclear\n🟫 Brown: Coal, oil, fossil fuels\n🔘 Grey: Indirect impacts (transmission)\n⚪ Neutral: Non-energy projects\n\n\nTraditional approach:\n\n1,500 hours of work\n$22,500 in research costs\nLarge grant funding required\n\n\nOur result: Completed in 15 hours for $1.58"
-  },
-  {
-    "objectID": "slides.html#the-reality-of-human-vs.-llm-classification",
-    "href": "slides.html#the-reality-of-human-vs.-llm-classification",
-    "title": "AI for the Skeptical Scholar",
-    "section": "The Reality of Human vs. LLM Classification",
-    "text": "The Reality of Human vs. LLM Classification\nLet’s be honest about manual classification at scale:\n\n\nAfter a few hours, your eyes glaze over\nAre you applying criteria consistently?\nAre you coding the same way as yesterday? Last week?\nResearch assistants face the same challenges\n\n\nLLMs bring endless patience and consistency\n\nApply same criteria to project 17,000 as to project 1\nNo fatigue, no drift in standards, no bad days\nYour LLM didn’t stay out partying until 4 AM\n\nKey insight: Not about perfection, but about good-enough accuracy with perfect consistency"
-  },
-  {
-    "objectID": "slides.html#why-keywords-failed-context-succeeded",
-    "href": "slides.html#why-keywords-failed-context-succeeded",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Why Keywords Failed, Context Succeeded",
-    "text": "Why Keywords Failed, Context Succeeded\nExample project: “Development of 500MW solar power plant with backup diesel generator”\n\n\n❌ Keyword Search\n\nSees “diesel”\nClassifies as brown\nMisses primary purpose\n\n\n✅ LLM Context Understanding\n\nReads entire description\nUnderstands primary purpose\nRecognizes backup as auxiliary\nCorrectly classifies as green\n\n\nThe advantage: LLMs understand context that keyword searches miss entirely"
+    "section": "Why Context Beat Keywords",
+    "text": "Why Context Beat Keywords\nReal example: “500MW solar power plant with backup diesel generator”\n\n\nKeyword approach ❌\n\nSearches for “diesel”\nClassifies as brown\nMisses primary purpose\n\n\nLLM approach ✅\n\nReads full description\nUnderstands context\nCorrectly identifies as green\n\n\nThis is the jagged frontier in action"
   },
   {
     "objectID": "slides.html#our-development-journey",
     "href": "slides.html#our-development-journey",
     "title": "AI for the Skeptical Scholar",
     "section": "Our Development Journey",
-    "text": "Our Development Journey\nPhase 1: Getting Started (5-10 examples)\n\nTest basic concepts\nRefine classification framework\n\nPhase 2: Working Out Kinks (~30 examples)\n\nHandle edge cases and mixed projects\nDevelop nuanced reasoning\n\nPhase 3: Infrastructure Testing (100 projects)\n\nTest API calls and error handling\nBuild processing pipelines\n\nPhase 4: Validation Strategy (300 projects)\n\nTest multiple models against human judgment\nMeasure reliability and accuracy\n\nPhase 5: Full Implementation (18,000 projects)\n\nProcess complete dataset with confidence"
+    "text": "Our Development Journey\n\n\n\n\n\ngraph LR\n    A[10 examples&lt;br/&gt;Test concept] --&gt; B[100 examples&lt;br/&gt;Refine approach]\n    B --&gt; C[300 examples&lt;br/&gt;Validate]\n    C --&gt; D[18,000 projects&lt;br/&gt;Full scale]\n\n\n\n\n\n\nKey insight: Start small, validate early, scale confidently"
   },
   {
-    "objectID": "slides.html#what-made-our-approach-work",
-    "href": "slides.html#what-made-our-approach-work",
+    "objectID": "slides.html#validation-the-critical-step",
+    "href": "slides.html#validation-the-critical-step",
     "title": "AI for the Skeptical Scholar",
-    "section": "What Made Our Approach Work",
-    "text": "What Made Our Approach Work\nMulti-shot prompting: Showed AI how to reason through complex cases\nStructured output: Required JSON format with confidence levels\nConfidence calibration: AI assessed its own certainty\n\nHIGH: Clear alignment with categories\nMEDIUM: Some ambiguity but reasonable certainty\nLOW: Significant uncertainty - flag for human review\n\nKey insight: When AI said it was uncertain, it usually was"
-  },
-  {
-    "objectID": "slides.html#validation-strategy",
-    "href": "slides.html#validation-strategy",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Validation Strategy",
-    "text": "Validation Strategy\nStep 1: Inter-Model Agreement\n\nTested different LLMs on same projects\nHigh agreement (85-95%) on most categories\nDeepseek v3 emerged as best performer\n\nStep 2: Human Validation Benchmark\n\n300 projects manually classified by experts\n91.8% agreement with human ratings\n95.5% accuracy on green projects specifically\n\n\nLLM Agreement Analysis"
-  },
-  {
-    "objectID": "slides.html#the-unexpected-challenge",
-    "href": "slides.html#the-unexpected-challenge",
-    "title": "AI for the Skeptical Scholar",
-    "section": "The Unexpected Challenge",
-    "text": "The Unexpected Challenge\nAll LLM providers do some type of content moderation.\nUsing Deepseek (an LLM from a Chinese AI lab) required “Non Traditional Debugging” to sanitize politically sensitive names.\n\nNon-traditional debugging approach"
+    "section": "Validation: The Critical Step",
+    "text": "Validation: The Critical Step\n\n\n\n\n\nModel agreement analysis\n\n\n\nOur approach:\n\nTest multiple models\nHuman validation sample\n91.8% agreement\nFull methodology published\n\n\nTransparency enables trust and progress"
   },
   {
     "objectID": "slides.html#what-we-discovered",
     "href": "slides.html#what-we-discovered",
     "title": "AI for the Skeptical Scholar",
     "section": "What We Discovered",
-    "text": "What We Discovered\n\nTrends in Chinese overseas lending by project typeKey findings challenged conventional wisdom:\n\nOnly $86.5 billion in green investments (5.8% of total)\nNo green surge over time despite policy rhetoric\nBifurcated co-financing networks - green and commercial financing remain separate"
+    "text": "What We Discovered\n\nChina’s green lending: mostly hydro, minimal solar/windOnly possible through scale - patterns invisible in small samples"
   },
   {
-    "objectID": "slides.html#the-transformation-of-research-possibilities",
-    "href": "slides.html#the-transformation-of-research-possibilities",
+    "objectID": "slides.html#lessons-for-your-research",
+    "href": "slides.html#lessons-for-your-research",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Transformation of Research Possibilities",
-    "text": "The Transformation of Research Possibilities\nThis wasn’t about doing the impossible\n\nLarge teams could have done this manually\nIt would have required major grant funding\n\nThis was about democratizing ambitious research\nKey insight: AI handles mechanical tasks while humans focus on research design, validation, and interpretation"
+    "section": "Lessons for Your Research",
+    "text": "Lessons for Your Research\n\nStart where you are - Web interfaces are powerful enough for most tasks\nThink about scale - What questions could you ask with unlimited processing?\nValidation is everything - Build it in from the start\nShare your methods - We all benefit from transparency\nPerfect &lt; Good enough - 92% accurate on 18,000 beats 100% on 100"
   },
   {
-    "objectID": "slides.html#essential-lessons-for-other-researchers",
-    "href": "slides.html#essential-lessons-for-other-researchers",
+    "objectID": "slides.html#when-to-consider-apis",
+    "href": "slides.html#when-to-consider-apis",
     "title": "AI for the Skeptical Scholar",
-    "section": "Essential Lessons for Other Researchers",
-    "text": "Essential Lessons for Other Researchers\n1. Start Simple, Build Complexity Gradually\n\nGet basic cases working first\nAdd examples iteratively\nTest infrastructure early\nPlan validation upfront\n\n2. Validation Is Everything\n\nTest models against each other\nVerify with human judgment\nAlways preserve original data\nDocument your methodology\n\n3. Transparency Enables Progress\n\nShare methods, code, and validation data\nOthers can build on your work\nContribute to methodological development\n\n📖 Full methodology: 27-page appendix + GitHub repository"
+    "section": "When to Consider APIs",
+    "text": "When to Consider APIs\nStay with web interfaces when:\n\nExploring and learning\nNeed flexibility\nNot a confident R or Python programmer\n\nConsider APIs when:\n\nProcessing a large number of items\nRepeating same analysis\nNeed systematic approach\nHave strong coding skills or coding support\n\nMost research stays in the first category"
   },
   {
-    "objectID": "slides.html#the-bigger-picture",
-    "href": "slides.html#the-bigger-picture",
+    "objectID": "slides.html#the-bigger-opportunity",
+    "href": "slides.html#the-bigger-opportunity",
     "title": "AI for the Skeptical Scholar",
-    "section": "The Bigger Picture",
-    "text": "The Bigger Picture\nDemocratizing Ambitious Research\n\nWe face urgent policy challenges\n\nTools that enable more researchers to tackle these questions at scale:\n\nWhile maintaining academic rigor\nWith transparent methodology\nBuilding on each other’s work\n\nThe promise: Not replacing expertise, but amplifying it to address urgent global challenges"
+    "section": "The Bigger Opportunity",
+    "text": "The Bigger Opportunity\nNot about technology\nAbout democratizing ambitious research\nAbout freeing you for high-value thinking\nYou now have the tools"
   },
   {
-    "objectID": "slides.html#what-this-means-for-your-research",
-    "href": "slides.html#what-this-means-for-your-research",
+    "objectID": "slides.html#from-workshop-to-practice",
+    "href": "slides.html#from-workshop-to-practice",
     "title": "AI for the Skeptical Scholar",
-    "section": "What This Means for Your Research",
-    "text": "What This Means for Your Research\nWhen you’re ready to scale up:\n\n\nWeb tools → API development - What you’ve learned applies to programmatic approaches\nSmall samples → Large datasets - Tackle questions requiring comprehensive analysis\nIndividual papers → Pattern recognition - Find insights across hundreds of documents\nLimited scope → Ambitious projects - Questions you couldn’t previously afford to pursue\n\n\nThe path forward: Build comfort with web interfaces, then consider scaling when your research questions demand it"
+    "section": "From Workshop to Practice",
+    "text": "From Workshop to Practice"
   },
   {
-    "objectID": "slides.html#looking-forward",
-    "href": "slides.html#looking-forward",
+    "objectID": "slides.html#what-you-built-today",
+    "href": "slides.html#what-you-built-today",
     "title": "AI for the Skeptical Scholar",
-    "section": "Looking Forward",
-    "text": "Looking Forward\nMethodological challenges we all face:\n\n\nValidation strategies for LLM-generated analysis\nTransparency requirements for AI-assisted research\nBest practices for handling provider constraints\nTraining programs for responsible AI use\n\n\nThis case study represents one approach - not perfect, but a contribution toward responsible, effective AI use in policy research\nThe conversation is just beginning - your research and methods will help shape how these tools evolve"
+    "section": "What You Built Today",
+    "text": "What You Built Today\n\n\n✅ Mental Models\n\nJagged frontier\nCollaborative approach\nLow-hanging fruit identification\n\n\n✅ Three Tools\n\nProfessional context\nEnhanced prompting\nLiterature review Gem\n\n✅ Understanding of scale\n\nYou’re ready to start integrating AI into your research"
   },
   {
-    "objectID": "slides.html#action-planning-sustained-engagement",
-    "href": "slides.html#action-planning-sustained-engagement",
+    "objectID": "slides.html#this-weeks-action-plan",
+    "href": "slides.html#this-weeks-action-plan",
     "title": "AI for the Skeptical Scholar",
-    "section": "Action Planning & Sustained Engagement",
-    "text": "Action Planning & Sustained Engagement\nWhat we’re doing: Consolidating learning and planning your continued exploration"
+    "section": "This Week’s Action Plan",
+    "text": "This Week’s Action Plan\nChoose 2-3 that fit your current work:\n\nTest your Literature Gem on 5-10 papers\nCreate a second Gem for grant writing or another task\nTry coding assistance if you use R/Python/Stata\nUpload a document collection to NotebookLM\nShare one success with a colleague\n\n💬 Chat: Which actions match your immediate needs?"
   },
   {
-    "objectID": "slides.html#learning-objectives-check",
-    "href": "slides.html#learning-objectives-check",
+    "objectID": "slides.html#going-deeper-resources",
+    "href": "slides.html#going-deeper-resources",
     "title": "AI for the Skeptical Scholar",
-    "section": "Learning Objectives Check",
-    "text": "Learning Objectives Check\nWhat You Built Today ✅\n\n\n🧠 Mental Model - Jagged frontier understanding - Collaborative approach to AI - Strategic tool selection\n🔧 Practical Tools - Professional context template - Enhanced prompting techniques - Literature review workflow - Custom research assistant (Gem)\n\n📚 Understanding - Where AI excels vs. struggles - Validation strategies - Advanced possibilities - Scaling considerations\n🎯 Strategic Approach - When to use web tools vs. APIs - How to maintain research integrity - Building on others’ methodological work\n\nAchievement: You’re no longer starting from zero with AI tools"
+    "section": "Going Deeper: Resources",
+    "text": "Going Deeper: Resources\nYour reference book: teal-insights.github.io/soas_llm_training\nEssential reading:\n\nEthan Mollick’s “One Useful Thing” - I’ve found Mollick’s book, blog, and papers helpful\nOur ODI methodology - Detailed validation approach\n\nStay connected:\n\nEmail: lte at tealinsights.com\nShare what works (and what doesn’t)"
   },
   {
-    "objectID": "slides.html#your-action-plan-for-this-week",
-    "href": "slides.html#your-action-plan-for-this-week",
+    "objectID": "slides.html#final-thoughts",
+    "href": "slides.html#final-thoughts",
     "title": "AI for the Skeptical Scholar",
-    "section": "Your Action Plan for This Week",
-    "text": "Your Action Plan for This Week\nImmediate next steps (choose 2-3 that fit your current work):\n\n\nRefine your Professional Context - Test with 3-5 different research questions\nCreate 1-2 additional Gems - For tasks you do regularly (grant writing, email analysis)\nTest literature enhancement - Try with 5-10 papers in your field\nExplore advanced tools - Upload document collection to NotebookLM\nTry coding assistance - If you use R/Python/Stata, test with current project\nShare with colleagues - Discuss one useful application you discovered\n\n\n💬 Chat: Which 2-3 actions are you most likely to try this week?"
-  },
-  {
-    "objectID": "slides.html#when-youre-ready-for-more",
-    "href": "slides.html#when-youre-ready-for-more",
-    "title": "AI for the Skeptical Scholar",
-    "section": "When You’re Ready for More",
-    "text": "When You’re Ready for More\n📖 Your Reference Book: teal-insights.github.io/soas_llm_training"
-  },
-  {
-    "objectID": "slides.html#resources-for-continued-learning",
-    "href": "slides.html#resources-for-continued-learning",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Resources for Continued Learning",
-    "text": "Resources for Continued Learning\nEssential reading:\n\nEthan Mollick’s “One Useful Thing” - Best practical AI guidance\nCo-Intelligence - Deeper dive into human-AI collaboration\n\nTechnical resources:\n\nAnthropic’s Prompt Engineering Guide\nVellum’s LLM Leaderboard - Track model performance\n\nMethodological development:\n\nOur ODI methodology appendix\nGitHub repository - Code and validation data"
-  },
-  {
-    "objectID": "slides.html#contact-questions",
-    "href": "slides.html#contact-questions",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Contact & Questions",
-    "text": "Contact & Questions\nTeal Emery\n\nEmail: lte at tealinsights.com\nWebsite: tealemery.com\nWorkshop materials: teal-insights.github.io/soas_llm_training\n\nI’m interested in your experiences:\n\nWhat works well for your research?\nWhat challenges do you encounter?\nWhat methodological questions arise?\n\nBuilding better practices together\n\nshare your insights and questions"
-  },
-  {
-    "objectID": "slides.html#final-reflections",
-    "href": "slides.html#final-reflections",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Final Reflections",
-    "text": "Final Reflections\nWhat we’ve explored today:\n\n\nRealistic assessment of AI’s capabilities and limitations\nPractical tools you can use immediately\nValidation strategies to maintain research integrity\nScaling possibilities for ambitious projects\n\n\nThe bigger picture: Tools that enable more researchers to tackle urgent policy questions while maintaining academic rigor\nYour contribution: As you experiment with these tools, you’re helping shape responsible AI use in scholarship"
-  },
-  {
-    "objectID": "slides.html#questions-discussion",
-    "href": "slides.html#questions-discussion",
-    "title": "AI for the Skeptical Scholar",
-    "section": "Questions & Discussion",
-    "text": "Questions & Discussion\nOpen Floor for Q&A\nShare your thoughts:\n\nWhat applications seem most promising for your work?\nWhat concerns or challenges do you anticipate?\nHow might these tools change your research approach?\n\n💬 Chat: Any final questions or insights you’d like to share?"
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nRemember:\n\nStart small, validate always\nUse AI for routine tasks\nKeep your critical thinking\nShare your learnings\n\nThe opportunity: More ambitious research while maintaining rigor\nThe tools: You now have them"
   },
   {
     "objectID": "slides.html#thank-you",
     "href": "slides.html#thank-you",
     "title": "AI for the Skeptical Scholar",
     "section": "Thank You",
-    "text": "Thank You\nAI for the Skeptical Scholar\nYour skepticism is valuable\n\nmaintain it while exploring possibilities\n\nYour expertise is irreplaceable\n\nAI amplifies what you already know\n\nYour research matters\n\nthese tools can help you tackle more ambitious questions\n\nKeep exploring, keep questioning, keep building"
+    "text": "Thank You\nYour skepticism is an asset—keep it\nYour expertise is irreplaceable—amplify it\nYour research matters—let AI help you do more\nQuestions & Discussion\nteal-insights.github.io/soas_llm_training"
   }
 ]
